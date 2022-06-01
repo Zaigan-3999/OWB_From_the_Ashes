@@ -1,0 +1,30 @@
+state={
+	id=1271
+	name="STATE_1271"
+	resources = {
+		metal = 16
+		advanced = 8
+		energy = 12
+		water = 2
+		composites = 2
+		circuitry = 8 
+	}
+	provinces={
+		13644 13713 13714 13715
+	}
+	history={
+		owner =  AOF
+		add_core_of =  AOF
+		victory_points = {
+			13723 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			military_complex = 2
+		}
+	}
+	state_category = rural
+	manpower = 2400
+	buildings_max_level_factor=2.000
+}
