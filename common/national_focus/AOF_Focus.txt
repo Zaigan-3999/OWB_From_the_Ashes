@@ -1,0 +1,409 @@
+focus_tree = {
+	id = AOF_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AOF
+		}
+	}
+	## Layout
+	continuous_focus_position = {
+		x = 1.5
+		y = 1.5
+	}
+	## 7 Day Start
+	default = no
+	focus = {
+		id = Radio_Silence_Lifted
+		icon = GFX_goal_unknown
+		cost = 7
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = Restarting_Operaitons
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = Radio_Silence_Lifted
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = What_Now?
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = Restarting_Operaitons
+		}
+		x = 11
+		y = 2
+
+	}
+	## End of Story Focuses
+	## Inital Contact Procedures
+	focus = {
+		id = Contact_Naravo
+		icon = GFX_goal_unknown
+		cost = 30
+		prerequisite = {
+			focus = What_Now?
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = News_of_the_Rig
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Contact_Naravo
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = Return_of_Sergeant_Dornan
+		icon = GFX_goal_unknown
+		cost = 45
+		prerequisite = {
+			focus = Contact_Naravo
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = Contact_Washington
+		icon = GFX_goal_unknown
+		cost = 30
+		prerequisite = {
+			focus = What_Now?
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = News_of_Washington
+		icon = GFX_goal_unknown
+		cost = 30
+		prerequisite = {
+			focus = Contact_Washington
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = Are_we_Alone?
+		icon = GFX_goal_unknown
+		cost = 50
+		prerequisite = {
+			focus = News_of_Washington
+		}
+		prerequisite = {
+			focus = News_of_the_Rig
+		}
+		x = 11
+		y = 5
+
+	}
+	## End of Inital Contact
+	focus = {
+		id = Stay_Hidden
+		icon = GFX_goal_unknown
+		cost = 45
+		prerequisite = {
+			focus = Are_we_Alone?
+		}
+		mutually_exclusive = {
+			focus = Prepare_to_go_Public
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = Prepare_to_go_Public
+		icon = GFX_goal_unknown
+		cost = 45
+		prerequisite = {
+			focus = Are_we_Alone?
+		}
+		mutually_exclusive = {
+			focus = Stay_Hidden
+		}
+		x = 13
+		y = 6
+
+	}
+	## End of First Major Choice
+	focus = {
+		id = Resuming_Operations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Stay_Hidden
+			focus = Prepare_to_go_Public
+		}
+		
+		x = 11
+		y = 7
+
+	}
+	## Military Command
+	focus = {
+		id = Military_Command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Resuming_Operations
+		}
+		completion_reward = {
+			add_war_support = 0.25
+		}
+		x = 3
+		y = 8.5
+
+	}
+	## Civilian Iniative
+	focus = {
+		id = Civilian_Initative
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Resuming_Operations
+		}
+		x = 11
+		y = 8.5
+
+	}
+	## Expeditions
+	focus = {
+		id = Expeditions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Resuming_Operations
+		}
+		x = 20
+		y = 8.5
+
+	}
+	## Narvo
+	focus = {
+		id = Trip_to_Narvo
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expeditions
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = Recover_Equipment?
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Trip_to_Narvo
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = Abandon_Narvo
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Recover_Equipment?
+		}
+		mutually_exclusive = {
+			focus = Recover_Narvo
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = Recover_Narvo
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Recover_Equipment?
+		}
+		x = 18
+		y = 12
+
+	}
+	## Washington
+	focus = {
+		id = Trip_to_Washington
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expeditions
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = The_Capital
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Trip_to_Washington
+		}
+		x = 21
+		y = 11
+
+	}
+	focus = {
+		id = News_of_the_Crawler
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = The_Capital
+		}
+		completion_reward = {
+			add_stability = -0.1
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = Story_of_the_Captial
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = News_of_the_Crawler
+		}
+		x = 20
+		y = 13
+
+	}
+	focus = {
+		id = The_President?
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = The_Capital
+		}
+		x = 22
+		y = 12
+
+	}
+	focus = {
+		id = Retrieval_of_Research
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = The_President?
+		}
+		completion_reward = {
+			add_research_slot =  1
+		}
+		x = 22
+		y = 13
+
+	}
+	focus = {
+		id = Retrieval_of_the_Declaration_of_Independence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Retrieval_of_Research
+		}
+		prerequisite = {
+			focus = Story_of_the_Captial
+		}
+		completion_reward = {
+			add_stability = 0.25
+		}
+		x = 21
+		y = 14
+
+	}
+	## Appalachia
+	focus = {
+		id = Trip_to_Appalachia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expeditions
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = Entering_Whitespring_Bunker
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Trip_to_Appalachia
+		}
+		mutually_exclusive = {
+			focus = Shutdown_Whitespring
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = Restoring_MODUS
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Entering_Whitespring_Bunker
+		}
+		x = 24
+		y = 12
+
+	}
+	focus = {
+		id = Sat_Com_Online
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Restoring_MODUS
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = Shutdown_Whitespring
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Trip_to_Appalachia
+		}
+		x = 26
+		y = 11
+
+	}
+	focus = {
+		id = Extraction_of_Assets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Shutdown_Whitespring
+		}
+		x = 26
+		y = 12
+
+	}
+
+}
