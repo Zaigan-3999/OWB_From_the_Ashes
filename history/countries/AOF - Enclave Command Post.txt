@@ -14,8 +14,8 @@ set_popularities = {
 
 set_stability = 0.35
 set_war_support = 0.45
-set_research_slots = 6
-set_convoys = 150
+set_research_slots = 4
+set_convoys = 10
 
 set_technology = {
 	basic_supply_transport_tech = 1
