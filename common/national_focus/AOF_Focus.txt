@@ -63,7 +63,7 @@ focus_tree = {
 			focus = What_Now
 		}
 		completion_reward = {
-			add_ideas =
+
 		}
 		x = 9
 		y = 3

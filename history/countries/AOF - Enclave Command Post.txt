@@ -145,6 +145,8 @@ create_country_leader = {
 	}
 }
 
+set_oob = "AOF_2275"
+
 add_ideas = {
 	training_law_wasteland
 	officer_law_military_academy
