@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = AOF_Focus
 	country = {
 		factor = 0
@@ -18,27 +18,36 @@ focus_tree = {
 		id = Radio_Silence_Lifted
 		icon = GFX_goal_unknown
 		cost = 7
+		completion_reward = {
+			
+		}
 		x = 11
 		y = 0
 
 	}
 	focus = {
-		id = Restarting_Operaitons
+		id = Restarting_Operations
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 7
 		prerequisite = {
 			focus = Radio_Silence_Lifted
+		}
+		completion_reward = {
+			
 		}
 		x = 11
 		y = 1
 
 	}
 	focus = {
-		id = What_Now?
+		id = What_Now
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 7
 		prerequisite = {
-			focus = Restarting_Operaitons
+			focus = Restarting_Operations
+		}
+		completion_reward = {
+			add_stability = -0.2
 		}
 		x = 11
 		y = 2
@@ -51,7 +60,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 30
 		prerequisite = {
-			focus = What_Now?
+			focus = What_Now
+		}
+		completion_reward = {
+			
 		}
 		x = 9
 		y = 3
@@ -64,6 +76,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Contact_Naravo
 		}
+		completion_reward = {
+			
+		}
 		x = 9
 		y = 4
 
@@ -75,6 +90,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Contact_Naravo
 		}
+		completion_reward = {
+			
+		}
 		x = 7
 		y = 4
 
@@ -84,7 +102,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 30
 		prerequisite = {
-			focus = What_Now?
+			focus = What_Now
+		}
+		completion_reward = {
+			
 		}
 		x = 13
 		y = 3
@@ -96,6 +117,9 @@ focus_tree = {
 		cost = 30
 		prerequisite = {
 			focus = Contact_Washington
+		}
+		completion_reward = {
+			
 		}
 		x = 13
 		y = 4
@@ -110,6 +134,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = News_of_the_Rig
+		}
+		completion_reward = {
+			
 		}
 		x = 11
 		y = 5
@@ -126,6 +153,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Prepare_to_go_Public
 		}
+		completion_reward = {
+			
+		}
 		x = 9
 		y = 6
 
@@ -140,6 +170,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Stay_Hidden
 		}
+		completion_reward = {
+			
+		}
 		x = 13
 		y = 6
 
@@ -153,7 +186,9 @@ focus_tree = {
 			focus = Stay_Hidden
 			focus = Prepare_to_go_Public
 		}
-		
+		completion_reward = {
+			
+		}
 		x = 11
 		y = 7
 
@@ -181,17 +216,23 @@ focus_tree = {
 		prerequisite = {
 			focus = Resuming_Operations
 		}
+		completion_reward = {
+			
+		}
 		x = 11
 		y = 8.5
 
 	}
-	## Expeditions
+	#Expeditions
 	focus = {
 		id = Expeditions
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = Resuming_Operations
+		}
+		completion_reward = {
+			
 		}
 		x = 20
 		y = 8.5
@@ -205,6 +246,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Expeditions
 		}
+		completion_reward = {
+			
+		}
 		x = 17
 		y = 10
 
@@ -215,6 +259,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = Trip_to_Narvo
+		}
+		completion_reward = {
+			
 		}
 		x = 17
 		y = 11
@@ -230,6 +277,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Recover_Narvo
 		}
+		completion_reward = {
+			
+		}
 		x = 16
 		y = 12
 
@@ -240,6 +290,12 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = Recover_Equipment?
+		}
+		mutually_exclusive = {
+			focus = Abandon_Narvo
+		}
+		completion_reward = {
+			
 		}
 		x = 18
 		y = 12
@@ -253,6 +309,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Expeditions
 		}
+		completion_reward = {
+			
+		}
 		x = 21
 		y = 10
 
@@ -263,6 +322,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = Trip_to_Washington
+		}
+		completion_reward = {
+			
 		}
 		x = 21
 		y = 11
@@ -289,6 +351,9 @@ focus_tree = {
 		prerequisite = {
 			focus = News_of_the_Crawler
 		}
+		completion_reward = {
+			
+		}
 		x = 20
 		y = 13
 
@@ -299,6 +364,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = The_Capital
+		}
+		completion_reward = {
+			
 		}
 		x = 22
 		y = 12
@@ -343,6 +411,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Expeditions
 		}
+		completion_reward = {
+			
+		}
 		x = 25
 		y = 10
 
@@ -357,6 +428,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Shutdown_Whitespring
 		}
+		completion_reward = {
+			
+		}
 		x = 24
 		y = 11
 
@@ -367,6 +441,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = Entering_Whitespring_Bunker
+		}
+		completion_reward = {
+			
 		}
 		x = 24
 		y = 12
@@ -379,6 +456,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Restoring_MODUS
 		}
+		completion_reward = {
+			
+		}
 		x = 24
 		y = 13
 
@@ -390,6 +470,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Trip_to_Appalachia
 		}
+		completion_reward = {
+			
+		}
 		x = 26
 		y = 11
 
@@ -400,6 +483,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = Shutdown_Whitespring
+		}
+		completion_reward = {
+			
 		}
 		x = 26
 		y = 12

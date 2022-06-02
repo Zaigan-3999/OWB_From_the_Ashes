@@ -1,1 +1,1 @@
-AOF = "countries/AOF.txt"
+﻿AOF = "countries/AOF.txt"

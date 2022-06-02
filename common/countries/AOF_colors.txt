@@ -1,4 +1,4 @@
-AOF = {
-	color = rgb { 50 129 168 }
-	color_ui = rgb { 50 129 168 }
+﻿AOF = {
+	color = rgb { 12 29 156 }
+	color_ui = rgb { 12 29 156 }
   }

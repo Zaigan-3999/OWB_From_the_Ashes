@@ -1,0 +1,19 @@
+﻿characters={
+	AOF_zaigan_nephria={
+		name= "Zaigan D. Nephria"
+		portraits={
+			civilian={
+				large = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
+			}
+		}
+		country_leader = {
+			desc = "Zaigan_Nephria_DESC"
+			ideology = military_government
+			traits = {
+				military_background
+			}
+			expire = "3000.01.01.01"
+			id = -1
+		}
+	}
+}
