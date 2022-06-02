@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = AOF_Focus
 	country = {
 		factor = 0
@@ -9,14 +9,14 @@
 	}
 	## Layout
 	continuous_focus_position = {
-		x = 1.5
-		y = 1.5
+		x = 1
+		y = 1
 	}
 	## 7 Day Start
 	default = no
 	focus = {
 		id = Radio_Silence_Lifted
-		icon = GFX_goal_unknown
+		icon = "GFX_radio_silence"
 		cost = 7
 		completion_reward = {
 			
@@ -469,6 +469,9 @@
 		cost = 10
 		prerequisite = {
 			focus = Trip_to_Appalachia
+		}
+		mutually_exclusive = {
+			focus = Entering_Whitespring_Bunker
 		}
 		completion_reward = {
 			

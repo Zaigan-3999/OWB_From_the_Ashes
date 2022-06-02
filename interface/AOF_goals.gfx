@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_radio_silence"
+		texturefile = "gfx/interface/goals/radio_silence.dds"
+	}
+}

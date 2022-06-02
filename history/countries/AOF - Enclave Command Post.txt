@@ -148,6 +148,7 @@ create_country_leader = {
 add_ideas = {
 	training_law_wasteland
 	officer_law_military_academy
+	
 }
 
 add_equipment_to_stockpile = {

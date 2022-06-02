@@ -1,4 +1,4 @@
-﻿characters={
+characters={
 	AOF_zaigan_nephria={
 		name= "Zaigan D. Nephria"
 		portraits={

@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=1271
 	name="STATE_1271"
 	resources = {
@@ -24,7 +24,7 @@
 			military_complex = 2
 		}
 	}
-	state_category = rural
-	manpower = 2400
-	buildings_max_level_factor=2.000
+state_category = rural
+manpower = 2400
+buildings_max_level_factor=2.000
 }
