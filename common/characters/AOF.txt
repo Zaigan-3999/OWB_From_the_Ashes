@@ -16,4 +16,27 @@ characters={
 			id = -1
 		}
 	}
+	characters={
+		name= "Sergeant Dornan"
+		portraits={
+			civilian={
+				large = "gfx/leaders/AOF/portrait_aof_generic_1.dds"
+			}
+		}
+	advisor = {
+		slot = high_command
+		idea_token = Sergeant_Dornan
+		ledger = army
+		allowed = {
+			original_tag = AOF
+		}
+		modifier = {
+			experience_gain_army = 0.10
+			training_time_army = 0.25
+		}
+		cost = 150
+		ai_will_do = {
+			factor = 10
+		}
+	}
 }

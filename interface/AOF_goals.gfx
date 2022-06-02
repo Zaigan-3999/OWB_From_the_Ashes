@@ -1,6 +1,28 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_radio_silence"
-		texturefile = "gfx/interface/goals/radio_silence.dds"
+spriteTypes = {	
+
+	#### Enclave Focuses
+	SpriteType = {
+	name = "GFX_radio_silence"
+	texturefile = "gfx/interface/goals/radio_silence.dds"
+	}	
+	SpriteType = {
+		name = "GFX_restarting_operations"
+		texturefile = "gfx/interface/goals/restarting_operations.dds"
+	}	
+	SpriteType = {
+		name = "GFX_what_now"
+		texturefile = "gfx/interface/goals/what_now.dds"
+	}	
+	SpriteType = {
+		name = "GFX_contact"
+		texturefile = "gfx/interface/goals/contact.dds"
+	}	
+	SpriteType = {
+		name = "GFX_news_of_the_rig"
+		texturefile = "gfx/interface/goals/news_of_the_rig.dds"
+	}	
+	SpriteType = {
+		name = "GFX_dorn"
+		texturefile = "gfx/interface/goals/dorn.dds"
 	}
 }

@@ -16,7 +16,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = Radio_Silence_Lifted
-		icon = "GFX_radio_silence"
+		icon = GFX_radio_silence
 		cost = 7
 		completion_reward = {
 			
@@ -27,13 +27,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Restarting_Operations
-		icon = GFX_goal_unknown
+		icon = GFX_restarting_operations
 		cost = 7
 		prerequisite = {
 			focus = Radio_Silence_Lifted
 		}
 		completion_reward = {
-			
+			add_ideas = 
 		}
 		x = 11
 		y = 1
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = What_Now
-		icon = GFX_goal_unknown
+		icon = GFX_what_now
 		cost = 7
 		prerequisite = {
 			focus = Restarting_Operations
@@ -57,7 +57,7 @@ focus_tree = {
 	## Inital Contact Procedures
 	focus = {
 		id = Contact_Naravo
-		icon = GFX_goal_unknown
+		icon = GFX_contact
 		cost = 30
 		prerequisite = {
 			focus = What_Now
@@ -71,13 +71,13 @@ focus_tree = {
 	}
 	focus = {
 		id = News_of_the_Rig
-		icon = GFX_goal_unknown
+		icon = GFX_news_of_the_rig
 		cost = 10
 		prerequisite = {
 			focus = Contact_Naravo
 		}
 		completion_reward = {
-			
+			add_stability = -0.3
 		}
 		x = 9
 		y = 4
@@ -85,13 +85,14 @@ focus_tree = {
 	}
 	focus = {
 		id = Return_of_Sergeant_Dornan
-		icon = GFX_goal_unknown
+		icon = GFX_dorn
 		cost = 45
 		prerequisite = {
 			focus = Contact_Naravo
 		}
 		completion_reward = {
-			
+			add_stability = 0.1
+			recruit_character = Sergeant_Dornan
 		}
 		x = 7
 		y = 4
@@ -99,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Contact_Washington
-		icon = GFX_goal_unknown
+		icon = GFX_contact
 		cost = 30
 		prerequisite = {
 			focus = What_Now
