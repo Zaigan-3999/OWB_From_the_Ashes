@@ -26,55 +26,46 @@ units = {
     division = {
         location =  13713
         division_template = "Enclave Infantry Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13714
         division_template = "Enclave Infantry Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13715
         division_template = "Enclave Infantry Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13713
         division_template = "Enclave Infantry Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13714
         division_template = "Enclave Infantry Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13715
         division_template = "Enclave Infantry Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13644
         division_template = "Enclave Power Armor Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13644
         division_template = "Enclave Power Armor Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
     division = {
         location = 13644
         division_template = "Enclave Power Armor Detachment"
-        start_experience_factor = 1.0
         start_equipment_factor = 2.0
     }
 }
