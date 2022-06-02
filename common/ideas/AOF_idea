@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		contact_with_command = {
+			picture = GFX_white_house
+			modifier = {
+				stability_weekly = 0.05
+				weekly_manpower = 100
+				experience_gain_army = 0.2
+			}
+		}
+	}
+
+}

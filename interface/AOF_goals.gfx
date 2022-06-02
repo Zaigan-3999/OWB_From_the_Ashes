@@ -25,4 +25,8 @@ spriteTypes = {
 		name = "GFX_dorn"
 		texturefile = "gfx/interface/goals/dorn.dds"
 	}
+	SpriteType = {
+		name = "GFX_washington"
+		texturefile = "gfx/interface/goals/washington.dds"
+	}
 }

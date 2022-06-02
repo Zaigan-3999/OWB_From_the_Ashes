@@ -33,7 +33,7 @@ focus_tree = {
 			focus = Radio_Silence_Lifted
 		}
 		completion_reward = {
-			add_ideas = 
+			
 		}
 		x = 11
 		y = 1
@@ -63,7 +63,7 @@ focus_tree = {
 			focus = What_Now
 		}
 		completion_reward = {
-			
+			add_ideas =
 		}
 		x = 9
 		y = 3
@@ -114,13 +114,13 @@ focus_tree = {
 	}
 	focus = {
 		id = News_of_Washington
-		icon = GFX_goal_unknown
+		icon = GFX_washington
 		cost = 30
 		prerequisite = {
 			focus = Contact_Washington
 		}
 		completion_reward = {
-			
+			add_ideas = sssssssscontact_with_command
 		}
 		x = 13
 		y = 4

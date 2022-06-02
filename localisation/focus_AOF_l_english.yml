@@ -1,5 +1,5 @@
 ﻿l_english: 
- Radio_Silence_Lifted:0 "Radio Silence Lifted"
+Radio_Silence_Lifted:0 "Radio Silence Lifted"
  Radio_Silence_Lifted_desc:0 "With Radio Silence finally ending it's time we starting reaching back out to command for further orders."
 
  Restarting_Operations:0 "Restarting Operations"
@@ -7,3 +7,15 @@
 
  What_Now:0 "What Now?"
  What_Now_desc:0 "After a week of reviewing protocols and the Base Command agreeing to finally start looking over regular radio stations. We came up empty. God I hope we arn't the only ones left."
+
+ Contact_Naravo:0 "Contact Naravo"
+ Contact_Naravo_desc:0 "With nothing being recieved after all this time we are going to dispatch a team to check on Naravo. Hopefully they are still active."
+
+ News_of_the_Rig:0 "News of the Rig"
+ News_of_the_Rig_desc:0 "We arrived at Naravo only to see it burned to the ground and covered with enemies. We went to check on the Rig but found it destroyed, is this the end of the enclave?"
+
+ Return_of_Sergeant_Dornan:0 "Return of Sergeant Dornan"
+ Return_of_Sergeant_Dornan_desc:0 "We stopped at the edge of a field and once the team got back they found Sergeant Dornan awaiting their return! We got a hero back with us today."
+
+ Contact_Washington:0 "Contact Washington"
+ Contact_Washington_desc:0 "With nothing being recieved after all this time we are going to dispatch a team to check on Washington. Hopefully they are still active."

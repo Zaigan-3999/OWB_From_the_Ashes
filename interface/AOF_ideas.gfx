@@ -1,0 +1,7 @@
+spriteTypes = {	
+#### Enclave Ideas
+	spriteType = {
+		name = "GFX_white_house"
+		texturefile = "gfx/interface/ideas/white_house.dds"
+	}
+}
