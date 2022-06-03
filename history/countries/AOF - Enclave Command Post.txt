@@ -29,32 +29,61 @@ set_technology = {
 	infantry_tech_level_tribal = 1
 	infantry_tech_level_settler = 1
 	infantry_tech_level_scientific = 1
+	##Sup
 	support_tech_level_tribal = 1
 	support_tech_level_settler = 1
 	support_tech_level_scientific = 1
+	##SF
 	special_forces_tech_level_tribal = 1
 	special_forces_tech_level_settler = 1
 	special_forces_tech_level_scientific = 1
+	##PA
+	power_armour_tech_level_tribal = 1
 	power_armour_tech_level_settler = 1
 	power_armour_tech_level_scientific = 1
+	##Vroom Vroom
 	vehicles_tech_level_tribal = 1
 	vehicles_tech_level_settler = 1
+	##Air
 	air_tech_level_tribal = 1
 	air_tech_level_settler = 1
-	air_tech_level_scientific = 1
+	##Naval
 	naval_tech_level_tribal = 1
 	naval_tech_level_settler = 1
+	##Exploitation
 	exploitation_tech_level_tribal = 1
 	exploitation_tech_level_settler = 1
 	exploitation_tech_level_scientific = 1
+	##Electronics
 	electronics_tech_level_tribal = 1
 	electronics_tech_level_settler = 1
 	electronics_tech_level_scientific = 1
+	##Tools
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	tools_tech_level_scientific = 1
+	##Construction
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	habitation_tech_level_scientific = 1
+	##heritage
+	military_heritage_unlock_tech = 1
+	##Beep Boop
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	##Infantry Doctorine
+
 	##Infantry Technology
 	unit_training_tech_1 = 1
 	unit_training_tech_2 = 1
-	standard_weapon_tech = 1
+	standard_weaponry_tech = 1
+	ballistic_weaponry_tech_1 = 1
 	energy_weaponry_tech_1 =1
+	spec_ops_equipment_tech_1 = 1
+	stripped_pa_tech = 1
+	weight_support_frame_pa_tech_1 = 1
+	weight_support_frame_pa_tech_2 = 1
+	wasteland_pa_tech = 1
 	##Industry Technology
 	##Enclave Exclusive Techniligy
 	power_armour_enclave_1 = 1
