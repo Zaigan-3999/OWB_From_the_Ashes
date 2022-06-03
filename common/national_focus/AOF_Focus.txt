@@ -138,7 +138,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Are_we_Alone?
 		}
-		prerequisite = {
+		available = {
 			date < 2281.1.1
 		}
 		completion_reward = {
@@ -158,8 +158,8 @@ focus_tree = {
 		prerequisite = {
 			focus = News_of_the_Rig
 		}
-		prerequisite = {
-			date > 2281.1.1 
+		available = {
+			date > 2281.1.1
 		}
 		mutually_exclusive = {
 			focus = Orders_From_Command
