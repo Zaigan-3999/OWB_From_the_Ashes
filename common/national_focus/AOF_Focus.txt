@@ -92,7 +92,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.1
-			recruit_character = Sergeant_Dornan
 		}
 		x = 7
 		y = 4
@@ -113,17 +112,40 @@ focus_tree = {
 
 	}
 	focus = {
-		id = News_of_Washington
-		icon = GFX_washington
+		id = News_of_RavenRock
+		icon = GFX_ravenrock
 		cost = 30
 		prerequisite = {
-			focus = Contact_Washington
+			focus = Contact_RavenRock
 		}
 		completion_reward = {
-			add_ideas = sssssssscontact_with_command
+			add_ideas = contact_with_command
 		}
 		x = 13
 		y = 4
+
+	}
+	focus = {
+		id = Orders_From_Command
+		icon = GFX_goal_unknown
+		cost = 50
+		prerequisite = {
+			focus = News_of_RavenRock
+		}
+		prerequisite = {
+			focus = News_of_the_Rig
+		}
+		mutually_exclusive = {
+			focus = Are_we_Alone?
+		}
+		prerequisite = {
+			date < 2281.1.1
+		}
+		completion_reward = {
+			
+		}
+		x = 10
+		y = 5
 
 	}
 	focus = {
@@ -131,15 +153,21 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 50
 		prerequisite = {
-			focus = News_of_Washington
+			focus = News_of_RavenRock
 		}
 		prerequisite = {
 			focus = News_of_the_Rig
 		}
+		prerequisite = {
+			date > 2281.1.1 
+		}
+		mutually_exclusive = {
+			focus = Orders_From_Command
+		}
 		completion_reward = {
 			
 		}
-		x = 11
+		x = 12
 		y = 5
 
 	}
@@ -150,6 +178,7 @@ focus_tree = {
 		cost = 45
 		prerequisite = {
 			focus = Are_we_Alone?
+			focus = Orders_From_Command
 		}
 		mutually_exclusive = {
 			focus = Prepare_to_go_Public
@@ -167,6 +196,7 @@ focus_tree = {
 		cost = 45
 		prerequisite = {
 			focus = Are_we_Alone?
+			focus = Orders_From_Command
 		}
 		mutually_exclusive = {
 			focus = Stay_Hidden
