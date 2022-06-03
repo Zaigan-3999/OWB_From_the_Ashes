@@ -1,0 +1,71 @@
+#############################
+# ENCLAVE OUTPOST PORTRAITS #
+#############################
+AOF = {
+	political = {
+		intellectuals = {
+			male = {
+				"GFX_portrait_AOF_generic_1"
+				"GFX_portrait_AOF_generic_2"
+				"GFX_portrait_AOF_generic_3"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+				"GFX_portrait_AOF_generic_1"
+				"GFX_portrait_AOF_generic_2"
+				"GFX_portrait_AOF_generic_3"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+				"GFX_portrait_AOF_generic_1"
+				"GFX_portrait_AOF_generic_2"
+				"GFX_portrait_AOF_generic_3"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+				"GFX_portrait_AOF_generic_1"
+				"GFX_portrait_AOF_generic_2"
+				"GFX_portrait_AOF_generic_3"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"GFX_portrait_AOF_generic_1"
+			"GFX_portrait_AOF_generic_2"
+			"GFX_portrait_AOF_generic_3"
+			"GFX_portrait_AOF_generic_4"
+			"GFX_portrait_AOF_generic_5"
+			"GFX_portrait_AOF_generic_6"
+			"GFX_portrait_AOF_generic_7"
+			"GFX_portrait_AOF_generic_8"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_portrait_AOF_generic_1"
+			"GFX_portrait_AOF_generic_2"
+			"GFX_portrait_AOF_generic_3"
+		}
+	}
+	operative = {
+		male = {
+			"GFX_portrait_AOF_operative_2"
+			"GFX_portrait_AOF_operative_3"
+		}
+		female = {
+			"GFX_portrait_AOF_operative_1"
+		}
+	}
+}

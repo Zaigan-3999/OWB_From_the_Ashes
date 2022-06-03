@@ -1,0 +1,49 @@
+spriteTypes = {
+
+	#### AOF Generic Generals
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_1"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_2"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_3"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_4"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_4.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_5"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_5.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_6"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_6.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_7"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_7.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_8"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_8.dds"
+	}
+	### AOF Generic Operatives
+	spriteType = {
+		name = "GFX_portrait_AOF_operative_1"
+		texturefile = "gfx/leaders/AOF/portrait_aof_operative_1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_operative_2"
+		texturefile = "gfx/leaders/AOF/portrait_aof_operative_2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_operative_3"
+		texturefile = "gfx/leaders/AOF/portrait_aof_operative_3.dds"
+	}
+}

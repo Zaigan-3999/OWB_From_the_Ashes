@@ -1,6 +1,6 @@
 characters={
 	AOF_zaigan_nephria={
-		name= "Zaigan D. Nephria"
+		name= "2LT Nephria"
 		portraits={
 			civilian={
 				large = "gfx/leaders/AOF/portrait_aof_generic_2.dds"

@@ -133,7 +133,7 @@ if = {
 recruit_character = AOF_zaigan_nephria
 
 create_country_leader = {
-	name = "Zaigan D. Nephria"
+	name = "2LT Nephria"
 	desc = "Zaigan_Nephria_DESCC"
 	picture = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
 	expire = "3000.01.01.01"

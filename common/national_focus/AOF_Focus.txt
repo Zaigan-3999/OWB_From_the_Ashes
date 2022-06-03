@@ -99,7 +99,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Contact_Washington
+		id = Contact_RavenRock
 		icon = GFX_contact
 		cost = 30
 		prerequisite = {
