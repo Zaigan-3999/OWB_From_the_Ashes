@@ -16,27 +16,30 @@ characters={
 			id = -1
 		}
 	}
-	characters={
-		name= "Sergeant Dornan"
-		portraits={
-			civilian={
-				large = "gfx/leaders/AOF/portrait_aof_generic_1.dds"
+	AOF_advisor_contest_1 = {
+		name = "W01 Baron"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_AOF_advisor_baron"
 			}
 		}
-	advisor = {
-		slot = high_command
-		idea_token = Sergeant_Dornan
-		ledger = army
-		allowed = {
-			original_tag = AOF
-		}
-		modifier = {
-			experience_gain_army = 0.10
-			training_time_army = 0.25
-		}
-		cost = 150
-		ai_will_do = {
-			factor = 10
+		advisor = {
+			slot = economic_advisor
+			idea_token = AOF_advisor_contest_advisor_1
+			ledger = civilian
+			allowed = {
+				original_tag = AOF
+			}
+			modifier = {
+				operative_slot = 1
+				experience_gain_army = 0.1
+				experience_gain_navy = 0.1
+				experience_gain_air = 0.1
+			}
+			cost = 250
+			ai_will_do = {
+				factor = 10
+			}
 		}
 	}
 }
