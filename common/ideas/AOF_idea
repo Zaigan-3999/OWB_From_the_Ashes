@@ -36,7 +36,7 @@ ideas = {
 				army_leader_start_defense_level = 1
 			}
 		}
-		compent_ncos - {
+		compent_ncos = {
 			picture = compent_ncos
 			modifier = {
 				army_org_regain = 0.5

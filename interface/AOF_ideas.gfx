@@ -13,7 +13,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/local_operations.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_tactical_computer"
+		name = "GFX_idea_Tactical_Computer"
 		textureFile = "gfx/interface/ideas/tactical_computer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_compent_ncos"
+		textureFile = "gfx/interface/ideas/compent_ncos.dds"
 	}
 }

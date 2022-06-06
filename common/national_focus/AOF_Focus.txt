@@ -271,6 +271,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Establish_Officer_Core
 		}
+		mutually_exclusive = {
+			focus = Despreate_Measures
+		}
 		completion_reward = { 
 			add_stability = 0.1
 		}
@@ -328,6 +331,9 @@ focus_tree = {
 		y = 10.5
 		prerequisite = {
 			focus = Establish_Officer_Core
+		}
+		mutually_exclusive = {
+			focus = Tradition
 		}
 		completion_reward = {
 			add_war_support = 0.1

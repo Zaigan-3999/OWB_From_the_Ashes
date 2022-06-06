@@ -127,7 +127,7 @@ if = {
 }
 
 #set_country_flag = is_settler_nation
-#set_country_flag = enclave_nation
+#set_country_flag = enclave_nation #[Does Nothing Yet]
 
 ## Characters
 recruit_character = AOF_zaigan_nephria
@@ -146,10 +146,13 @@ create_country_leader = {
 set_oob = "AOF_2275"
 
 add_ideas = {
-	training_law_wasteland
+	outsider_law_none
 	officer_law_military_academy
-	outsider_law_enclave_only
+	training_law_wasteland
 	local_operations
+	low_economic_mobilisation
+	closed_economy
+	enclave_military_law_1
 }
 
 add_equipment_to_stockpile = {

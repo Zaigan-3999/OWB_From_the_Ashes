@@ -61,6 +61,10 @@
  Tradition:0 "Tradition"
  Tradition_desc:0 "When recruiting more officers we should stick to what we know is right and has worked in the past."
 
+ Despreate_Measures:0 "Despreate Measures"
+ Despreate_Measures_desc:0 "With us having a small force and surrounded on all sides by enemies it's times like these that call for emergency measures."
+ ## Tradition Tree
+
  Signup_Bonus:0 "Signup Bonus"
  Signup_Bonus_desc:0 "It worked in the past before the war and it'll work again. As long as we increase how much we provide to new recruits we can replace those we promote to officers."
 
@@ -69,6 +73,14 @@
 
  Promote_NCO:0 "Promote NCO"
  Promote_NCO_desc:0 "With them now trainined and reaplaced we can bring up the promising NCOs into our fold."
+
+ ## Desperate Measures
+
+ Lower_Recruiting_Age:0 "Lower Recruiting Age"
+ Lower_Recruiting_Age_desc:0 "During WW1 people would sign up at the age of 16 and would be sent off to war. While they arn't the strongest or the fastest they will do the job just as well as anyone else."
+
+ Conscript_Retired_Officers:0 "Conscript Retired Officers"
+ Conscript_Retired_Officers_desc:0 "Time to bring back those who retired. They signed on to server their time or until needed. Sadly we need them once more and regardless if they like it or not their comming."
 
  Reenable_Tactical_Computers:0 "Reenable Tactical Computers"
  Reenable_Tactical_Computers_desc:0 "We have a handful of tactical computers at base that we haven't activated because of one reason or another. Turning them on would help increase troops in the fields."
