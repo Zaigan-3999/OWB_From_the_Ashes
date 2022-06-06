@@ -1,3 +1,9 @@
 ﻿l_english:
   contact_with_command:0 "Contact With Command"
   contact_with_command_desc:0 "We finally got contact with Command once more! We can finally start doing what we do best, fix America!"
+  local_operations:0 "Local Operations"
+  local_operations_desc:0 "While we are the strongest in the area we are stuck to doing local operations within this sector until we get orders from Command."
+  Tactical_Computer:0 "Tactical Computers"
+  Tactical_Computer_desc:0 "Activating these Tactical Computers while increases our commanders skills it brings some bad rumnors from people fearing what they did during the Great War."
+  compent_ncos:0 "Compent NCOs"
+  compent_ncos_desc:0 "With compent NCOs we are able to quickly adapt to conditions in the field and prevent and mistakes that would come from thinking only inside the box."

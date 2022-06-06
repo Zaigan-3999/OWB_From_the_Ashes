@@ -13,6 +13,7 @@ spriteTypes = {
 		name = "GFX_what_now"
 		texturefile = "gfx/interface/goals/what_now.dds"
 	}	
+	#### After 7 Days
 	SpriteType = {
 		name = "GFX_contact"
 		texturefile = "gfx/interface/goals/contact.dds"
@@ -26,7 +27,83 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/dorn.dds"
 	}
 	SpriteType = {
+		name = "GFX_RavenRock"
+		texturefile = "gfx/interface/goals/RavenRock.dds"
+	}
+	SpriteType = {
+		name = "GFX_Naravo"
+		texturefile = "gfx/interface/goals/Narvo.dds"
+	}
+	SpriteType = {
 		name = "GFX_washington"
 		texturefile = "gfx/interface/goals/washington.dds"
+	}
+	spriteType = {
+		name = "GFX_News_RavenRock"
+		textureFile = "gfx/interface/goals/news_ravenrock.dds"
+	}
+	#### Major Choices
+	spriteType = {
+		name = "GFX_Are_we_Alone"
+		textureFile = "gfx/interface/goals/Are_we_Alone.dds"
+	}
+	spriteType = {
+		name = "GFX_Orders_from_Command"
+		textureFile = "gfx/interface/goals/OFC.dss"
+	}
+	spriteType = {
+		name = "GFX_Stay_Hidden"
+		textureFile = "gfx/interface/goals/stay_hidden.dss"
+	}
+	spriteType = {
+		name = "GFX_Prepare_to_go_Public"
+		textureFile = "gfx/interface/goals/prepare_public.dss"
+	}
+	spriteType = {
+		name = "GFX_Resuming_Operations"
+		textureFile = "gfx/interface/goals/resuming_operations.dds"
+	}
+	#### Military Tree [Inital]
+	spriteType = {
+		name = "GFX_Military_Command"
+		textureFile = "gfx/interface/goals/military_command.dds"
+	}
+	spriteType = {
+		name = "GFX_Officer_Core"
+		textureFile = "gfx/interface/goals/officer_core.dds"
+	}
+	#### Military Treee [Tradational]
+	spriteType = {
+		name = "GFX_Tradition"
+		textureFile = "gfx/interface/goals/tradition.dds"
+	}
+	spriteType = {
+		name = "GFX_Signup_Bonus"
+		textureFile = "gfx/interface/goals/signup_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_Retired_Officers"
+		textureFile = "gfx/interface/goals/retired_officers.dds"
+	}
+	spriteType = {
+		name = "GFX_Promote_NCOs"
+		textureFile = "gfx/interface/goals/promote_ncos.dds"
+	}
+	spriteType = {
+		name = "GFX_Renable_Tactical_Computers"
+		textureFile = "gfx/interface/goals/tactical_computer.dds"
+	}
+	#### Military Tree [Despreate]
+	spriteType = {
+		name = "GFX_Despreate_Measures"
+		textureFile = "gfx/interface/goals/despreate_measures.dds"
+	}
+	spriteType = {
+		name = "GFX_Lower_Recruiting_Age"
+		textureFile = "gfx/interface/goals/lower_recruiting_age.dds"
+	}
+	spriteType = {
+		name = "GFX_Conscript_Retired_Officers"
+		textureFile = "gfx/interface/goals/Conscript_Retired_Officers.dds"
 	}
 }

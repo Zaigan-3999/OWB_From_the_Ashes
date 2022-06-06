@@ -8,8 +8,12 @@ focus_tree = {
 		}
 	}
 	## Layout
+	initial_show_position = {
+		x = 11
+		y = 0
+	}
 	continuous_focus_position = {
-		x = 1
+		x = 15
 		y = 1
 	}
 	## 7 Day Start
@@ -26,7 +30,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Restarting_Operations
+		id = Checking_Equipment
 		icon = GFX_restarting_operations
 		cost = 7
 		prerequisite = {
@@ -44,7 +48,7 @@ focus_tree = {
 		icon = GFX_what_now
 		cost = 7
 		prerequisite = {
-			focus = Restarting_Operations
+			focus = Checking_Equipment
 		}
 		completion_reward = {
 			add_stability = -0.2
@@ -57,7 +61,7 @@ focus_tree = {
 	## Inital Contact Procedures
 	focus = {
 		id = Contact_Naravo
-		icon = GFX_contact
+		icon = GFX_Naravo
 		cost = 30
 		prerequisite = {
 			focus = What_Now
@@ -92,6 +96,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.1
+			army_experience = 25
+			add_command_power = 10
 		}
 		x = 7
 		y = 4
@@ -99,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Contact_RavenRock
-		icon = GFX_contact
+		icon = GFX_RavenRock
 		cost = 30
 		prerequisite = {
 			focus = What_Now
@@ -113,13 +119,14 @@ focus_tree = {
 	}
 	focus = {
 		id = News_of_RavenRock
-		icon = GFX_ravenrock
+		icon = GFX_News_RavenRock
 		cost = 30
 		prerequisite = {
 			focus = Contact_RavenRock
 		}
 		completion_reward = {
-			add_ideas = contact_with_command
+			add_stability = 0.05
+			add_political_power = 100
 		}
 		x = 13
 		y = 4
@@ -127,7 +134,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Orders_From_Command
-		icon = GFX_goal_unknown
+		icon = GFX_Orders_from_Command
 		cost = 50
 		prerequisite = {
 			focus = News_of_RavenRock
@@ -136,21 +143,21 @@ focus_tree = {
 			focus = News_of_the_Rig
 		}
 		mutually_exclusive = {
-			focus = Are_we_Alone?
+			focus = Are_we_Alone
 		}
 		available = {
 			date < 2281.1.1
 		}
 		completion_reward = {
-			
+			add_ideas = contact_with_command
 		}
 		x = 10
 		y = 5
 
 	}
 	focus = {
-		id = Are_we_Alone?
-		icon = GFX_goal_unknown
+		id = Are_we_Alone
+		icon = GFX_Are_we_Alone
 		cost = 50
 		prerequisite = {
 			focus = News_of_RavenRock
@@ -174,17 +181,18 @@ focus_tree = {
 	## End of Inital Contact
 	focus = {
 		id = Stay_Hidden
-		icon = GFX_goal_unknown
+		icon = GFX_Stay_Hidden
 		cost = 45
 		prerequisite = {
-			focus = Are_we_Alone?
+			focus = Are_we_Alone
 			focus = Orders_From_Command
 		}
 		mutually_exclusive = {
 			focus = Prepare_to_go_Public
 		}
 		completion_reward = {
-			
+			add_stability = 0.20
+			add_ideas = hidden
 		}
 		x = 9
 		y = 6
@@ -192,10 +200,10 @@ focus_tree = {
 	}
 	focus = {
 		id = Prepare_to_go_Public
-		icon = GFX_goal_unknown
+		icon = GFX_Prepare_to_go_Public
 		cost = 45
 		prerequisite = {
-			focus = Are_we_Alone?
+			focus = Are_we_Alone
 			focus = Orders_From_Command
 		}
 		mutually_exclusive = {
@@ -211,7 +219,7 @@ focus_tree = {
 	## End of First Major Choice
 	focus = {
 		id = Resuming_Operations
-		icon = GFX_goal_unknown
+		icon = GFX_Resuming_Operations
 		cost = 10
 		prerequisite = {
 			focus = Stay_Hidden
@@ -227,17 +235,148 @@ focus_tree = {
 	## Military Command
 	focus = {
 		id = Military_Command
-		icon = GFX_goal_unknown
-		cost = 10
+		icon = GFX_Military_Command
+		cost = 30
 		prerequisite = {
 			focus = Resuming_Operations
 		}
 		completion_reward = {
 			add_war_support = 0.25
+			remove_ideas = local_operations
 		}
 		x = 3
 		y = 8.5
 
+	} 
+	## Mil Officer Core Tradition
+	focus = {
+		id = Establish_Officer_Core
+		icon = GFX_Officer_Core
+		cost = 60
+		x = 2
+		y = 9.5
+		prerequisite = {
+			focus = Military_Command
+		}
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = Tradition
+		icon = GFX_Tradition
+		cost = 45
+		x = 0
+		y = 10.5
+		prerequisite = {
+			focus = Establish_Officer_Core
+		}
+		completion_reward = { 
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = Signup_Bonus
+		icon = GFX_Signup_Bonus
+		cost = 30
+		x = -1
+		y = 11.5
+		prerequisite = {
+			focus = Tradition
+		}
+		completion_reward = { 
+			add_ideas = family_stipend
+		}
+	}
+	focus = {
+		id = Retired_Officers
+		icon = GFX_Retired_Officers
+		cost = 30
+		x = 1
+		y = 11.5
+		prerequisite = {
+			focus = Tradition
+		}
+		completion_reward = {
+			army_experience = 20
+			add_command_power = 4
+			add_manpower = 25
+		 }
+	}
+	focus = {
+		id = Promote_NCO
+		icon = GFX_Promote_NCOs
+		cost = 30
+		x = 0
+		y = 12.5
+		prerequisite = {
+			focus = Signup_Bonus
+		}
+		prerequisite = {
+			focus = Retired_Officers
+		}
+		completion_reward = { 
+			add_ideas = compent_ncos
+		}
+	}
+	### MC EOC Despreate Measures
+	focus = {
+		id = Despreate_Measures
+		icon = GFX_Despreate_Measures
+		cost = 30
+		x = 4
+		y = 10.5
+		prerequisite = {
+			focus = Establish_Officer_Core
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		 }
+	}
+	focus = {
+		id = Lower_Recruiting_Age
+		icon = GFX_Lower_Recruiting_Age
+		cost = 30
+		x = 3
+		y = 11.5
+		prerequisite = {
+			focus = Despreate_Measures
+		}
+		completion_reward = {
+			add_ideas = Young_Americans
+		 }
+	}
+	focus = {
+		id = Conscript_Retired_Officers
+		icon = GFX_Conscript_Retired_Officers
+		cost = 30
+		x = 5
+		y = 11.5
+		prerequisite = {
+			focus = Despreate_Measures
+		}
+		completion_reward = { 
+			add_manpower = 500
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = Reenable_Tactical_Computers
+		icon = GFX_Renable_Tactical_Computers
+		cost = 30
+		x = 4
+		y = 12.5
+		prerequisite = {
+			focus = Lower_Recruiting_Age
+		}
+		prerequisite = {
+			focus = Conscript_Retired_Officers
+		}
+		completion_reward = { 
+			add_stability = -0.15
+			add_war_support0 = 0.1
+			add_ideas = Tactical_Computer
+		}
 	}
 	## Civilian Iniative
 	focus = {
@@ -265,7 +404,7 @@ focus_tree = {
 		completion_reward = {
 			
 		}
-		x = 20
+		x = 21
 		y = 8.5
 
 	}

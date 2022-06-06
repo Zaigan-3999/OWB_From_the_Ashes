@@ -149,6 +149,7 @@ add_ideas = {
 	training_law_wasteland
 	officer_law_military_academy
 	outsider_law_enclave_only
+	local_operations
 }
 
 add_equipment_to_stockpile = {

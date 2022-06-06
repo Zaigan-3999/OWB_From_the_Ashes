@@ -1,12 +1,16 @@
 ﻿l_english: 
-Radio_Silence_Lifted:0 "Radio Silence Lifted"
+ ## Starting 7 Day Focuses
+
+ Radio_Silence_Lifted:0 "Radio Silence Lifted"
  Radio_Silence_Lifted_desc:0 "With Radio Silence finally ending it's time we starting reaching back out to command for further orders."
 
- Restarting_Operations:0 "Restarting Operations"
- Restarting_Operations_desc:0 "Log 14 - After waiting one week we have failed to regain contact with command. The Base LT Zaigan D. Nephria has given the order to restart normal operations within the area. The rest of the officers are trying to figure out what exactly happened while we where gone."
+ Checking_Equipment:0 "Checking Equipment"
+ Checking_Equipment_desc:0 "Equipment Checks have begun and while everything so far is showing up as green we have had some potential issues from our communications equipment. We have to use smaller channels aside from the normal ones but it shouldn't cause a issue."
 
  What_Now:0 "What Now?"
  What_Now_desc:0 "After a week of reviewing protocols and the Base Command agreeing to finally start looking over regular radio stations. We came up empty. God I hope we arn't the only ones left."
+
+ ## Other 2 Focuses
 
  Contact_Naravo:0 "Contact Naravo"
  Contact_Naravo_desc:0 "With nothing being recieved after all this time we are going to dispatch a team to check on Naravo. Hopefully they are still active."
@@ -19,3 +23,52 @@ Radio_Silence_Lifted:0 "Radio Silence Lifted"
 
  Contact_RavenRock:0 "Contact Raven Rock"
  Contact_RavenRock_desc:0 "With nothing being recieved after all this time we are going to dispatch a team to check on Raven Rock. Hopefully they are still active."
+
+ News_of_RavenRock:0 "News of RavenRock"
+ News_of_RavenRock_desc:0 "It's looking good so far. The Recon team was able to make contact with a small group at Raven Rock. They gave us a date to contact them once more and a secure channel they are using. Looks like we are back in the loop!"
+
+ ## Timed Events
+
+ Orders_From_Command:0 "Orders from Command"
+ Orders_From_Command_desc:0 "High Command finally gave us orders from the secure channel they gave us earlier. We are finally back in business and can get to restoring America!"
+
+ Are_we_Alone:0 "Are we Alone?"
+ Are_we_Alone_desc:0 "Command has been silent and the team we saw at Raven Rock hasn't responded. We might be the last branch of the Enclave. Time to decide how we play our hand now."
+
+ ## First Major Choice
+
+ Prepare_to_go_Public:0 "Prepare to go Public"
+ Prepare_to_go_Public_desc:0 "With how the area around is currently is and our location towards the location of the Chicago branch we should be able to easily expand and act as the public face of the Enclave in the region."
+
+ Stay_Hidden:0 "Stay Hidden"
+ Stay_Hidden_desc:0 "While the region has little resistance rumor from our scouting of Naravo and Raven Rock there seems to be a group called 'Brotherhood of Steel'. While not as technological advanced as the Enclave they deffintly outnumber us."
+
+ ## Majority of Focus Tree
+
+ Resuming_Operations:0 "Resuming Operations"
+ Resuming_Operations_desc:0 "With everyone ready and happy to get back to work it's time to finally resume our prior orders."
+
+ ## Military Command Focus Tree
+
+ Military_Command:0 "Military Command"
+ Military_Command_desc:0 "With enough time and enough personal back to normal it's time to finally setup a proper command team for running the military operations."
+
+ ## Establish Officer Core
+
+ Establish_Officer_Core:0 "Establish Officer Core"
+ Establish_Officer_Core_desc:0 "With the Officers ready to expand it's time we setup a proper core for it."
+
+ Tradition:0 "Tradition"
+ Tradition_desc:0 "When recruiting more officers we should stick to what we know is right and has worked in the past."
+
+ Signup_Bonus:0 "Signup Bonus"
+ Signup_Bonus_desc:0 "It worked in the past before the war and it'll work again. As long as we increase how much we provide to new recruits we can replace those we promote to officers."
+
+ Retired_Officers:0 "Invite Retired Officers"
+ Retired_Officers_desc:0 "With there being a bunch of retired officers within the Enclaves ranks it's time to invite them back to teach the younger generation."
+
+ Promote_NCO:0 "Promote NCO"
+ Promote_NCO_desc:0 "With them now trainined and reaplaced we can bring up the promising NCOs into our fold."
+
+ Reenable_Tactical_Computers:0 "Reenable Tactical Computers"
+ Reenable_Tactical_Computers_desc:0 "We have a handful of tactical computers at base that we haven't activated because of one reason or another. Turning them on would help increase troops in the fields."

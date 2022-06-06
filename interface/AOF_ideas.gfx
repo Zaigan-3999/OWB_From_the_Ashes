@@ -1,7 +1,19 @@
 spriteTypes = {	
 #### Enclave Ideas
 	spriteType = {
-		name = "GFX_white_house"
+		name = "GFX_idea_white_house"
 		texturefile = "gfx/interface/ideas/white_house.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hidden"
+		textureFile = "gfx/interface/ideas/hidden.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_local_operations"
+		textureFile = "gfx/interface/ideas/local_operations.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tactical_computer"
+		textureFile = "gfx/interface/ideas/tactical_computer.dds"
 	}
 }
