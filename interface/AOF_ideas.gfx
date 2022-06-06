@@ -17,7 +17,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/tactical_computer.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_compent_ncos"
+		name = "GFX_idea_competent_ncos"
 		textureFile = "gfx/interface/ideas/compent_ncos.dds"
 	}
 }

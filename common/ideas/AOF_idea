@@ -36,8 +36,8 @@ ideas = {
 				army_leader_start_defense_level = 1
 			}
 		}
-		compent_ncos = {
-			picture = compent_ncos
+		competent_ncos = {
+			picture = competent_ncos
 			modifier = {
 				army_org_regain = 0.5
 				army_leader_start_level = 2

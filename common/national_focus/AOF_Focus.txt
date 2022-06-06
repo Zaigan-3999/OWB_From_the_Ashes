@@ -319,7 +319,7 @@ focus_tree = {
 			focus = Retired_Officers
 		}
 		completion_reward = { 
-			add_ideas = compent_ncos
+			add_ideas = competent_ncos
 		}
 	}
 	### MC EOC Despreate Measures
@@ -380,7 +380,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 			add_stability = -0.15
-			add_war_support0 = 0.1
+			add_war_support = 0.1
 			add_ideas = Tactical_Computer
 		}
 	}
