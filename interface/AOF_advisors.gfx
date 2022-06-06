@@ -46,4 +46,9 @@ spriteTypes = {
 		name = "GFX_portrait_AOF_operative_3"
 		texturefile = "gfx/leaders/AOF/portrait_aof_operative_3.dds"
 	}
+	### Custom Dudes
+	spriteType = {
+		name = "GFX_portrait_AOF_advisor_baron"
+		texturefile = "gfx/leaders/AOF/portrait_aof_advisor_baron.dds"
+	}
 }
