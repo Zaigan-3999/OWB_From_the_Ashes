@@ -352,7 +352,7 @@ focus_tree = {
 			focus = Desperate_Measures
 		}
 		completion_reward = {
-			add_ideas = Young_Americans
+			add_ideas = aof_military_law_6
 		 }
 	}
 	focus = {
@@ -390,7 +390,7 @@ focus_tree = {
 	## Bunker Expansion
 	focus = {
 		id = Bunker_Expansion
-		icon = GFX_goal_unknown
+		icon = GFX_Bunker_Expansion
 		cost = 10
 		prerequisite = {
 			focus = Resuming_Operations
@@ -398,16 +398,16 @@ focus_tree = {
 		completion_reward = {
 			
 		}
-		x = 11
+		x = 14
 		y = 8.5
 
 	}
 	## Bunker Military Capibilites
 	focus = {
 		id = Armory_Expansion
-		icon = GFX_goal_unkown
+		icon = GFX_Armory_Expansion
 		cost = 45
-		x = 9
+		x = 12
 		y = 9.5
 		prerequisite = {
 			focus = Bunker_Expansion
@@ -422,9 +422,9 @@ focus_tree = {
 	}
 	focus = {
 		id = Clearing_the_hangar
-		icon = GFX_goal_unkown
+		icon = GFX_Clearing_the_Hangar
 		cost = 45
-		x = 9
+		x = 12
 		y = 10.5
 		prerequisite = {
 			focus = Armory_Expansion
@@ -450,9 +450,9 @@ focus_tree = {
 	## Bunker Civilian Capibilites
 	focus = {
 		id = Civilian_Functions
-		icon = GFX_goal_unkown
+		icon = GFX_Civilian_Functions
 		cost = 45
-		x = 13
+		x = 15
 		y = 9.5
 		prerequisite = {
 			focus = Bunker_Expansion
@@ -467,9 +467,9 @@ focus_tree = {
 	## Water
 	focus = {
 		id = Restoring_Local_Purification_Station
-		icon = GFX_goal_unkown
+		icon = GFX_Water_Purification
 		cost = 45
-		x = 11.5
+		x = 17.5
 		y = 10.5
 		prerequisite = {
 			focus = Civilian_Functions
@@ -489,9 +489,9 @@ focus_tree = {
 	## Circurity
 	focus = {
 		id = Building_Electrical_Factories
-		icon = GFX_goal_unknown
+		icon = GFX_Electrical_Substation
 		cost = 45
-		x = 13
+		x = 15
 		y = 10.5
 		prerequisite = {
 			focus = Civilian_Functions
@@ -513,14 +513,14 @@ focus_tree = {
 		id = Expeditions
 		icon = GFX_goal_unknown
 		cost = 10
-		prerequisite = {
-			focus = Resuming_Operations
+		available = {
+			date > 2281.1.1
 		}
 		completion_reward = {
 			
 		}
 		x = 21
-		y = 8.5
+		y = 1
 
 	}
 	## Narvo
@@ -535,7 +535,7 @@ focus_tree = {
 			
 		}
 		x = 17
-		y = 10
+		y = 2
 
 	}
 	focus = {
@@ -549,7 +549,7 @@ focus_tree = {
 			
 		}
 		x = 17
-		y = 11
+		y = 3
 
 	}
 	focus = {
@@ -566,7 +566,7 @@ focus_tree = {
 			
 		}
 		x = 16
-		y = 12
+		y = 4
 
 	}
 	focus = {
@@ -583,7 +583,7 @@ focus_tree = {
 			
 		}
 		x = 18
-		y = 12
+		y = 4
 
 	}
 	## Washington
@@ -598,7 +598,7 @@ focus_tree = {
 			
 		}
 		x = 21
-		y = 10
+		y = 2
 
 	}
 	focus = {
@@ -612,7 +612,7 @@ focus_tree = {
 			
 		}
 		x = 21
-		y = 11
+		y = 3
 
 	}
 	focus = {
@@ -626,7 +626,7 @@ focus_tree = {
 			add_stability = -0.1
 		}
 		x = 20
-		y = 12
+		y = 4
 
 	}
 	focus = {
@@ -640,7 +640,7 @@ focus_tree = {
 			
 		}
 		x = 20
-		y = 13
+		y = 5
 
 	}
 	focus = {
@@ -654,7 +654,7 @@ focus_tree = {
 			
 		}
 		x = 22
-		y = 12
+		y = 4
 
 	}
 	focus = {
@@ -668,7 +668,7 @@ focus_tree = {
 			add_research_slot =  1
 		}
 		x = 22
-		y = 13
+		y = 5
 
 	}
 	focus = {
@@ -685,7 +685,7 @@ focus_tree = {
 			add_stability = 0.25
 		}
 		x = 21
-		y = 14
+		y = 6
 
 	}
 	## Appalachia
@@ -700,7 +700,7 @@ focus_tree = {
 			
 		}
 		x = 25
-		y = 10
+		y = 2
 
 	}
 	focus = {
@@ -717,7 +717,7 @@ focus_tree = {
 			
 		}
 		x = 24
-		y = 11
+		y = 3
 
 	}
 	focus = {
@@ -731,7 +731,7 @@ focus_tree = {
 			
 		}
 		x = 24
-		y = 12
+		y = 4
 
 	}
 	focus = {
@@ -745,7 +745,7 @@ focus_tree = {
 			
 		}
 		x = 24
-		y = 13
+		y = 5
 
 	}
 	focus = {
@@ -762,7 +762,7 @@ focus_tree = {
 			
 		}
 		x = 26
-		y = 11
+		y = 3
 
 	}
 	focus = {
@@ -776,8 +776,53 @@ focus_tree = {
 			
 		}
 		x = 26
-		y = 12
+		y = 4
 
+	}
+	focus = {
+		id = Expansion_Plans
+		icon = GFX_Eapansion_Plans
+		cost = 60
+		x = 8.5
+		y = 8.5
+		prerequisite = {
+			focus = Resuming_Operations
+		}
+		completion_reward = { 
+			
+		}
+	}
+	focus = {
+		id = Expansion_War_One
+		icon = GFX_Expansion_One
+		cost = 60
+		x = 7.5
+		y = 9.5
+		prerequisite = {
+			focus = Expansion_Plans
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = STA
+				type = annex_everything
+			}
+		 }
+	}
+	focus = {
+		id = Prepairing_For_War
+		icon = GFX_Prepairing_for_War
+		cost = 45
+		x = 9.5
+		y = 9.5
+		prerequisite = {
+			focus = Expansion_Plans
+		}
+		completion_reward = { 
+			add_timed_idea = {
+				idea = Expansion
+				days = 365
+			}
+		}
 	}
 
 }

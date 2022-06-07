@@ -106,4 +106,43 @@ spriteTypes = {
 		name = "GFX_Conscript_Retired_Officers"
 		textureFile = "gfx/interface/goals/Conscript_Retired_Officers.dds"
 	}
+	#### Bunker Expansion
+	spriteType = {
+		name = "GFX_Bunker_Expansion"
+		textureFile = "gfx/interface/goals/bunker_expansion.dds"
+	}
+	#### Civilian Functions
+	spriteType = {
+		name = "GFX_Civilian_Functions"
+		textureFile = "gfx/interface/goals/civilian_functions.dds"
+	}
+	spriteType = {
+		name = "GFX_Water_Purification"
+		textureFile = "gfx/interface/goals/water_purification.dds"
+	}
+	spriteType = {
+		name = "GFX_Electrical_Substation"
+		textureFile = "gfx/interface/goals/electrical_substation.dds"
+	}
+	#### Military Functions
+	spriteType = {
+		name = "GFX_Armory_Expansion"
+		textureFile = "gfx/interface/goals/armory_expansion.dds"
+	}
+	spriteType = {
+		name = "GFX_Clearing_the_Hangar"
+		textureFile = "gfx/interface/goals/clearing_the_hangar.dds"
+	}
+	spriteType = {
+		name = "GFX_Eapansion_Plans"
+		textureFile = "gfx/interface/goals/expansion_plans.dds"
+	}
+	spriteType = {
+		name = "GFX_Prepairing_for_War"
+		textureFile = "gfx/interface/goals/prepairing_for_war.dds"
+	}
+	spriteType = {
+		name = "GFX_Expansion_One"
+		textureFile = "gfx/interface/goals/expansion_one.dds"
+	}
 }

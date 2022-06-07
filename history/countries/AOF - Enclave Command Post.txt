@@ -147,13 +147,13 @@ create_country_leader = {
 set_oob = "AOF_2275"
 
 add_ideas = {
+	aof_military_law_1
 	outsider_law_none
 	officer_law_military_academy
 	training_law_wasteland
 	local_operations
 	low_economic_mobilisation
 	closed_economy
-	enclave_military_law_1
 }
 
 add_equipment_to_stockpile = {

@@ -20,4 +20,25 @@ spriteTypes = {
 		name = "GFX_idea_competent_ncos"
 		textureFile = "gfx/interface/ideas/compent_ncos.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Expansion"
+		textureFile = "gfx/interface/ideas/expansion_plans.dds"
+	}
+	## Conscription Laws
+	spriteType = {
+		name = "GFX_idea_enclave_only"
+		textureFile = "gfx/interface/ideas/enclave_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_select_citizens_only"
+		textureFile = "gfx/interface/ideas/select_citizens.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_young_americans"
+		textureFile = "gfx/interface/ideas/young_americans.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_spec_ops"
+		textureFile = "gfx/interface/ideas/special_forces.dds"
+	}
 }

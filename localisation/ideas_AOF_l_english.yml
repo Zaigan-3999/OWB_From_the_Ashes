@@ -13,3 +13,19 @@
 
   competent_ncos:0 "Competent NCOs"
   competent_ncos_desc:0 "With competent NCOs we are able to quickly adapt to conditions in the field and prevent and mistakes that would come from thinking only inside the box."
+
+ Expansion:0 "Expansion Plans"
+ Expansion_desc:0 "With plans to expand into the region we have about a year before any intel we had is now useless. Make use of it while you can §BCommander§!"
+
+ #Conscription Ideas
+ aof_military_law_1:0 "Enclave Personal Only"
+ aof_military_law_1_desc:0 "Only §BEnclave§! personal are allowed within the armed forces. We can't trust normal citizens not orginally from the §BEnclave§! within the Forces."
+
+ aof_military_law_2:0 "Select Citizens"
+ aof_military_law_2_desc:0 "There are select citizens that we cal allow into the armed forces. Seems like it might just be time to call them in."
+
+ aof_military_law_3:0 "Special Forces Detachment"
+ aof_military_law_3_desc:0 "Special Forces will pave the way. It'll take longer but it'll provide better troops overall."
+
+ aof_military_law_6:0 "Young Americans"
+ aof_military_law_6_desc:0 "Young Americans every day attempt to join on up. Well I think it's time we finally give them a chance."

@@ -45,5 +45,14 @@ ideas = {
 				army_leader_start_planning_level = 1
 			}
 		}
+		Expansion = {
+			picture = expansion
+			modifier = {
+				weekly_manpower = 10
+				army_org_regain = 0.5
+				war_support_weekly = 0.1
+				training_time_factor = 0.25
+			}
+		}
 	}
 }

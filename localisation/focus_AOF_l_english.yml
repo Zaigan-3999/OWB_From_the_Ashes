@@ -95,3 +95,24 @@
 
  Clearing_the_hangar:0 "Clearing the Hangar"
  Clearing_the_hangar_desc:0 "We finally have access to the hangar and dear god it's full of wrecks. Looks like we have a lot to do."
+
+ ## Civilian Functions
+
+ Civilian_Functions:0 "Civilian Functions"
+ Civilian_Functions_desc:0 "With the bunker running at almost peak effinceny, it's time to start work on the region least we forget the citizens."
+
+ Restoring_Local_Purification_Station:0 "Restoring Local Purifcation Station"
+ Restoring_Local_Purification_Station_desc:0 "WIthin 2km of the bunker is a old water purifcation station. Rumor has it that it might just be fixable. Restoring it back to normal functions would help keep us down on the radar and might give us the upper hand."
+
+ Building_Electrical_Factories:0 "Building Electrical Substations"
+ Building_Electrical_Factories_desc:0 "We have a spare generator within the bunker that we haven't connected to anything or used in a while. It might be worth it to connect it to a local settlement to get some good will."
+
+ ## Expansion Plans
+ Expansion_Plans:0 "Expansion Plans"
+ Expansion_Plans_desc:0 "It's time to finally expand our infulence. The troops are ready to march and are just waiting for your coordinates."
+
+ Expansion_War_One:0 "Expansion Target The Great Stampede"
+ Expansion_War_One_desc:0 "With our neighbors being only petty triabls this should be a cake walk."
+
+ Prepairing_For_War:0 "Prepairing for War"
+ Prepairing_For_War_desc:0 "While we are ready to march we could always be better off. Lets change that."
