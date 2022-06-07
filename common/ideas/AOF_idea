@@ -5,7 +5,7 @@ ideas = {
 			modifier = {
 				stability_weekly = 0.05
 				weekly_manpower = 25
-				experience_gain_army = 0.2
+				experience_gain_army = 0.05
 			}
 			available = {
 				date < 2281.1.1
