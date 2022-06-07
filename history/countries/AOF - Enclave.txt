@@ -79,6 +79,8 @@ set_technology = {
 	standard_weaponry_tech = 1
 	ballistic_weaponry_tech_1 = 1
 	energy_weaponry_tech_1 =1
+	energy_weapon_emitter_tech = 1
+	energy_weaponry_tech_2 = 1
 	spec_ops_equipment_tech_1 = 1
 	stripped_pa_tech = 1
 	weight_support_frame_pa_tech_1 = 1
@@ -162,7 +164,7 @@ add_equipment_to_stockpile = {
 	producer = USA
 }
 add_equipment_to_stockpile = {
-	type = laser_equipment_2
+	type = energy_equipment_2
 	amount = 750
 	producer = USA
 }
