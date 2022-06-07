@@ -1,30 +1,8 @@
 objectTypes = {
 	####paradox mesh
 	pdxmesh = {
-		name = "eureka_x01_mesh"
-		file = "gfx/models/owbentity/eureka/x01.mesh"
-		#scale = 0.45
-
-		animation = { id = "move"			type = "fo4_t51_walk_anim" }
-		animation = { id = "attack"			type = "fo4_t51_running_anim" }
-		animation = { id = "shoot"			type = "fo4_t51_fire_anim" }
-		animation = { id = "retreat"		type = "fo4_t51_retreat_anim" }
-		animation = { id = "idle1"			type = "fo4_t51_idel1_anim" }
-		animation = { id = "idle2"			type = "fo4_t51_idel2_anim" }
-
-		meshsettings = {
-			name = "jorodoxShape"
-			index = 0
-			shader="PdxMeshAdvanced"
-			texture_diffuse = "x01_d.dds"
-			texture_normal = "x01_n.dds"
-			texture_specular = "x01_s.dds"
-		}
-	}
-
-	pdxmesh = {
-		name = "eureka_infantry_rifle_mesh"
-		file = "gfx/models/owbentity/eureka/eureka_infantry.mesh"
+		name = "aof_infantry_rifle_mesh"
+		file = "gfx/models/owbentity/aof/aof_infantry.mesh"
 		animation = { id = "march_move"			type = "owb_infantry_rifle_march" }
 		animation = { id = "aim_exercise"			type = "owb_infantry_rifle_aim_exercise" }
 		animation = { id = "attack"			type = "owb_infantry_rifle_attack_stand" }
@@ -62,9 +40,9 @@ objectTypes = {
 		animation = { id = "bike_move_2" type = "owb_infantry_moto_move_2"}
 		meshsettings = {
 			shader="PdxMeshAdvanced"
-			texture_diffuse = "eureka_infantry_d.dds"
-			texture_normal = "eureka_infantry_n.dds"
-			texture_specular = "eureka_infantry_s.dds"
+			texture_diffuse = "aof_infantry_d.dds"
+			texture_normal = "aof_infantry_n.dds"
+			texture_specular = "aof_infantry_s.dds"
 		}
 
 	}

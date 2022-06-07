@@ -1,4 +1,4 @@
-graphical_culture = eureka_gfx
+graphical_culture = aof_gfx
 graphical_culture_2d = western_european_2d
 	 
 color = { 138 155 116 }
