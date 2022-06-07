@@ -1,6 +1,6 @@
 characters={
 	AOF_zaigan_nephria={
-		name= "2LT Nephria"
+		name= AOF_zaigan_nephria
 		portraits={
 			civilian={
 				large = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
@@ -16,27 +16,54 @@ characters={
 			id = -1
 		}
 	}
+	
+	## Cultural Advisor
+
 	AOF_advisor_contest_1 = {
-		name = "W01 Baron"
+		name = AOF_baron
 		portraits = {
 			civilian = {
-				small = "GFX_portrait_AOF_advisor_baron"
+				small = "GFX_idea_baron"
 			}
 		}
 		advisor = {
-			slot = economic_advisor
-			idea_token = AOF_advisor_contest_advisor_1
+			slot = cultural_advisor
+			idea_token = AOF_advisor_contest_1
 			ledger = civilian
 			allowed = {
 				original_tag = AOF
 			}
 			modifier = {
 				operative_slot = 1
-				experience_gain_army = 0.1
-				experience_gain_navy = 0.1
-				experience_gain_air = 0.1
+				intelligence_agency_defense = 0.4
+				intel_network_gain = 0.25
 			}
-			cost = 250
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	## Economic Advisor
+
+	BOS_advisor_contest_16 = {
+		name = BOS_advisor_contest_name_16
+		portraits = {
+			civilian = {
+				small = "GFX_idea_BOS_generic7"
+			}
+		}
+		advisor = {
+			slot = economic_advisor
+			idea_token = BOS_advisor_contest_advisor_16
+			ledger = civilian
+			allowed = {
+				original_tag = BOS
+			}
+			modifier = {
+				production_lack_of_resource_penalty_factor = -0.05
+			}
+			cost = 100
 			ai_will_do = {
 				factor = 10
 			}

@@ -41,4 +41,9 @@ spriteTypes = {
 		name = "GFX_idea_spec_ops"
 		textureFile = "gfx/interface/ideas/special_forces.dds"
 	}
+	## Advisors
+	spriteType = {
+		name = "GFX_idea_baron"
+		textureFile = "gfx/interface/ideas/baron.dds"
+	}
 }
