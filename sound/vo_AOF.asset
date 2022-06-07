@@ -3,7 +3,7 @@ category =
 {
 	name = "Voices"
 	soundeffects = {
-		AOF_infantry_idle
+		aof_infantry_idle
 	}
 	compressor = 
 	{
