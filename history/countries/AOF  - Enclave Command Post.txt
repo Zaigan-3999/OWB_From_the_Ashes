@@ -166,4 +166,9 @@ add_equipment_to_stockpile = {
 	amount = 750
 	producer = USA
 }
+add_equipment_to_stockpile = {
+	type = vb_gunship_equipment
+	amount = 150
+	producer = USA
+}
 add_manpower = 5000
