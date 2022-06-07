@@ -23,7 +23,10 @@ focus_tree = {
 		icon = GFX_radio_silence
 		cost = 7
 		completion_reward = {
-			
+			#set_province_name = {
+			#	id = 13644
+			#	name = Enclave_Bunker
+			#}
 		}
 		x = 11
 		y = 0
@@ -414,6 +417,7 @@ focus_tree = {
 				type = arms_factory
 				level = 1
 			}
+			
 		}
 	}
 	focus = {
@@ -426,9 +430,12 @@ focus_tree = {
 			focus = Armory_Expansion
 		}
 		completion_reward = { 
-			add_building_construction = {
-				type = air_base
-				level = 1
+			1271 = {
+				add_building_construction = {
+					state = 1271
+					type = air_base
+					level = 1
+				}
 			}
 			add_equipment_to_stockpile = {
 				type = vb_gunship_equipment
@@ -471,9 +478,11 @@ focus_tree = {
 			has_tech = resource_generator_water_tech_1
 		}
 		completion_reward = { 
-			add_building_construction = {
-				type = water_generator
-				level = 1
+			1271 = {
+				add_building_construction = {
+					type = water_generator
+					level = 1
+				}
 			}
 		}
 	}
@@ -491,9 +500,11 @@ focus_tree = {
 			has_tech = resource_generator_circuitry_tech_1
 		}
 		completion_reward = { 
-			add_building_construction = {
-				type = circuitry_generator
-				level = 1
+			1271 = {
+				add_building_construction = {
+					type = circuitry_generator
+					level = 1
+				}
 			}
 		}
 	}
