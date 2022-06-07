@@ -21,11 +21,11 @@ soundeffect =
 {
 	name = "AOF_infantry_idle"
 	sounds = {
-		sound = aof_Idle_01
-		sound = aof_Idle_02
-		sound = aof_Idle_03
-		sound = aof_Idle_04
-		sound = aof_Idle_05
+		sound = AOF_Idle_01
+		sound = AOF_Idle_02
+		sound = AOF_Idle_03
+		sound = AOF_Idle_04
+		sound = AOF_Idle_05
 	}
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -36,26 +36,26 @@ soundeffect =
 ### Idle Base Sounds
 sound = 
 {
-	name = "aof_Idle_01"
+	name = "AOF_Idle_01"
 	file = "aof/AOF_Idle_01.wav"
 }
 sound = 
 {
-	name = "aof_Idle_02"
+	name = "AOF_Idle_02"
 	file = "aof/AOF_Idle_02.wav"
 }
 sound = 
 {
-	name = "aof_Idle_03"
+	name = "AOF_Idle_03"
 	file = "aof/AOF_Idle_03.wav"
 }
 sound = 
 {
-	name = "aof_Idle_04"
+	name = "AOF_Idle_04"
 	file = "aof/AOF_Idle_04.wav"
 }
 sound = 
 {
-	name = "aof_Idle_05"
+	name = "AOF_Idle_05"
 	file = "aof/AOF_Idle_05.wav"
 }
