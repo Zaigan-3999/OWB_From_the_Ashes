@@ -4,7 +4,7 @@ ideas = {
 			picture = white_house
 			modifier = {
 				stability_weekly = 0.05
-				weekly_manpower = 100
+				weekly_manpower = 25
 				experience_gain_army = 0.2
 			}
 			available = {

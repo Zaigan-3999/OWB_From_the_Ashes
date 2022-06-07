@@ -84,6 +84,7 @@ set_technology = {
 	weight_support_frame_pa_tech_1 = 1
 	weight_support_frame_pa_tech_2 = 1
 	wasteland_pa_tech = 1
+	elite_army = 1
 	##Industry Technology
 	##Enclave Exclusive Techniligy
 	power_armour_enclave_1 = 1
@@ -161,8 +162,8 @@ add_equipment_to_stockpile = {
 	producer = USA
 }
 add_equipment_to_stockpile = {
-	type = gauss_equipment_2
-	amount = 500
+	type = laser_equipment_2
+	amount = 750
 	producer = USA
 }
 add_equipment_to_stockpile = {
@@ -170,3 +171,4 @@ add_equipment_to_stockpile = {
 	amount = 150
 	producer = USA
 }
+add_manpower = 5000

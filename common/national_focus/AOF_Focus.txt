@@ -272,7 +272,7 @@ focus_tree = {
 			focus = Establish_Officer_Core
 		}
 		mutually_exclusive = {
-			focus = Despreate_Measures
+			focus = Desperate_Measures
 		}
 		completion_reward = { 
 			add_stability = 0.1
@@ -322,10 +322,10 @@ focus_tree = {
 			add_ideas = competent_ncos
 		}
 	}
-	### MC EOC Despreate Measures
+	### MC EOC Desperate Measures
 	focus = {
-		id = Despreate_Measures
-		icon = GFX_Despreate_Measures
+		id = Desperate_Measures
+		icon = GFX_Desperate_Measures
 		cost = 30
 		x = 4
 		y = 10.5
@@ -346,7 +346,7 @@ focus_tree = {
 		x = 3
 		y = 11.5
 		prerequisite = {
-			focus = Despreate_Measures
+			focus = Desperate_Measures
 		}
 		completion_reward = {
 			add_ideas = Young_Americans
@@ -359,7 +359,7 @@ focus_tree = {
 		x = 5
 		y = 11.5
 		prerequisite = {
-			focus = Despreate_Measures
+			focus = Desperate_Measures
 		}
 		completion_reward = { 
 			add_manpower = 500
@@ -384,9 +384,9 @@ focus_tree = {
 			add_ideas = Tactical_Computer
 		}
 	}
-	## Civilian Iniative
+	## Bunker Expansion
 	focus = {
-		id = Civilian_Initative
+		id = Bunker_Expansion
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -398,6 +398,104 @@ focus_tree = {
 		x = 11
 		y = 8.5
 
+	}
+	## Bunker Military Capibilites
+	focus = {
+		id = Armory_Expansion
+		icon = GFX_goal_unkown
+		cost = 45
+		x = 9
+		y = 9.5
+		prerequisite = {
+			focus = Bunker_Expansion
+		}
+		completion_reward = { 
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+	}
+	focus = {
+		id = Clearing_the_hangar
+		icon = GFX_goal_unkown
+		cost = 45
+		x = 9
+		y = 10.5
+		prerequisite = {
+			focus = Armory_Expansion
+		}
+		completion_reward = { 
+			add_building_construction = {
+				type = air_base
+				level = 1
+			}
+			add_equipment_to_stockpile = {
+				type = vb_gunship_equipment
+				amount = 50
+			}
+			add_equipment_to_stockpile = {
+				type = vb_transport_plane_equipment
+				amount = 25
+			}
+		}
+	}
+	## Bunker Civilian Capibilites
+	focus = {
+		id = Civilian_Functions
+		icon = GFX_goal_unkown
+		cost = 45
+		x = 13
+		y = 9.5
+		prerequisite = {
+			focus = Bunker_Expansion
+		}
+		completion_reward = { 
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+	## Water
+	focus = {
+		id = Restoring_Local_Purification_Station
+		icon = GFX_goal_unkown
+		cost = 45
+		x = 11.5
+		y = 10.5
+		prerequisite = {
+			focus = Civilian_Functions
+		}
+		available = {
+			has_tech = resource_generator_water_tech_1
+		}
+		completion_reward = { 
+			add_building_construction = {
+				type = water_generator
+				level = 1
+			}
+		}
+	}
+	## Circurity
+	focus = {
+		id = Building_Electrical_Factories
+		icon = GFX_goal_unknown
+		cost = 45
+		x = 13
+		y = 10.5
+		prerequisite = {
+			focus = Civilian_Functions
+		}
+		available = {
+			has_tech = resource_generator_circuitry_tech_1
+		}
+		completion_reward = { 
+			add_building_construction = {
+				type = circuitry_generator
+				level = 1
+			}
+		}
 	}
 	#Expeditions
 	focus = {
@@ -416,7 +514,7 @@ focus_tree = {
 	}
 	## Narvo
 	focus = {
-		id = Trip_to_Narvo
+		id = Trip_to_Naravo
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -434,7 +532,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = Trip_to_Narvo
+			focus = Trip_to_Naravo
 		}
 		completion_reward = {
 			
@@ -444,14 +542,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Abandon_Narvo
+		id = Abandon_Naravo
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = Recover_Equipment?
 		}
 		mutually_exclusive = {
-			focus = Recover_Narvo
+			focus = Recover_Naravo
 		}
 		completion_reward = {
 			
@@ -461,14 +559,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Recover_Narvo
+		id = Recover_Naravo
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = Recover_Equipment?
 		}
 		mutually_exclusive = {
-			focus = Abandon_Narvo
+			focus = Abandon_Naravo
 		}
 		completion_reward = {
 			

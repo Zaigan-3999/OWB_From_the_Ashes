@@ -61,8 +61,8 @@
  Tradition:0 "Tradition"
  Tradition_desc:0 "When recruiting more officers we should stick to what we know is right and has worked in the past."
 
- Despreate_Measures:0 "Despreate Measures"
- Despreate_Measures_desc:0 "With us having a small force and surrounded on all sides by enemies it's times like these that call for emergency measures."
+ Desperate_Measures:0 "Desperate Measures"
+ Desperate_Measures_desc:0 "With us having a small force and surrounded on all sides by enemies it's times like these that call for emergency measures."
  ## Tradition Tree
 
  Signup_Bonus:0 "Signup Bonus"
@@ -84,3 +84,14 @@
 
  Reenable_Tactical_Computers:0 "Reenable Tactical Computers"
  Reenable_Tactical_Computers_desc:0 "We have a handful of tactical computers at base that we haven't activated because of one reason or another. Turning them on would help increase troops in the fields."
+
+ ##Bunker Expansion
+ Bunker_Expansion:0 "Bunker Expansion"
+ Bunker_Expansion_desc:0 "It's time to finally expand the bunker and restore systems we haven't brought online just yet."
+
+ ## Armory Expansion
+ Armory_Expansion:0 "Armory Expansion"
+ Armory_Expansion_desc:0 "Part of the Armory was collasped from a earth quake a while ago. It's time to finally fix that."
+
+ Clearing_the_hangar:0 "Clearing the Hangar"
+ Clearing_the_hangar_desc:0 "We finally have access to the hangar and dear god it's full of wrecks. Looks like we have a lot to do."

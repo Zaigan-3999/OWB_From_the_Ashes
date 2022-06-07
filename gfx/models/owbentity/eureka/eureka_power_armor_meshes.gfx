@@ -1,7 +1,30 @@
 objectTypes = {
+	####paradox mesh
 	pdxmesh = {
-		name = "aof_infantry.mesh"
-		file = "gfx/models/owbentity/countries/aof/aof_infantry.mesh"
+		name = "eureka_x01_mesh"
+		file = "gfx/models/owbentity/eureka/x01.mesh"
+		#scale = 0.45
+
+		animation = { id = "move"			type = "fo4_t51_walk_anim" }
+		animation = { id = "attack"			type = "fo4_t51_running_anim" }
+		animation = { id = "shoot"			type = "fo4_t51_fire_anim" }
+		animation = { id = "retreat"		type = "fo4_t51_retreat_anim" }
+		animation = { id = "idle1"			type = "fo4_t51_idel1_anim" }
+		animation = { id = "idle2"			type = "fo4_t51_idel2_anim" }
+
+		meshsettings = {
+			name = "jorodoxShape"
+			index = 0
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "x01_d.dds"
+			texture_normal = "x01_n.dds"
+			texture_specular = "x01_s.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "eureka_infantry_rifle_mesh"
+		file = "gfx/models/owbentity/eureka/eureka_infantry.mesh"
 		animation = { id = "march_move"			type = "owb_infantry_rifle_march" }
 		animation = { id = "aim_exercise"			type = "owb_infantry_rifle_aim_exercise" }
 		animation = { id = "attack"			type = "owb_infantry_rifle_attack_stand" }
@@ -17,12 +40,12 @@ objectTypes = {
 		animation = { id = "long_idle02"			type = "owb_infantry_rifle_long_idle_2" }
 		animation = { id = "long_idle03"			type = "owb_infantry_rifle_long_idle_3" }
 		animation = { id = "long_idle04"			type = "owb_infantry_rifle_long_idle_4" }
-		animation = { id = "long_idle05"			type = "owb_infantry_rifle_long_idle_5" }		
+		animation = { id = "long_idle05"			type = "owb_infantry_rifle_long_idle_5" }
 		animation = { id = "retreat"			type = "owb_infantry_rifle_retreat" }
 		animation = { id = "move"			type = "owb_infantry_rifle_move" }
 		animation = { id = "death"			type = "owb_infantry_rifle_death" }
 		##MELEE
-		animation = { id = "melee_1h_attack" type = "owb_melee_1h_attack_anim"}	
+		animation = { id = "melee_1h_attack" type = "owb_melee_1h_attack_anim"}
 		animation = { id = "melee_1h_attack_idle" type = "owb_melee_1h_attack_idle_anim"}
 		animation = { id = "melee_1h_charge" type = "owb_melee_1h_charge_anim"}
 		animation = { id = "melee_1h_charge_attack" type = "owb_melee_1h_charge_attack_anim"}
@@ -37,12 +60,14 @@ objectTypes = {
 		animation = { id = "bike_idle" type = "owb_infantry_moto_idle"}
 		animation = { id = "bike_move" type = "owb_infantry_moto_move_1"}
 		animation = { id = "bike_move_2" type = "owb_infantry_moto_move_2"}
-
 		meshsettings = {
-			texture_diffuse = "aof_infantry_d.dds"
-			texture_normal = "aof_infantry_n.dds"
-			texture_specular = "aof_infantry_s.dds"
-			shader = PdxMeshAdvanced
+			shader="PdxMeshAdvanced"
+			texture_diffuse = "eureka_infantry_d.dds"
+			texture_normal = "eureka_infantry_n.dds"
+			texture_specular = "eureka_infantry_s.dds"
 		}
+
 	}
+
+
 }

@@ -29,7 +29,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
         }
     }
     division = {
@@ -38,7 +38,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
         }
     }
     division = {
@@ -47,7 +47,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
         }
     }
     division = {
@@ -56,7 +56,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
         }
     }
     division = {
@@ -65,7 +65,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
         }
         
     }
@@ -75,7 +75,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
         }
         
     }
@@ -85,7 +85,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
             enclave_power_armour_equipment_1 = { owner = "USA" }
         }
     }
@@ -95,7 +95,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
             enclave_power_armour_equipment_1 = { owner = "USA" }
         }
     }
@@ -105,7 +105,7 @@ units = {
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
-            plasma_equipment_1 = { owner = "USA" }
+            laser_equipment_2 = { owner = "USA" }
             enclave_power_armour_equipment_1 = { owner = "USA" }
         }
     }
