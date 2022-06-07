@@ -19,7 +19,7 @@ category =
 ### Idle
 soundeffect =
 {
-	name = "AOF_infantry_idle"
+	name = "aof_infantry_idle"
 	sounds = {
 		sound = AOF_Idle_01
 		sound = AOF_Idle_02
