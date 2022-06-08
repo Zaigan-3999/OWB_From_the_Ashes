@@ -98,13 +98,65 @@ focus_tree = {
 			focus = Contact_Naravo
 		}
 		completion_reward = {
-			add_stability = 0.1
-			army_experience = 25
-			add_command_power = 10
+			add_ideas = sgt_dornan
 		}
 		x = 7
 		y = 4
 
+	}
+	## Dealing with Sergeant Dornan
+	focus = {
+		id = Dealing_with_Sergeant_Dornan
+		icon = GFX_dorn
+		cost = 45
+		x = 2
+		y = 3
+		available = {
+			has_idea = sgt_dornan
+		}
+		completion_reward = { 
+
+		}
+	}
+	focus = {
+		id = Eternal_Sergeant
+		icon = eternal_sgt
+		cost = 30
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = Dealing_with_Sergeant_Dornan
+		}
+		mutually_exclusive = {
+			focus = Through_the_Ranks
+		}
+		completion_reward = {
+
+		 }
+	}
+	focus = {
+		id = x
+		icon = 
+		cost = x
+		x = x
+		y = x
+		completion_reward = { }
+	}
+	focus = {
+		id = Through_the_Ranks
+		icon = through_ranks
+		cost = 3.0
+		x = 3
+		y = 4
+		prerequisite = {
+			focus = Dealing_with_Sergeant_Dornan
+		}
+		mutually_exclusive = {
+			focus = Eternal_Sergeant
+		}
+		completion_reward = { 
+
+		}
 	}
 	focus = {
 		id = Contact_RavenRock

@@ -17,6 +17,11 @@
  Expansion:0 "Expansion Plans"
  Expansion_desc:0 "With plans to expand into the region we have about a year before any intel we had is now useless. Make use of it while you can §BCommander§!"
 
+ # Dealing with Sgt Dornan
+
+ sgt_dornan:0 "Sergeant Dornan"
+ sgt_dornan_desc:0 "With Sgt. Dornan back in our midsts he's back to trianing new recruits. Hopefully this time no one attempts to jump ship."
+
  #Conscription Ideas
  aof_military_law_1:0 "Enclave Personal Only"
  aof_military_law_1_desc:0 "Only §BEnclave§! personal are allowed within the armed forces. We can't trust normal citizens not orginally from the §BEnclave§! within the Forces."

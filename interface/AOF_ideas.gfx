@@ -28,6 +28,11 @@ spriteTypes = {
 		name = "GFX_idea_Officer_Core"
 		textureFile = "gfx/interface/ideas/officer_core.dds"
 	}
+	## Sgt. Dornan Tree
+	spriteType = {
+		name = "GFX_idea_sgt_dornan"
+		textureFile = "gfx/interface/ideas/sgt_dornan.dds"
+	}
 	## Conscription Laws
 	spriteType = {
 		name = "GFX_idea_enclave_only"

@@ -62,5 +62,13 @@ ideas = {
 				army_leader_cost_factor = -0.2
 			}
 		}
+		sgt_dornan = {
+			picture = sgt_dornan
+			modifier = {
+				stability_factor = 0.02
+				minimum_training_level = 0.5
+				experience_gain_army = 0.1
+			}
+		}
 	}
 }
