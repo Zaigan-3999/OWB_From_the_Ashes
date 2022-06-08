@@ -29,3 +29,11 @@
 
  aof_military_law_6:0 "Young Americans"
  aof_military_law_6_desc:0 "Young Americans every day attempt to join on up. Well I think it's time we finally give them a chance."
+
+ Officer_Core:0 "Reformed Officer Core"
+ Officer_Core_desc:0 "With the officer core reformed we are able to work at peak efficency once more."
+
+ #Major Companies
+
+ enclave_technicans_pw:0 "Enclave Technicans (Power Armor)"
+ enclave_technicans_pw_desc:0 "With our superior engineers and training with a dedicated core setup we can make sure our equipment are always in top shape."

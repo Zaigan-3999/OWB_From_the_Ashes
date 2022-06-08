@@ -387,6 +387,21 @@ focus_tree = {
 			add_ideas = Tactical_Computer
 		}
 	}
+	## Miliary Commadn Finishing Tech
+	focus = {
+		id = Officer_Core_Formed
+		icon = GFX_Officer_Core_Fromed
+		cost = 100
+		x = 2
+		y = 13
+		prerequisite = {
+			focus = Promote_NCO
+			focus = Reenable_Tactical_Computers
+		}
+		completion_reward = { 
+			add_ideas = Officer_Core
+		}
+	}
 	## Bunker Expansion
 	focus = {
 		id = Bunker_Expansion
