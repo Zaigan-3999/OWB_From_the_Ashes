@@ -89,10 +89,6 @@ spriteTypes = {
 		name = "GFX_Promote_NCOs"
 		textureFile = "gfx/interface/goals/promote_ncos.dds"
 	}
-	spriteType = {
-		name = "GFX_Renable_Tactical_Computers"
-		textureFile = "gfx/interface/goals/tactical_computer.dds"
-	}
 	#### Military Tree [Desperate]
 	spriteType = {
 		name = "GFX_Desperate_Measures"
@@ -105,6 +101,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Conscript_Retired_Officers"
 		textureFile = "gfx/interface/goals/Conscript_Retired_Officers.dds"
+	}
+	spriteType = {
+		name = "GFX_Renable_Tactical_Computers"
+		textureFile = "gfx/interface/goals/tactical_computer.dds"
+	}
+	#### Officer Core Formed
+	spriteType = {
+		name = "GFX_Officer_Core_Formed"
+		textureFile = "gfx/interface/goals/office_core_formed.dds"
 	}
 	#### Bunker Expansion
 	spriteType = {
@@ -133,6 +138,7 @@ spriteTypes = {
 		name = "GFX_Clearing_the_Hangar"
 		textureFile = "gfx/interface/goals/clearing_the_hangar.dds"
 	}
+	#### Expansion Plans [Inital]
 	spriteType = {
 		name = "GFX_Eapansion_Plans"
 		textureFile = "gfx/interface/goals/expansion_plans.dds"

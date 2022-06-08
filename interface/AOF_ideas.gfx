@@ -24,6 +24,10 @@ spriteTypes = {
 		name = "GFX_idea_Expansion"
 		textureFile = "gfx/interface/ideas/expansion_plans.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Officer_Core"
+		textureFile = "gfx/interface/ideas/officer_core.dds"
+	}
 	## Conscription Laws
 	spriteType = {
 		name = "GFX_idea_enclave_only"
@@ -45,5 +49,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_baron"
 		textureFile = "gfx/interface/ideas/baron.dds"
+	}
+	## Companies
+	spriteType = {
+		name = "GFX_idea_enclave_technicans_pw"
+		textureFile = "gfx/interface/ideas/enclave_techncians.dds"
 	}
 }

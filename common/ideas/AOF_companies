@@ -1,0 +1,57 @@
+ideas = {
+###############################
+# Pre-War Designs
+###############################
+	#engineering_firm = {
+
+	#}
+###############################
+# Major Businesses
+###############################
+	construction_firm = {
+		designer = yes
+
+		enclave_technicans_pw = {
+			picture = enclave_technicans
+			allowed = {
+				original_tag = AOF
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_original_tag = AOF
+					}
+				}
+			}
+			research_bonus = {
+				power_armor_tech_category = 0.10
+			}
+			equipment_bonus = {
+				power_armor_equipment = {
+					maximum_speed = 0.1
+					reliability = 0.2
+					build_cost_ic = -0.10
+				}
+			}
+		}
+
+	}
+###############################
+# Vehicle Companies
+###############################
+	#vehicle_restoration_advisor = {
+
+	#}
+###############################
+# Navy Companies
+###############################
+	#navy_restoration_advisor = {
+
+	#}
+###############################
+# Aircraft Companies
+###############################
+	#aircraft_restoration_advisor = {
+
+	#}
+}

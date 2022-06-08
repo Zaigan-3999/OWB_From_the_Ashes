@@ -84,6 +84,10 @@
 
  Reenable_Tactical_Computers:0 "Reenable Tactical Computers"
  Reenable_Tactical_Computers_desc:0 "We have a handful of tactical computers at base that we haven't activated because of one reason or another. Turning them on would help increase troops in the fields."
+ 
+ ## Officer Core Reformed
+ Officer_Core_Formed:0 "Officer Core Formed"
+ Officer_Core_Formed_desc:0 "It's time to finally get them back to the planning room so we can prepare for our next step."
 
  ##Bunker Expansion
  Bunker_Expansion:0 "Bunker Expansion"

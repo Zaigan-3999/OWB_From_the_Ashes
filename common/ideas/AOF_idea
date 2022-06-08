@@ -54,5 +54,13 @@ ideas = {
 				training_time_factor = 0.25
 			}
 		}
+		Officer_Core = {
+			picture = officer_core
+			modifier = {
+				army_fuel_consumption_factor = -0.1
+				army_speed_factor = 0.05
+				army_leader_cost_factor = -0.2
+			}
+		}
 	}
 }

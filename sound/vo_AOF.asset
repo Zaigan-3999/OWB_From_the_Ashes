@@ -1,6 +1,5 @@
 
-category = 
-{
+category = {
 	name = "Voices"
 	soundeffects = {
 		AOF_infantry_idle
@@ -37,25 +36,25 @@ soundeffect =
 sound = 
 {
 	name = "AOF_Idle_01"
-	file = "aof/AOF_Idle_01.wav"
+	file = "AOF/AOF_Idle_01.wav"
 }
 sound = 
 {
 	name = "AOF_Idle_02"
-	file = "aof/AOF_Idle_02.wav"
+	file = "AOF/AOF_Idle_02.wav"
 }
 sound = 
 {
 	name = "AOF_Idle_03"
-	file = "aof/AOF_Idle_03.wav"
+	file = "AOF/AOF_Idle_03.wav"
 }
 sound = 
 {
 	name = "AOF_Idle_04"
-	file = "aof/AOF_Idle_04.wav"
+	file = "AOF/AOF_Idle_04.wav"
 }
 sound = 
 {
 	name = "AOF_Idle_05"
-	file = "aof/AOF_Idle_05.wav"
+	file = "AOF/AOF_Idle_05.wav"
 }
