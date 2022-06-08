@@ -447,7 +447,6 @@ focus_tree = {
 		completion_reward = { 
 			1271 = {
 				add_building_construction = {
-					state = 1271
 					type = air_base
 					level = 1
 				}
