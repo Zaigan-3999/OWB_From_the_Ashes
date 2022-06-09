@@ -30,11 +30,17 @@ characters={
 				small = GFX_idea_aof_baron
 			}
 		}
+		allowed  = {
+			original_tag  = AOF
+		}
 		advisor = {
 			slot = economic_advisor
 			idea_token = AOF_advisor_baron
 			traits = {
 				AOF_Intel_Officer
+			}
+			allowed  = {
+				original_tag  = AOF
 			}
 			cost = 175
 			ai_will_do = {
@@ -52,6 +58,9 @@ characters={
 				small = GFX_idea_aof_briggs
 			}
 		}
+		allowed  = {
+			original_tag  = AOF
+		}
 		advisor = {
 			slot = economic_advisor
 			idea_token = AOF_advisor_briggs
@@ -62,6 +71,9 @@ characters={
 			ai_will_do = {
 				factor = 10
 			}
+			allowed  = {
+				original_tag  = AOF
+			}
 		}
 	}
 	## Generals
@@ -71,6 +83,9 @@ characters={
 			army = {
 				large = GFX_portrait_AOF_hazle
 			}
+		}
+		allowed  = {
+			original_tag  = AOF
 		}
 		corps_commander = {
 			traits = {
@@ -83,6 +98,147 @@ characters={
 			defense_skill = 3
 			planning_skill = 1
 			logistics_skill = 3
+		}
+	}
+	### Emergency Test
+	AOF_briggs1 = {
+		name = AOF_advisor_briggs
+		portraits = {
+			army = {
+				small = GFX_idea_aof_briggs
+			}
+			civilian = {
+				small = GFX_idea_aof_briggs
+			}
+		}
+		allowed  = {
+			original_tag  = AOF
+		}
+		advisor = {
+			slot = theorist
+			idea_token = AOF_advisor_briggs1
+			traits = {
+				AOF_Quarter_Master
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 10
+			}
+			allowed  = {
+				original_tag  = AOF
+			}
+		}
+	}
+	AOF_briggs2 = {
+		name = AOF_advisor_briggs
+		portraits = {
+			army = {
+				small = GFX_idea_aof_briggs
+			}
+			civilian = {
+				small = GFX_idea_aof_briggs
+			}
+		}
+		allowed  = {
+			original_tag  = AOF
+		}
+		advisor = {
+			slot = high_command
+			idea_token = AOF_advisor_briggs2
+			traits = {
+				AOF_Quarter_Master
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 10
+			}
+			allowed  = {
+				original_tag  = AOF
+			}
+		}
+	}
+	AOF_briggs3 = {
+		name = AOF_advisor_briggs
+		portraits = {
+			army = {
+				small = GFX_idea_aof_briggs
+			}
+			civilian = {
+				small = GFX_idea_aof_briggs
+			}
+		}
+		allowed  = {
+			original_tag  = AOF
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = AOF_advisor_briggs3
+			traits = {
+				AOF_Quarter_Master
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 10
+			}
+			allowed  = {
+				original_tag  = AOF
+			}
+		}
+	}
+	AOF_briggs4 = {
+		name = AOF_advisor_briggs
+		portraits = {
+			army = {
+				small = GFX_idea_aof_briggs
+			}
+			civilian = {
+				small = GFX_idea_aof_briggs
+			}
+		}
+		allowed  = {
+			original_tag  = AOF
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = AOF_advisor_briggs4
+			traits = {
+				AOF_Quarter_Master
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 10
+			}
+			allowed  = {
+				original_tag  = AOF
+			}
+		}
+	}
+	AOF_briggs5 = {
+		name = AOF_advisor_briggs
+		portraits = {
+			army = {
+				small = GFX_idea_aof_briggs
+			}
+			civilian = {
+				small = GFX_idea_aof_briggs
+			}
+		}
+		allowed  = {
+			original_tag  = AOF
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = AOF_advisor_briggs5
+			traits = {
+				AOF_Quarter_Master
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 10
+			}
+			allowed  = {
+				original_tag  = AOF
+			}
 		}
 	}
 }
