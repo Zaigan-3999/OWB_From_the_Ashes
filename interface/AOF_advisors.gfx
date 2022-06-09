@@ -63,6 +63,35 @@ spriteTypes = {
 		name = "GFX_idea_aof_briggs"
 		texturefile = "gfx/interface/ideas/ministers/portrait_aof_advisor_briggs.dds"
 	}
+	### Military High Command
+	spriteType = {
+		name = "GFX_idea_aof_rt_1"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_rt_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_ac_1"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_ac_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_ac_2"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_ac_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_nc_1"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_nc_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_nc_2"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_nc_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_arc_1"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_arc_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_arc_2"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_arc_2.dds"
+	}
 	### Custom Generals 
 	spriteType = {
 		name = "GFX_portrait_AOF_hazle"

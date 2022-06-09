@@ -30,18 +30,13 @@ characters={
 				small = GFX_idea_aof_baron
 			}
 		}
-		allowed  = {
-			original_tag  = AOF
-		}
 		advisor = {
 			slot = economic_advisor
 			idea_token = AOF_advisor_baron
 			traits = {
 				AOF_Intel_Officer
 			}
-			allowed  = {
-				original_tag  = AOF
-			}
+			
 			cost = 175
 			ai_will_do = {
 				factor = 10
@@ -58,9 +53,6 @@ characters={
 				small = GFX_idea_aof_briggs
 			}
 		}
-		allowed  = {
-			original_tag  = AOF
-		}
 		advisor = {
 			slot = economic_advisor
 			idea_token = AOF_advisor_briggs
@@ -71,9 +63,7 @@ characters={
 			ai_will_do = {
 				factor = 10
 			}
-			allowed  = {
-				original_tag  = AOF
-			}
+			
 		}
 	}
 	## Generals
@@ -83,9 +73,6 @@ characters={
 			army = {
 				large = GFX_portrait_AOF_hazle
 			}
-		}
-		allowed  = {
-			original_tag  = AOF
 		}
 		corps_commander = {
 			traits = {
@@ -100,144 +87,169 @@ characters={
 			logistics_skill = 3
 		}
 	}
-	### Emergency Test
-	AOF_briggs1 = {
-		name = AOF_advisor_briggs
+	## Military High Command
+	### Researcher
+	AOF_RT_1 = {
+		name = AOF_RT_1
 		portraits = {
-			army = {
-				small = GFX_idea_aof_briggs
-			}
 			civilian = {
-				small = GFX_idea_aof_briggs
+				small = GFX_idea_aof_rt_1
 			}
-		}
-		allowed  = {
-			original_tag  = AOF
+			army = {
+				small = GFX_idea_aof_rt_1
+			}
 		}
 		advisor = {
-			slot = theorist
-			idea_token = AOF_advisor_briggs1
+			slot = research_advisor
+			ledger = army
+			idea_token = AOF_advisor_rt_1
 			traits = {
-				AOF_Quarter_Master
+				AOF_Enclave_Technican
 			}
-			cost = 150
+			cost = 100
 			ai_will_do = {
-				factor = 10
-			}
-			allowed  = {
-				original_tag  = AOF
+				factor = 5
 			}
 		}
 	}
-	AOF_briggs2 = {
-		name = AOF_advisor_briggs
+	### Army Chief
+	AOF_AC_1 = {
+		name = AOF_AC_1
 		portraits = {
-			army = {
-				small = GFX_idea_aof_briggs
-			}
 			civilian = {
-				small = GFX_idea_aof_briggs
+				small = GFX_idea_aof_ac_1
 			}
-		}
-		allowed  = {
-			original_tag  = AOF
-		}
-		advisor = {
-			slot = high_command
-			idea_token = AOF_advisor_briggs2
-			traits = {
-				AOF_Quarter_Master
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 10
-			}
-			allowed  = {
-				original_tag  = AOF
-			}
-		}
-	}
-	AOF_briggs3 = {
-		name = AOF_advisor_briggs
-		portraits = {
 			army = {
-				small = GFX_idea_aof_briggs
+				small = GFX_idea_aof_ac_1
 			}
-			civilian = {
-				small = GFX_idea_aof_briggs
-			}
-		}
-		allowed  = {
-			original_tag  = AOF
-		}
-		advisor = {
-			slot = air_chief
-			idea_token = AOF_advisor_briggs3
-			traits = {
-				AOF_Quarter_Master
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 10
-			}
-			allowed  = {
-				original_tag  = AOF
-			}
-		}
-	}
-	AOF_briggs4 = {
-		name = AOF_advisor_briggs
-		portraits = {
-			army = {
-				small = GFX_idea_aof_briggs
-			}
-			civilian = {
-				small = GFX_idea_aof_briggs
-			}
-		}
-		allowed  = {
-			original_tag  = AOF
-		}
-		advisor = {
-			slot = navy_chief
-			idea_token = AOF_advisor_briggs4
-			traits = {
-				AOF_Quarter_Master
-			}
-			cost = 150
-			ai_will_do = {
-				factor = 10
-			}
-			allowed  = {
-				original_tag  = AOF
-			}
-		}
-	}
-	AOF_briggs5 = {
-		name = AOF_advisor_briggs
-		portraits = {
-			army = {
-				small = GFX_idea_aof_briggs
-			}
-			civilian = {
-				small = GFX_idea_aof_briggs
-			}
-		}
-		allowed  = {
-			original_tag  = AOF
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = AOF_advisor_briggs5
+			ledger = army
+			idea_token = AOF_advisor_ac_1
 			traits = {
-				AOF_Quarter_Master
+				army_chief_offensive_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	AOF_AC_2 = {
+		name = AOF_AC_2
+		portraits = {
+			civilian = {
+				small = GFX_idea_aof_ac_2
+			}
+			army = {
+				small = GFX_idea_aof_ac_2
+			}
+		}
+		advisor = {
+			slot = army_chief
+			ledger = army
+			idea_token = AOF_advisor_ac_2
+			traits = {
+				army_chief_reform_1
 			}
 			cost = 150
 			ai_will_do = {
-				factor = 10
+				factor = 5
 			}
-			allowed  = {
-				original_tag  = AOF
+		}
+	}
+	### Navy Chief
+	AOF_NC_1 = {
+		name = AOF_NC_1
+		portraits = {
+			civilian = {
+				small = GFX_idea_aof_nc_1
+			}
+			army = {
+				small = GFX_idea_aof_nc_1
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			ledger = navy
+			idea_token = AOF_advisor_nc_1
+			traits = {
+				navy_chief_maneuver_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	AOF_NC_2 = {
+		name = AOF_NC_2
+		portraits = {
+			civilian = {
+				small = GFX_idea_aof_nc_2
+			}
+			army = {
+				small = GFX_idea_aof_nc_2
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			ledger = navy
+			idea_token = AOF_advisor_nc_2
+			traits = {
+				navy_amphibious_assault_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	### Air Chief
+	AOF_ARC_1 = {
+		name = AOF_ARC_1
+		portraits = {
+			civilian = {
+				small = GFX_idea_aof_arc_1
+			}
+			army = {
+				small = GFX_idea_aof_arc_1
+			}
+		}
+		advisor = {
+			slot = air_chief
+			ledger = air
+			idea_token = AOF_advisor_arc_1
+			traits = {
+				air_chief_night_operations_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	AOF_ARC_2 = {
+		name = AOF_ARC_2
+		portraits = {
+			civilian = {
+				small = GFX_idea_aof_arc_2
+			}
+			army = {
+				small = GFX_idea_aof_arc_2
+			}
+		}
+		advisor = {
+			slot = air_chief
+			ledger = air
+			idea_token = AOF_advisor_arc_2
+			traits = {
+				air_chief_all_weather_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 5
 			}
 		}
 	}

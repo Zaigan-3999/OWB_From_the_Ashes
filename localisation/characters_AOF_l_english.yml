@@ -10,6 +10,29 @@
  AOF_advisor_briggs:0 "1SGT Briggs"
  AOF_advisor_briggs_desc:0 "An simple §B Enclave §! quartermaster in charge of Relay Station Zeta's armory. "
 
+ ## Military Command Tab
+ ### Researcher
+ AOF_RT_1:0 "SSGT Williams"
+ AOF_RT_1_desc:0 "An §B Enclave §! Technican with the 101st Engineering Core."
+ ### Army Chief
+ AOF_AC_1:0 "MSGT Kelly"
+ AOF_AC_1_desc:0 "An §B Enclave §! officer from the 103rd Assualt Battaltion."
+
+ AOF_AC_2:0 "2LT Jim"
+ AOF_AC_2_desc:0 "An §B Enclave §! officer from the 33rd Special Operations Battaltion."
+ ### Naval Chief
+ AOF_NC_1:0 "SN Ted"
+ AOF_NC_1_desc:0 "An §B Enclave §! officer from the 5th Fleet."
+
+ AOF_NC_2:0 "P03 Lary"
+ AOF_NC_2_desc:0 "An §B Enclave §! officer from the 9th Fleet."
+  ### Air Chief
+ AOF_ARC_1:0 "W03 Chad"
+ AOF_ARC_1_desc:0 "An §B Enclave §! officer from the 1st Squadron."
+
+ AOF_ARC_2:0 "SMSGT Oliva"
+ AOF_ARC_2_desc:0 "An §B Enclave §! officer from the 13th Squadron."
+
  ## Generals
  AOF_general_hazle:0 "2LT Hazle"
  AOF_general_hazle_desc:0 "Orginally he was stuck as a corporal for 4 years due to behavior issues but with recent events and Relay Station Zeta requiring a new Field Officer the §B Enclave §! decided to send him there as a punishment."

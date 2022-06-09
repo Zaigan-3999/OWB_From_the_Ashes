@@ -17,4 +17,17 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	AOF_Enclave_Technican = {
+		random = no
+		research_speed_factor = 0.1
+		equipment_bonus = {
+			power_armor_equipment = {
+				reliability = 0.1
+			}
+			CAS_equipment = {
+				reliability = 0.1
+			}
+		}
+
+	}
 }

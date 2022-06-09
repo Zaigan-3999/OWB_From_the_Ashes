@@ -188,16 +188,22 @@ recruit_character = AOF_zaigan_nephria
 recruit_character = AOF_baron
 recruit_character = AOF_briggs
 recruit_character = AOF_hazle
+recruit_character = AOF_RT_1
+recruit_character = AOF_AC_1
+recruit_character = AOF_AC_2
+recruit_character = AOF_NC_1
+recruit_character = AOF_NC_2
+recruit_character = AOF_ARC_1
+recruit_character = AOF_ARC_2
 
 ## Test Boys
-
-create_country_leader = {
-	name = AOF_zaigan_nephria_name
-	desc = AOF_zaigan_nephria_desc
-	picture = "gfx/leaders/AOF/portrait_aof_zaigan.dds"
-	expire = "3000.01.01.01"
-	ideology = military_government
-	traits = {
-		military_background
-	}
-}
+set_country_flag = no_generic_chief
+set_country_flag = no_generic_high_command
+set_country_flag = no_generic_advisor
+#set_country_flag = has_unique_economic_laws
+#set_country_flag = has_unique_trade_laws
+#set_country_flag = has_unique_press_laws
+#set_country_flag = has_unique_slave_laws
+#set_country_flag = has_unique_drug_laws
+#set_country_flag = has_unique_undesirable_laws
+#set_country_flag = has_unique_mutant_recruitment_laws
