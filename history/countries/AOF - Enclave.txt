@@ -88,7 +88,7 @@ set_technology = {
 	wasteland_pa_tech = 1
 	elite_army = 1
 	##Industry Technology
-	##Enclave Exclusive Techniligy
+	##Enclave Exclusive Technology
 	power_armour_enclave_1 = 1
 	vertibird_cas_tech = 1
 	vertibird_tech = 1
@@ -130,14 +130,16 @@ if = {
 }
 
 #set_country_flag = is_settler_nation
-#set_country_flag = enclave_nation #[Does Nothing Yet]
+set_country_flag = enclave_nation
 
 ## Characters
+
 recruit_character = AOF_zaigan_nephria
+recruit_character = AOF_baron
 
 create_country_leader = {
-	name = "2LT Nephria"
-	desc = "Zaigan_Nephria_DESCC"
+	name = AOF_zaigan_nephria_name
+	desc = AOF_zaigan_nephria_desc
 	picture = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
 	expire = "3000.01.01.01"
 	ideology = military_government

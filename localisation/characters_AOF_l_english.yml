@@ -1,4 +1,8 @@
 ﻿l_english:
-  #Leaders
-  AOF_zaigan_nephria_name: "Zaigan D. Nephria"
-  AOF_baron_name: "W01 Baron"
+  ## Leaders
+ AOF_zaigan_nephria_name:0 "2LT. Nephria"
+ AOF_zaigan_nephria_desc:0 "The acting base commander during the radio silance. Stands with Enclave Command believing in the dream of rebuilding America once more but understands not many of the wastelanders will care about American."
+
+  ## Advisors
+ AOF_advisor_baron:0 "W01 Baron"
+ AOF_advisor_baron_desc:0 "A enclave Intelligence operator specializing in working on processing intel from the field."

@@ -14,12 +14,12 @@ ideas = {
 		enclave_technicans_pw = {
 			picture = enclave_technicans
 			allowed = {
-				original_tag = AOF
+				tag = AOF
 			}
 			visible = {
 				NOT = {
 					OR = {
-						has_original_tag = AOF
+						has_tag = AOF
 					}
 				}
 			}

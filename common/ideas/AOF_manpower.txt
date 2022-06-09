@@ -10,11 +10,11 @@ ideas = {
 			level = 4
 			allowed = {
 				OR = {
-					original_tag = AOF
+					tag = AOF
 				}
 			}
 			visible = {
-				original_tag = AOF
+				tag = AOF
 			}
 			ai_will_do = {
 				factor = 0
@@ -37,11 +37,11 @@ ideas = {
 			level = 5
 			allowed = {
 				OR = {
-					original_tag = AOF
+					tag = AOF
 				}
 			}
 			visible = {
-				original_tag = AOF
+				tag = AOF
 			}
 			ai_will_do = {
 				factor = 0
@@ -64,11 +64,11 @@ ideas = {
 			level = 9
 			allowed = {
 				OR = {
-					original_tag = AOF
+					tag = AOF
 				}
 			}
 			visible = {
-				original_tag = AOF
+				tag = AOF
 			}
 			ai_will_do = {
 				factor = 0
@@ -91,11 +91,11 @@ ideas = {
 			level = 7
 			allowed = {
 				OR = {
-					original_tag = AOF
+					tag = AOF
 				}
 			}
 			visible = {
-				original_tag = AOF
+				tag = AOF
 			}
 			ai_will_do = {
 				factor = 0

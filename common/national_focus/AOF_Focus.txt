@@ -135,14 +135,6 @@ focus_tree = {
 		 }
 	}
 	focus = {
-		id = x
-		icon = 
-		cost = x
-		x = x
-		y = x
-		completion_reward = { }
-	}
-	focus = {
 		id = Through_the_Ranks
 		icon = through_ranks
 		cost = 3.0
@@ -158,6 +150,7 @@ focus_tree = {
 
 		}
 	}
+	## Raven Rock
 	focus = {
 		id = Contact_RavenRock
 		icon = GFX_RavenRock
