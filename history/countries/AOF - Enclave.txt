@@ -87,11 +87,14 @@ set_technology = {
 	weight_support_frame_pa_tech_2 = 1
 	wasteland_pa_tech = 1
 	elite_army = 1
+
 	##Industry Technology
+
 	##Enclave Exclusive Technology
 	power_armour_enclave_1 = 1
 	vertibird_cas_tech = 1
 	vertibird_tech = 1
+
 	#Unlock Tech
 	vertibird_unlock_tech = 1
 	enclave_pa_unlock_tech = 1
@@ -129,18 +132,41 @@ if = {
 	}
 }
 
-#set_country_flag = is_settler_nation
 set_country_flag = enclave_nation
+
+## Relations
+### OWB The Awakening
+if = {
+	limit = { 
+		NOT = { has_dlc = "Central Enclave"}
+	}
+	add_opinion_modifier = {
+		target = CEK
+		modifier = medium_increase
+	}
+}
+### Macarthur
+add_opinion_modifier = {
+	target = MCA
+	modifier = medium_increase
+}
+### Communist Bastards
+add_opinion_modifier = {
+	target = STC
+	modifier = large_decrease
+}
 
 ## Characters
 
 recruit_character = AOF_zaigan_nephria
 recruit_character = AOF_baron
+recruit_character = AOF_briggs
+recruit_character = AOF_hazle
 
 create_country_leader = {
 	name = AOF_zaigan_nephria_name
 	desc = AOF_zaigan_nephria_desc
-	picture = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
+	picture = "gfx/leaders/AOF/portrait_aof_zaigan.dds"
 	expire = "3000.01.01.01"
 	ideology = military_government
 	traits = {

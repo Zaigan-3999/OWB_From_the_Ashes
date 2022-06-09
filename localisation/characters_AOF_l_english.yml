@@ -1,8 +1,15 @@
 ﻿l_english:
   ## Leaders
- AOF_zaigan_nephria_name:0 "2LT. Nephria"
+ AOF_zaigan_nephria_name:0 "Major. Nephria"
  AOF_zaigan_nephria_desc:0 "The acting base commander during the radio silance. Stands with Enclave Command believing in the dream of rebuilding America once more but understands not many of the wastelanders will care about American."
 
   ## Advisors
  AOF_advisor_baron:0 "W01 Baron"
- AOF_advisor_baron_desc:0 "A enclave Intelligence operator specializing in working on processing intel from the field."
+ AOF_advisor_baron_desc:0 "An §B Enclave §! Intelligence operator specializing in working on processing intel from the field."
+
+ AOF_advisor_briggs:0 "1SGT Briggs"
+ AOF_advisor_briggs_desc:0 "An simple §B Enclave §! quartermaster in charge of Relay Station Zeta's armory. "
+
+ ## Generals
+ AOF_general_hazle:0 "2LT Hazle"
+ AOF_general_hazle_desc:0 "Orginally he was stuck as a corporal for 4 years due to behavior issues but with recent events and Relay Station Zeta requiring a new Field Officer the §B Enclave §! decided to send him there as a punishment."

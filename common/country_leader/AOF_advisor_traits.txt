@@ -1,0 +1,20 @@
+leader_traits = {
+	AOF_Intel_Officer = {
+		random = no
+		intel_network_gain_factor = 0.05
+		encryption = 0.25
+		decryption = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AOF_Quarter_Master = {
+		random = no
+		army_fuel_consumption_factor = -0.01
+		fuel_gain_factor = 0.05
+		army_org_Factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -50,6 +50,8 @@ AOF = {
 			"GFX_portrait_AOF_generic_6"
 			"GFX_portrait_AOF_generic_7"
 			"GFX_portrait_AOF_generic_8"
+			"GFX_portrait_AOF_generic_9"
+			"GFX_portrait_AOF_generic_10"
 		}
 	}
 	navy = {
@@ -57,6 +59,13 @@ AOF = {
 			"GFX_portrait_AOF_generic_1"
 			"GFX_portrait_AOF_generic_2"
 			"GFX_portrait_AOF_generic_3"
+			"GFX_portrait_AOF_generic_4"
+			"GFX_portrait_AOF_generic_5"
+			"GFX_portrait_AOF_generic_6"
+			"GFX_portrait_AOF_generic_7"
+			"GFX_portrait_AOF_generic_8"
+			"GFX_portrait_AOF_generic_9"
+			"GFX_portrait_AOF_generic_10"
 		}
 	}
 	operative = {

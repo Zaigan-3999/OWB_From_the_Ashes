@@ -1,9 +1,10 @@
 characters={
+	## Leader
 	AOF_zaigan_nephria={
 		name= AOF_zaigan_nephria
 		portraits={
 			civilian={
-				large = "gfx/leaders/AOF/portrait_aof_generic_2.dds"
+				large = "gfx/leaders/AOF/portrait_aof_zaigan.dds"
 			}
 		}
 		country_leader = {
@@ -16,29 +17,72 @@ characters={
 			id = -1
 		}
 	}
+	## Advisors
 	AOF_baron = {
 		name = AOF_advisor_baron
 		portraits = {
 			army = {
 				#large = gfx_sprite_type_name_or_file_path
-				small = GFX_idea_baron
+				small = GFX_idea_aof_baron
 			}
 			civilian = {
 				#large = gfx_sprite_type_name_or_file_path
-				small = GFX_idea_baron
+				small = GFX_idea_aof_baron
 			}
 		}
 		advisor = {
 			slot = economic_advisor
 			idea_token = AOF_advisor_baron
 			traits = {
-				MCA_chicago_school
+				AOF_Intel_Officer
 			}
-			cost = 10
+			cost = 175
 			ai_will_do = {
 				factor = 10
 			}
 		}
 	}
-
+	AOF_briggs = {
+		name = AOF_advisor_briggs
+		portraits = {
+			army = {
+				small = GFX_idea_aof_briggs
+			}
+			civilian = {
+				small = GFX_idea_aof_briggs
+			}
+		}
+		advisor = {
+			slot = economic_advisor
+			idea_token = AOF_advisor_briggs
+			traits = {
+				AOF_Quarter_Master
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	## Generals
+	AOF_hazle = {
+		name = AOF_general_hazle
+		portraits = {
+			army = {
+				large = GFX_portrait_AOF_hazle
+			}
+		}
+		corps_commander = {
+			traits = {
+				rooted_trait
+				enduring_trait
+				local_leader_trait
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
 }

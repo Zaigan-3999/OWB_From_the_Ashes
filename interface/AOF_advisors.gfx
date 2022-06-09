@@ -33,6 +33,14 @@ spriteTypes = {
 		name = "GFX_portrait_AOF_generic_8"
 		texturefile = "gfx/leaders/AOF/portrait_aof_generic_8.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_9"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_9.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_generic_10"
+		texturefile = "gfx/leaders/AOF/portrait_aof_generic_10.dds"
+	}
 	### AOF Generic Operatives
 	spriteType = {
 		name = "GFX_portrait_AOF_operative_1"
@@ -48,7 +56,16 @@ spriteTypes = {
 	}
 	### Custom Advisors
 	spriteType = {
-		name = "GFX_idea_baron"
+		name = "GFX_idea_aof_baron"
 		texturefile = "gfx/interface/ideas/ministers/portrait_aof_advisor_baron.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_briggs"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_advisor_briggs.dds"
+	}
+	### Custom Generals 
+	spriteType = {
+		name = "GFX_portrait_AOF_hazle"
+		texturefile = "gfx/leaders/AOF/portrait_aof_hazle.dds"
 	}
 }

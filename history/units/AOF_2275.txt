@@ -25,7 +25,7 @@ division_template = {
 units = {
     division = {
         location =  13713
-        division_template = "Enclave Infantry Detachment"
+        division_template = "322nd Infantry Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -34,7 +34,7 @@ units = {
     }
     division = {
         location = 13714
-        division_template = "Enclave Infantry Detachment"
+        division_template = "126th Infantry Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -43,7 +43,7 @@ units = {
     }
     division = {
         location = 13715
-        division_template = "Enclave Infantry Detachment"
+        division_template = "33rd Infantry Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -52,7 +52,7 @@ units = {
     }
     division = {
         location = 13713
-        division_template = "Enclave Infantry Detachment"
+        division_template = "118th Infantry Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -61,7 +61,7 @@ units = {
     }
     division = {
         location = 13714
-        division_template = "Enclave Infantry Detachment"
+        division_template = "200th Infantry Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -71,7 +71,7 @@ units = {
     }
     division = {
         location = 13715
-        division_template = "Enclave Infantry Detachment"
+        division_template = "225th Infantry Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -81,7 +81,7 @@ units = {
     }
     division = {
         location = 13644
-        division_template = "Enclave Power Armor Detachment"
+        division_template = "183rd Assualt Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -91,7 +91,7 @@ units = {
     }
     division = {
         location = 13644
-        division_template = "Enclave Power Armor Detachment"
+        division_template = "116th Vertibird Assualt Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
@@ -101,7 +101,7 @@ units = {
     }
     division = {
         location = 13644
-        division_template = "Enclave Power Armor Detachment"
+        division_template = "49th Patrol Detachment"
         start_equipment_factor = 2.0
         start_experience_factor = 0.2
         force_equipment_variants = {
