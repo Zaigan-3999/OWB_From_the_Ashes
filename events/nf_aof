@@ -1,0 +1,46 @@
+country_event = {
+	id = contact_the_others
+	title = contact_the_others.t
+	desc = contact_the_others.d
+	picture = GFX_event_event_enclave_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = contact_the_others.a
+		add_ideas = enclave_connections
+
+		MCA = {country_event = contact_from_zeta}
+		MCA = { diplomatic_relation = {
+			country = CEK
+			relation = non_aggression_pact
+			active = yes
+				} 
+			}
+		}
+		### Awakening
+		if = {
+			limit = { 
+				NOT = { has_dlc = "Central Enclave"}
+			}
+			CEK = {country_event = contact_from_zeta}
+			CEK = { diplomatic_relation = {
+				country = CEK
+				relation = non_aggression_pact
+				active = yes	
+				} 
+			}
+	}
+}
+
+country_event = {
+	id = contact_from_zeta
+	title = contact_from_zeta.t
+	desc = contact_from_zeta.d
+	picture = GFX_event_event_enclave_room
+
+	is_triggered_only = yes
+	option = {
+		add_ideas = zeta_contact
+	}
+}

@@ -810,8 +810,8 @@ focus_tree = {
 		id = Expansion_Plans
 		icon = GFX_Eapansion_Plans
 		cost = 60
-		x = 6
-		y = 8.5
+		x = 23
+		y = 8
 		prerequisite = {
 			focus = Resuming_Operations
 		}
@@ -823,8 +823,8 @@ focus_tree = {
 		id = Expansion_War_One
 		icon = GFX_Expansion_One
 		cost = 60
-		x = 6
-		y = 9.5
+		x = 23
+		y = 9
 		prerequisite = {
 			focus = Expansion_Plans
 		}
@@ -839,8 +839,8 @@ focus_tree = {
 		id = Prepairing_For_War
 		icon = GFX_Prepairing_for_War
 		cost = 45
-		x = 8
-		y = 8.5
+		x = 25
+		y = 9
 		prerequisite = {
 			focus = Expansion_Plans
 		}
@@ -881,14 +881,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-		
+			add_ideas = encryption_codes
 		}
 	}
 	focus = {
 		id = repairing_broken_radio
 		icon = GFX_repairing_broken_radio
 		cost = 10
-		x = 9.5
+		x = 9
 		y = 9.5
 		prerequisite = {
 			focus = new_encryption_codes
@@ -904,7 +904,7 @@ focus_tree = {
 		id = establishing_connections
 		icon = GFX_establishing_connections
 		cost = 10
-		x = 9.5
+		x = 9
 		y = 10.5
 		prerequisite = {
 			focus = repairing_broken_radio
@@ -920,7 +920,7 @@ focus_tree = {
 		id = cia_local_offices
 		icon = GFX_cia_local_offices
 		cost = 10
-		x = 8
+		x = 7.5
 		y = 10.5
 		prerequisite = {
 			focus = repairing_broken_radio
@@ -929,14 +929,14 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = cia_local_offices
 		}
 	}
 	focus = {
 		id = local_agents_once_more
 		icon = GFX_local_agents_once_more
 		cost = 10
-		x = 8
+		x = 7.5
 		y = 11.5
 		prerequisite = {
 			focus = cia_local_offices
@@ -952,7 +952,7 @@ focus_tree = {
 		id = repairing_eyebots
 		icon = GFX_repairing_eyebots
 		cost = 10
-		x = 12.5
+		x = 13
 		y = 9.5
 		prerequisite = {
 			focus = new_encryption_codes
@@ -961,14 +961,17 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = amphibious_mechanized_equipment
+				amount = x
+			}
 		}
 	}
 	focus = {
 		id = new_world_old_tunes
 		icon = GFX_new_world_old_tunes
 		cost = 10
-		x = 12.5
+		x = 13
 		y = 11.5
 		prerequisite = {
 			focus = enclave_radio
@@ -980,14 +983,17 @@ focus_tree = {
 			focus = new_world_new_tunes
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = enclave_radio
+				add_idea = old_enclave_radio
+			}
 		}
 	}
 	focus = {
 		id = new_world_new_tunes
 		icon = GFX_new_world_new_tunes
 		cost = 10
-		x = 14
+		x = 15
 		y = 11.5
 		prerequisite = {
 			focus = enclave_radio
@@ -999,14 +1005,17 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = enclave_radio
+				add_idea = new_enclave_radio
+			}
 		}
 	}
 	focus = {
 		id = enclave_radio
 		icon = GFX_enclave_radio
 		cost = 10
-		x = 12.5
+		x = 13
 		y = 10.5
 		prerequisite = {
 			focus = repairing_eyebots
@@ -1015,7 +1024,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_ideas = enclave_radio
 		}
 	}
 	focus = {
@@ -1050,7 +1059,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			country_event = contact_the_others
 		}
 	}
 	focus = {
