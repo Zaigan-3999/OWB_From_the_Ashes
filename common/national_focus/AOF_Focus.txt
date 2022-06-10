@@ -109,42 +109,10 @@ focus_tree = {
 		id = Dealing_with_Sergeant_Dornan
 		icon = GFX_dorn
 		cost = 45
-		x = 2
-		y = 3
-		available = {
-			has_idea = sgt_dornan
-		}
-		completion_reward = { 
-
-		}
-	}
-	focus = {
-		id = Eternal_Sergeant
-		icon = eternal_sgt
-		cost = 30
-		x = 1
-		y = 4
+		x = 7
+		y = 5
 		prerequisite = {
-			focus = Dealing_with_Sergeant_Dornan
-		}
-		mutually_exclusive = {
-			focus = Through_the_Ranks
-		}
-		completion_reward = {
-
-		 }
-	}
-	focus = {
-		id = Through_the_Ranks
-		icon = through_ranks
-		cost = 3.0
-		x = 3
-		y = 4
-		prerequisite = {
-			focus = Dealing_with_Sergeant_Dornan
-		}
-		mutually_exclusive = {
-			focus = Eternal_Sergeant
+			focus = Return_of_Sergeant_Dornan
 		}
 		completion_reward = { 
 
@@ -292,7 +260,7 @@ focus_tree = {
 			add_war_support = 0.25
 			remove_ideas = local_operations
 		}
-		x = 3
+		x = 2
 		y = 8.5
 
 	} 
@@ -458,7 +426,7 @@ focus_tree = {
 		completion_reward = {
 			
 		}
-		x = 14
+		x = 18
 		y = 8.5
 
 	}
@@ -467,7 +435,7 @@ focus_tree = {
 		id = Armory_Expansion
 		icon = GFX_Armory_Expansion
 		cost = 45
-		x = 12
+		x = 17
 		y = 9.5
 		prerequisite = {
 			focus = Bunker_Expansion
@@ -484,7 +452,7 @@ focus_tree = {
 		id = Clearing_the_hangar
 		icon = GFX_Clearing_the_Hangar
 		cost = 45
-		x = 12
+		x = 17
 		y = 10.5
 		prerequisite = {
 			focus = Armory_Expansion
@@ -511,7 +479,7 @@ focus_tree = {
 		id = Civilian_Functions
 		icon = GFX_Civilian_Functions
 		cost = 45
-		x = 15
+		x = 19
 		y = 9.5
 		prerequisite = {
 			focus = Bunker_Expansion
@@ -528,7 +496,7 @@ focus_tree = {
 		id = Restoring_Local_Purification_Station
 		icon = GFX_Water_Purification
 		cost = 45
-		x = 17.5
+		x = 20.5
 		y = 10.5
 		prerequisite = {
 			focus = Civilian_Functions
@@ -550,7 +518,7 @@ focus_tree = {
 		id = Building_Electrical_Factories
 		icon = GFX_Electrical_Substation
 		cost = 45
-		x = 15
+		x = 19
 		y = 10.5
 		prerequisite = {
 			focus = Civilian_Functions
@@ -842,7 +810,7 @@ focus_tree = {
 		id = Expansion_Plans
 		icon = GFX_Eapansion_Plans
 		cost = 60
-		x = 8.5
+		x = 6
 		y = 8.5
 		prerequisite = {
 			focus = Resuming_Operations
@@ -855,7 +823,7 @@ focus_tree = {
 		id = Expansion_War_One
 		icon = GFX_Expansion_One
 		cost = 60
-		x = 7.5
+		x = 6
 		y = 9.5
 		prerequisite = {
 			focus = Expansion_Plans
@@ -871,8 +839,8 @@ focus_tree = {
 		id = Prepairing_For_War
 		icon = GFX_Prepairing_for_War
 		cost = 45
-		x = 9.5
-		y = 9.5
+		x = 8
+		y = 8.5
 		prerequisite = {
 			focus = Expansion_Plans
 		}
@@ -883,5 +851,229 @@ focus_tree = {
 			}
 		}
 	}
-
+	## Main Tree 2
+	focus = {
+		id = back_to_business
+		icon = GFX_back_to_business
+		cost = 30
+		x = 11
+		y = 8.5
+		prerequisite = {
+			focus = Resuming_Operations
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = new_encryption_codes
+		icon = GFX_new_encryption_codes
+		cost = 10
+		x = 11
+		y = 9.5
+		prerequisite = {
+			focus = back_to_business
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = repairing_broken_radio
+		icon = GFX_repairing_broken_radio
+		cost = 10
+		x = 9.5
+		y = 9.5
+		prerequisite = {
+			focus = new_encryption_codes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = establishing_connections
+		icon = GFX_establishing_connections
+		cost = 10
+		x = 9.5
+		y = 10.5
+		prerequisite = {
+			focus = repairing_broken_radio
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = cia_local_offices
+		icon = GFX_cia_local_offices
+		cost = 10
+		x = 8
+		y = 10.5
+		prerequisite = {
+			focus = repairing_broken_radio
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = local_agents_once_more
+		icon = GFX_local_agents_once_more
+		cost = 10
+		x = 8
+		y = 11.5
+		prerequisite = {
+			focus = cia_local_offices
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = repairing_eyebots
+		icon = GFX_repairing_eyebots
+		cost = 10
+		x = 12.5
+		y = 9.5
+		prerequisite = {
+			focus = new_encryption_codes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = new_world_old_tunes
+		icon = GFX_new_world_old_tunes
+		cost = 10
+		x = 12.5
+		y = 11.5
+		prerequisite = {
+			focus = enclave_radio
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		mutually_exclusive = {
+			focus = new_world_new_tunes
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = new_world_new_tunes
+		icon = GFX_new_world_new_tunes
+		cost = 10
+		x = 14
+		y = 11.5
+		prerequisite = {
+			focus = enclave_radio
+		}
+		mutually_exclusive = {
+			focus = new_world_old_tunes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = enclave_radio
+		icon = GFX_enclave_radio
+		cost = 10
+		x = 12.5
+		y = 10.5
+		prerequisite = {
+			focus = repairing_eyebots
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ciphers_local_cells
+		icon = GFX_ciphers_local_cells
+		cost = 10
+		x = 11
+		y = 10.5
+		prerequisite = {
+			focus = new_encryption_codes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = contacting_other_regions
+		icon = GFX_contacting_other_regions
+		cost = 10
+		x = 11
+		y = 11.5
+		prerequisite = {
+			focus = ciphers_local_cells
+		}
+		prerequisite = {
+			focus = establishing_connections
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = good_to_be_back
+		icon = GFX_good_to_be_back
+		cost = 10
+		x = 11
+		y = 12.5
+		prerequisite = {
+			focus = contacting_other_regions
+		}
+		prerequisite = {
+			focus = local_agents_once_more
+		}
+		prerequisite = {
+			focus = new_world_new_tunes
+			focus = new_world_old_tunes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	}
 }
