@@ -17,6 +17,9 @@
  Expansion:0 "Expansion Plans"
  Expansion_desc:0 "With plans to expand into the region we have about a year before any intel we had is now useless. Make use of it while you can §BCommander§!"
 
+ AOF_contact_with_zeta_station:0 "Contact with Zeta Station!"
+ AOF_contact_with_zeta_station_desc:0 "With Contact with Zeta Relay Station we can expect communications to be better than ever!"
+
  # Dealing with Sgt Dornan
 
  sgt_dornan:0 "Sergeant Dornan"

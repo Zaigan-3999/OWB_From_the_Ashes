@@ -1,0 +1,27 @@
+spriteTypes = { 
+	##Icon For: Radio Silence lifted!
+	SpriteType = { 
+		name = "AOF_radio_silence_lifted-920"
+		texturefile = "gfx/interface/events/events-event/AOF_radio_silence_lifted-920.dds"
+	}
+
+	##Icon For: Years of Silance
+	SpriteType = { 
+		name = "AOF_years_of_silance-243834"
+		texturefile = "gfx/interface/events/events-event/AOF_years_of_silance-243834.dds"
+	}
+
+	##Icon For: Contact other Cells
+	SpriteType = { 
+		name = "AOF_contact_other_cells-243837"
+		texturefile = "gfx/interface/events/events-event/AOF_contact_other_cells-243837.dds"
+	}
+
+	##Icon For: Contact From Zeta!
+	SpriteType = { 
+		name = "AOF_contact_from_zeta-243841"
+		texturefile = "gfx/interface/events/events-event/AOF_contact_from_zeta-243841.dds"
+	}
+
+ 
+ }

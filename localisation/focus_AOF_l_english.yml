@@ -4,8 +4,8 @@
  Radio_Silence_Lifted:0 "Radio Silence Lifted"
  Radio_Silence_Lifted_desc:0 "With Radio Silence finally ending it's time we starting reaching back out to command for further orders."
 
- Checking_Equipment:0 "Checking Equipment"
- Checking_Equipment_desc:0 "Equipment Checks have begun and while everything so far is showing up as green we have had some potential issues from our communications equipment. We have to use smaller channels aside from the normal ones but it shouldn't cause a issue."
+ Checking_Equipment:0 "Years of Silance"
+ Checking_Equipment_desc:0 "As time passed we worried, now that we are going back to work we look back at what we did during the silance."
 
  What_Now:0 "What Now?"
  What_Now_desc:0 "After a week of reviewing protocols and the Base Command agreeing to finally start looking over regular radio stations. We came up empty. God I hope we arn't the only ones left."
@@ -120,3 +120,16 @@
 
  Prepairing_For_War:0 "Prepairing for War"
  Prepairing_For_War_desc:0 "While we are ready to march we could always be better off. Lets change that."
+
+ ## Restoring Functions
+ repairing_eyebots:0 "Repairing Eyebots"
+ repairing_eyebots_desc:0 "Within a back storage room contains what seems to be at least 200 eyebots. With a little time and work we could get them back up and running!"
+
+ new_world_old_tunes:0 "New World, Old Tunes"
+ new_world_old_tunes_desc:0 "Why bother using newer music when we are trying to spread the culture of America! The old tunes are just as good as the new ones."
+
+ new_world_new_tunes:0 "New World, New Tunes"
+ new_world_new_tunes_desc:0 "With the world being new it's time to bring in new music to inspire those Americans around the country still out there!"
+
+ enclave_radio:0 "Enclave Radio"
+ encalve_radio_desc:0 "It's time to bring back Encalve Radio. Once used by the president to give speeches now it's time to inform the world we are still here!"

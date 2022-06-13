@@ -28,6 +28,10 @@ spriteTypes = {
 		name = "GFX_idea_Officer_Core"
 		textureFile = "gfx/interface/ideas/officer_core.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_contact_with_zeta"
+		textureFile = "gfx/interface/ideas/contact_with_zeta.dds"
+	}
 	## Sgt. Dornan Tree
 	spriteType = {
 		name = "GFX_idea_sgt_dornan"

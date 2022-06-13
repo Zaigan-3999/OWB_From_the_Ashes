@@ -27,6 +27,7 @@ focus_tree = {
 			#	id = 13644
 			#	name = Enclave_Bunker
 			#}
+			country_event = AOF_events.1
 		}
 		x = 11
 		y = 0
@@ -40,7 +41,7 @@ focus_tree = {
 			focus = Radio_Silence_Lifted
 		}
 		completion_reward = {
-			
+			country_event = AOF_events.2
 		}
 		x = 11
 		y = 1
@@ -496,7 +497,7 @@ focus_tree = {
 		id = Restoring_Local_Purification_Station
 		icon = GFX_Water_Purification
 		cost = 45
-		x = 20.5
+		x = 21.5
 		y = 10.5
 		prerequisite = {
 			focus = Civilian_Functions
@@ -889,7 +890,7 @@ focus_tree = {
 		icon = GFX_repairing_broken_radio
 		cost = 10
 		x = 9
-		y = 9.5
+		y = 10.5
 		prerequisite = {
 			focus = new_encryption_codes
 		}
@@ -905,7 +906,7 @@ focus_tree = {
 		icon = GFX_establishing_connections
 		cost = 10
 		x = 9
-		y = 10.5
+		y = 11.5
 		prerequisite = {
 			focus = repairing_broken_radio
 		}
@@ -921,7 +922,7 @@ focus_tree = {
 		icon = GFX_cia_local_offices
 		cost = 10
 		x = 7.5
-		y = 10.5
+		y = 11.5
 		prerequisite = {
 			focus = repairing_broken_radio
 		}
@@ -937,7 +938,7 @@ focus_tree = {
 		icon = GFX_local_agents_once_more
 		cost = 10
 		x = 7.5
-		y = 11.5
+		y = 12.5
 		prerequisite = {
 			focus = cia_local_offices
 		}
@@ -953,7 +954,7 @@ focus_tree = {
 		icon = GFX_repairing_eyebots
 		cost = 10
 		x = 13
-		y = 9.5
+		y = 10.5
 		prerequisite = {
 			focus = new_encryption_codes
 		}
@@ -972,7 +973,7 @@ focus_tree = {
 		icon = GFX_new_world_old_tunes
 		cost = 10
 		x = 13
-		y = 11.5
+		y = 12.5
 		prerequisite = {
 			focus = enclave_radio
 		}
@@ -994,7 +995,7 @@ focus_tree = {
 		icon = GFX_new_world_new_tunes
 		cost = 10
 		x = 15
-		y = 11.5
+		y = 12.5
 		prerequisite = {
 			focus = enclave_radio
 		}
@@ -1016,7 +1017,7 @@ focus_tree = {
 		icon = GFX_enclave_radio
 		cost = 10
 		x = 13
-		y = 10.5
+		y = 11.5
 		prerequisite = {
 			focus = repairing_eyebots
 		}
@@ -1032,7 +1033,7 @@ focus_tree = {
 		icon = GFX_ciphers_local_cells
 		cost = 10
 		x = 11
-		y = 10.5
+		y = 11
 		prerequisite = {
 			focus = new_encryption_codes
 		}
@@ -1048,7 +1049,7 @@ focus_tree = {
 		icon = GFX_contacting_other_regions
 		cost = 10
 		x = 11
-		y = 11.5
+		y = 12.5
 		prerequisite = {
 			focus = ciphers_local_cells
 		}
@@ -1059,7 +1060,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			country_event = contact_the_others
+			country_event = AOF_events.3
 		}
 	}
 	focus = {
@@ -1067,7 +1068,7 @@ focus_tree = {
 		icon = GFX_good_to_be_back
 		cost = 10
 		x = 11
-		y = 12.5
+		y = 13.5
 		prerequisite = {
 			focus = contacting_other_regions
 		}

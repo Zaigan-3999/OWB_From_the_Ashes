@@ -70,5 +70,12 @@ ideas = {
 				experience_gain_army = 0.1
 			}
 		}
+		AOF_contact_with_zeta_station = {
+			picture = contact_with_zeta
+			modifier = {
+				decryption = 0.75
+				encryption = 0.75
+			}
+		}
 	}
 }

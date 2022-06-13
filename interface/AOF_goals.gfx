@@ -151,4 +151,21 @@ spriteTypes = {
 		name = "GFX_Expansion_One"
 		textureFile = "gfx/interface/goals/expansion_one.dds"
 	}
+	#### Back to Business
+	spriteType = {
+		name = "GFX_repairing_eyebots"
+		textureFile = "gfx/interface/goals/repairing_eyebots.dds"
+	}
+	spriteType = {
+		name = "GFX_enclave_radio"
+		textureFile = "gfx/interface/goals/enclave_radio.dds"
+	}
+	spriteType = {
+		name = "GFX_new_world_old_tunes"
+		textureFile = "gfx/interface/goals/new_world_old_tunes.dds"
+	}
+	spriteType = {
+		name = "GFX_new_world_new_tunes"
+		textureFile = "gfx/interface/goals/new_world_new_tunes.dds"
+	}
 }
