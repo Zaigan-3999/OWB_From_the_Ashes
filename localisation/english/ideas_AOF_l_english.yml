@@ -20,6 +20,15 @@
  AOF_contact_with_zeta_station:0 "Contact with Zeta Station!"
  AOF_contact_with_zeta_station_desc:0 "With Contact with Zeta Relay Station we can expect communications to be better than ever!"
 
+ relay_station_1:0 "Relay Station Online"
+ relay_station_1_desc:0 "With the most basic of systems online and back in use we can truely call ourselfs a relay station once more."
+
+ relay_station_2:0 "Relay Station Encrypted"
+ relay_station_2_desc:0 "With a new encryption key and it being distributed to the men it's safe to say we are good to continue with expansion of operations."
+
+ relay_station_3:0 "Relay Station Zeta"
+ relay_station_3_desc:0 "Everyone has the proper keys and the base is fully back to pre-war functions. Looks like we are back online according to Norad! Good to be back."
+
  # Dealing with Sgt Dornan
 
  sgt_dornan:0 "Sergeant Dornan"

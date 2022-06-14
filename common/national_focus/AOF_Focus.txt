@@ -863,16 +863,16 @@ focus_tree = {
 			focus = Resuming_Operations
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 15
 		}
 		completion_reward = {
-			
+			add_ideas = relay_station_1
 		}
 	}
 	focus = {
 		id = new_encryption_codes
 		icon = GFX_new_encryption_codes
-		cost = 10
+		cost = 30
 		x = 11
 		y = 9.5
 		prerequisite = {
@@ -882,13 +882,16 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = encryption_codes
+			swap_ideas = {
+				remove_idea = relay_station_1
+				add_idea = relay_station_2
+			}
 		}
 	}
 	focus = {
 		id = repairing_broken_radio
 		icon = GFX_repairing_broken_radio
-		cost = 10
+		cost = 45
 		x = 9
 		y = 10.5
 		prerequisite = {
@@ -898,13 +901,18 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			1271 = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+				}
+			}
 		}
 	}
 	focus = {
 		id = establishing_connections
-		icon = GFX_establishing_connections
-		cost = 10
+		icon = GFX_contact
+		cost = 15
 		x = 9
 		y = 11.5
 		prerequisite = {
@@ -914,13 +922,13 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+
 		}
 	}
 	focus = {
 		id = cia_local_offices
-		icon = GFX_cia_local_offices
-		cost = 10
+		icon = GFX_cia
+		cost = 15
 		x = 7.5
 		y = 11.5
 		prerequisite = {
@@ -936,7 +944,7 @@ focus_tree = {
 	focus = {
 		id = local_agents_once_more
 		icon = GFX_local_agents_once_more
-		cost = 10
+		cost = 20
 		x = 7.5
 		y = 12.5
 		prerequisite = {
@@ -952,7 +960,7 @@ focus_tree = {
 	focus = {
 		id = repairing_eyebots
 		icon = GFX_repairing_eyebots
-		cost = 10
+		cost = 30
 		x = 13
 		y = 10.5
 		prerequisite = {
@@ -968,7 +976,7 @@ focus_tree = {
 	focus = {
 		id = new_world_old_tunes
 		icon = GFX_new_world_old_tunes
-		cost = 10
+		cost = 15
 		x = 13
 		y = 12.5
 		prerequisite = {
@@ -990,7 +998,7 @@ focus_tree = {
 	focus = {
 		id = new_world_new_tunes
 		icon = GFX_new_world_new_tunes
-		cost = 10
+		cost = 15
 		x = 15
 		y = 12.5
 		prerequisite = {
@@ -1012,7 +1020,7 @@ focus_tree = {
 	focus = {
 		id = enclave_radio
 		icon = GFX_enclave_radio
-		cost = 10
+		cost = 30
 		x = 13
 		y = 11.5
 		prerequisite = {
@@ -1028,7 +1036,7 @@ focus_tree = {
 	focus = {
 		id = ciphers_local_cells
 		icon = GFX_ciphers_local_cells
-		cost = 10
+		cost = 20
 		x = 11
 		y = 11
 		prerequisite = {
@@ -1044,7 +1052,7 @@ focus_tree = {
 	focus = {
 		id = contacting_other_regions
 		icon = GFX_contacting_other_regions
-		cost = 10
+		cost = 45
 		x = 11
 		y = 12.5
 		prerequisite = {
@@ -1063,7 +1071,7 @@ focus_tree = {
 	focus = {
 		id = good_to_be_back
 		icon = GFX_good_to_be_back
-		cost = 10
+		cost = 60
 		x = 11
 		y = 13.5
 		prerequisite = {
@@ -1080,7 +1088,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = relay_station_2
+				add_idea = relay_station_3
+			}
 		}
 	}
 }

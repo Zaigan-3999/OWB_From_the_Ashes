@@ -44,6 +44,22 @@ spriteTypes = {
 		name = "GFX_idea_aof_enclave_radio_old"
 		texturefile = "gfx/interface/ideas/aof_enclave_radio_old.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_relay_station_1"
+		texturefile = "gfx/interface/ideas/aof_relay_station_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_relay_station_2"
+		texturefile = "gfx/interface/ideas/aof_relay_station_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_relay_station_3"
+		texturefile = "gfx/interface/ideas/aof_relay_station_3.dds"
+	}
+	spriteType = {
+		name = "GFX_CIA_offices"
+		texturefile = "gfx/interface/ideas/aof_cia.dds"
+	}
 	## Sgt. Dornan Tree
 	spriteType = {
 		name = "GFX_idea_sgt_dornan"

@@ -101,5 +101,33 @@ ideas = {
 				recruitable_population = 0.05
 			}
 		}
+		cia_local_offices = {
+			picture = CIA_offices.
+			modifier = {
+				operative_slot = 1
+				agency_upgrade_time = -0.25
+			}
+		}
+		relay_station_1 = {
+			picture = relay_station_1
+			modifier = {
+				encryption = 0.5
+			}
+		}
+		relay_station_2 = {
+			picture = elay_staiton_2
+			modifier = {
+				encryption = 0.6
+				decryption = 0.5			
+			}
+		}
+		relay_station_3 = {
+			picture = relay_station_3
+			modifier = {
+				encryption = 0.6
+				decryption = 0.5
+				army_intel_factor = 0.2
+			}
+		}
 	}
 }

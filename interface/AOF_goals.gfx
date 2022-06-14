@@ -157,6 +157,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/back_in_business.dds"
 	}
 	spriteType = {
+		name = "GFX_new_encryption_codes"
+		texturefile = "gfx/interface/goals/new_encryption_codes.dds"
+	}
+	spriteType = {
+		name = "GFX_cia_local_offices"
+		texturefile = "gfx/interface/goals/aof_cia.dds"
+	}
+	spriteType = {
+		name = "GFX_local_agents_once_more"
+		texturefile = "gfx/interface/goals/local_agents_once_more.dds"
+	}
+	spriteType = {
+		name = "GFX_ciphers_local_cells"
+		texturefile = "gfx/interface/goals/cipher_local_cells.dds"
+	}
+	spriteType = {
+		name = "GFX_repairing_broken_radio"
+		texturefile = "gfx/interface/goals/repair_radio.dds"
+	}
+	spriteType = {
 		name = "GFX_repairing_eyebots"
 		textureFile = "gfx/interface/goals/repairing_eyebots.dds"
 	}
@@ -171,5 +191,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_new_world_new_tunes"
 		textureFile = "gfx/interface/goals/new_world_new_tunes.dds"
+	}
+	spriteType = {
+		name = "GFX_contacting_other_regions"
+		texturFile = "gfx/interface/goals/contacting_other_regions.dds"
+	}
+	spriteType = {
+		name = "GFX_good_to_be_back"
+		textureFile = "gfx/interface/goals/good_to_be_back.dds"
 	}
 }

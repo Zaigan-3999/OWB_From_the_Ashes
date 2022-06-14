@@ -124,7 +124,29 @@
  Prepairing_For_War:0 "Prepairing for War"
  Prepairing_For_War_desc:0 "While we are ready to march we could always be better off. Lets change that."
 
- ## Restoring Functions
+ ## Back to Business
+
+ back_to_business:0 "Back to Business"
+ back_to_business_desc:0 "With the essential systems being back online it's time we go back to work."
+ 
+ new_encryption_codes:0 "New Encryption Codes"
+ new_encryption_codes_desc:0 "While we have always had fantastic encrpytion with it being 5 years old it's about time to change them up."
+
+ cia_local_offices:0 "Local CIA Offices"
+ cia_local_offices_desc:0 "A while ago we got a few CIA officers to help increase our efficency. If we offer them a proper area to setup they can vastly increase what their able to do and the personal they can call in."
+
+ local_agents_once_more:0 "Local Agents once more"
+ local_agents_once_more_desc:0 "With the CIA back in business for the region they are recruiting more and more local citizens and wastelanders to help get information for the enclave."
+
+ establishing_connections:0 "Establishing Connections"
+ establishing_connections_desc:0 "With the manpower and equipment we can finally start prepairing to contact other cells once more."
+
+ ciphers_local_cells:0 "Cipers to local Cells"
+ ciphers_local_cells_desc:0 "We sent out the new encryption ciphers to our local agents and cells in the region. This should let us get intel reports back faster and with more accuracy now."
+
+ repairing_broken_radio:0 "Repairing Broken Radio equipment"
+ repairing_broken_radio_desc:0 "With this site only orginally designed as a relay station it only has the most basic of radio equipment. With some spare parts and time we could fix the original Radar and Radio equipment from before the war!"
+
  repairing_eyebots:0 "Repairing Eyebots"
  repairing_eyebots_desc:0 "Within a back storage room contains what seems to be at least 200 eyebots. With a little time and work we could get them back up and running!"
 
@@ -136,3 +158,9 @@
 
  enclave_radio:0 "Enclave Radio"
  encalve_radio_desc:0 "It's time to bring back Encalve Radio. Once used by the president to give speeches now it's time to inform the world we are still here!"
+
+ contacting_other_regions:0 "Contacting other Regions"
+ contacting_other_regions_desc:0 "It's time we finally go to a few know locations where other enclave bases should be. Hopefully we find a few others out there."
+
+ good_to_be_back:0 "Good to be back"
+ good_to_be_back_desc:0 "With everything back to working order and the main facilities being expanded we are offically back in business and working order."
