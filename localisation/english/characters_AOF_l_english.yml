@@ -14,6 +14,9 @@
  ### Researcher
  AOF_RT_1:0 "SSGT Williams"
  AOF_RT_1_desc:0 "An §B Enclave §! Technican with the 101st Engineering Core."
+ ### General High Comm
+ AOF_Dornan:0 "Sgt Dornan"
+ AOF_Dornan_desc:0 "Arch Dornan was a drill sergeant in the Navarro base. Equipped with advanced power armor and a characteristically bad attitude. Both his demeanor and his voice are reminiscent of various drill sergeant stereotypes. He is the bane of privates, chastising them for even the smallest infractions and breaches of protocol, especially if he dislikes them. Now back with the Enclave he is once more a drill sergeant."
  ### Army Chief
  AOF_AC_1:0 "MSGT Kelly"
  AOF_AC_1_desc:0 "An §B Enclave §! officer from the 103rd Assualt Battaltion."
@@ -36,3 +39,5 @@
  ## Generals
  AOF_general_hazle:0 "2LT Hazle"
  AOF_general_hazle_desc:0 "Orginally he was stuck as a corporal for 4 years due to behavior issues but with recent events and Relay Station Zeta requiring a new Field Officer the §B Enclave §! decided to send him there as a punishment."
+ AOF_Sgt_Dornan:0 "MSGT Dornan"
+ AOF_Sgt_Dornan_desc:0 "Arch Dornan was a drill sergeant in the Navarro base. Equipped with advanced power armor and a characteristically bad attitude. Both his demeanor and his voice are reminiscent of various drill sergeant stereotypes. He is the bane of privates, chastising them for even the smallest infractions and breaches of protocol, especially if he dislikes them."

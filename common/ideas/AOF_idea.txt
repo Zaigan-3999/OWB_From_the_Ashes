@@ -77,5 +77,29 @@ ideas = {
 				encryption = 0.75
 			}
 		}
+		aof_enclave_radio = {
+			picture = aof_enclave_radio
+			modifier = {
+				recruitable_population = 0.01
+				stability_factor = 0.01
+				decryption = -0.5
+				war_support_factor = 0.1
+			}
+		}
+		aof_old_enclave_radio = {
+			picture = aof_enclave_radio_old
+			modifier = {
+				decryption = 0.1
+				war_support_factor = 0.3
+			}
+		}
+		aof_new_enclave_radio = {
+			picture = aof_enclave_radio_new
+			modifier = {
+				stability_factor = 0.04
+				decryption = -0.1
+				recruitable_population = 0.05
+			}
+		}
 	}
 }

@@ -112,3 +112,30 @@ news_event = {
 		add_ideas = AOF_contact_with_zeta_station
 	}
 }
+#Dealing with Sergeant Dornan
+country_event = {
+	id = AOF_events.5
+	title = AOF_events.5.t
+	desc = AOF_events.5.d
+
+	picture = AOF_dealing_sgt_dornan
+	is_triggered_only = yes
+	timeout_days = 30
+	option = {
+		name = AOF_events.5.a
+		trigger = {	
+		}
+		recruit_character = AOF_SGT_Dornan
+		ai_chance = { factor = 4 }
+		hidden_effect = {
+		}
+	}
+	option = {
+		name = AOF_events.5.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 6 }
+		recruit_character = AOF_Dornan
+	}
+}

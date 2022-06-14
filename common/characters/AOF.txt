@@ -87,6 +87,26 @@ characters={
 			logistics_skill = 3
 		}
 	}
+	AOF_Dornan = {
+		name = AOF_Sgt_Dornan
+		portraits = {
+			army = {
+				large = GFX_portrait_dornan
+			}
+		}
+		corps_commander = {
+		traits = {
+			enduring_trait
+			charismatic_trait
+			pain_train_trait
+		}
+		skill = 5
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+		}
+	}
 	## Military High Command
 	### Researcher
 	AOF_RT_1 = {
@@ -107,6 +127,30 @@ characters={
 				AOF_Enclave_Technican
 			}
 			cost = 100
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	### Generic High Comm
+	AOF_SGT_Dornan= {
+		name = AOF_Dornan
+		portraits = {
+			civilian = {
+				small = GFX_idea_aof_sgt_dornan
+			}
+			army = {
+				small = GFX_idea_aof_sgt_dornan
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = military
+			idea_token = AOF_advisor_sgt_dornan
+			traits = {
+				AOF_Drill_Instructor
+			}
+			cost = 150
 			ai_will_do = {
 				factor = 5
 			}

@@ -28,6 +28,14 @@ leader_traits = {
 				reliability = 0.1
 			}
 		}
-
+	}
+	AOF_Drill_Instructor = {
+		random = no
+		minimum_training_level = 0.25
+		training_time_factor = 0.1
+		compliance_gain = 0.01
+		ai_will_do = {
+			factor = 5
+		}
 	}
 }

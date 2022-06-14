@@ -92,9 +92,17 @@ spriteTypes = {
 		name = "GFX_idea_aof_arc_2"
 		texturefile = "gfx/interface/ideas/ministers/portrait_aof_arc_2.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_aof_sgt_dornan"
+		texturefile = "gfx/interface/ideas/ministers/portrait_aof_sgt_dornan.dds"
+	}
 	### Custom Generals 
 	spriteType = {
 		name = "GFX_portrait_AOF_hazle"
 		texturefile = "gfx/leaders/AOF/portrait_aof_hazle.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AOF_Dornan"
+		texturefile = "gfx/leaders/AOF/portrait_sgt_dornan.dds"
 	}
 }

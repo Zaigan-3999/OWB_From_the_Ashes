@@ -153,6 +153,10 @@ spriteTypes = {
 	}
 	#### Back to Business
 	spriteType = {
+		name = "GFX_back_to_business"
+		texturefile = "gfx/interface/goals/back_in_business.dds"
+	}
+	spriteType = {
 		name = "GFX_repairing_eyebots"
 		textureFile = "gfx/interface/goals/repairing_eyebots.dds"
 	}

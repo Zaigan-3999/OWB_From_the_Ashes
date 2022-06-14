@@ -32,6 +32,18 @@ spriteTypes = {
 		name = "GFX_idea_contact_with_zeta"
 		textureFile = "gfx/interface/ideas/contact_with_zeta.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_aof_encalve_radio"
+		texturefile = "gfx/interface/ideas/aof_enclave_radio.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_enclave_radio_new"
+		texturefile = "gfx/interface/ideas/aof_enclave_radio_new.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_enclave_radio_old"
+		texturefile = "gfx/interface/ideas/aof_enclave_radio_old.dds"
+	}
 	## Sgt. Dornan Tree
 	spriteType = {
 		name = "GFX_idea_sgt_dornan"

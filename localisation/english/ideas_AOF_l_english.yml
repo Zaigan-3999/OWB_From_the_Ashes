@@ -41,6 +41,15 @@
  Officer_Core:0 "Reformed Officer Core"
  Officer_Core_desc:0 "With the officer core reformed we are able to work at peak efficency once more."
 
+ aof_enclave_radio:0 "Enclave Radio"
+ aof_enclave_radio_desc:0 "With the sounds of freedom we spread our message through the wastelands!"
+
+ aof_new_enclave_radio:0 "Enclave Radio - New Tunes!" 
+ aof_new_enclave_radio_desc:0 "With the sounds of freedom we spread our message through the wastelands!"
+
+ aof_old_enclave_radio:0 "Enclave Radio - Old Tunes!"
+ aof_old_enclave_radio_desc:0 "With the sounds of freedom we spread our message through the wastelands!"
+
  #Major Companies
 
  enclave_technicans_pw:0 "Enclave Technicans (Power Armor)"
