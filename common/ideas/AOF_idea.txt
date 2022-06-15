@@ -102,7 +102,7 @@ ideas = {
 			}
 		}
 		cia_local_offices = {
-			picture = CIA_offices.
+			picture = CIA_offices
 			modifier = {
 				operative_slot = 1
 				agency_upgrade_time = -0.25

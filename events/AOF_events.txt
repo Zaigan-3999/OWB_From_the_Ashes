@@ -112,6 +112,7 @@ news_event = {
 		add_ideas = AOF_contact_with_zeta_station
 	}
 }
+
 #Dealing with Sergeant Dornan
 country_event = {
 	id = AOF_events.5
