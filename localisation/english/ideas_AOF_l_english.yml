@@ -59,6 +59,11 @@
  aof_old_enclave_radio:0 "Enclave Radio - Old Tunes!"
  aof_old_enclave_radio_desc:0 "With the sounds of freedom we spread our message through the wastelands!"
 
+ # Army Trainings
+
+ aof_officer_school:0 "Enclave Officer School"
+ aof_officer_school_desc:0 "Enclave Officers are the creem of the crop. Better than what ever else the wasteland can provide due to their tradition of trianing dating back to before the war!"
+
  #Major Companies
 
  enclave_technicans_pw:0 "Enclave Technicans (Power Armor)"
