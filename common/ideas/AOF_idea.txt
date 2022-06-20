@@ -16,6 +16,16 @@ ideas = {
 			modifier = {
 				operative_slot = 1
 				intelligence_agency_defense = 0.25	
+				stability_factor = 0.2
+			}
+		}
+		going_public = {
+			picture = public
+			modifier = {
+				operative_slot = 1
+				intel_from_operatives_factor = 0.25
+				war_support_factor = 0.2
+
 			}
 		}
 		local_operations = {

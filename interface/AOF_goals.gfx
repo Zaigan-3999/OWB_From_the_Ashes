@@ -40,116 +40,116 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_News_RavenRock"
-		textureFile = "gfx/interface/goals/news_ravenrock.dds"
+		texturefile = "gfx/interface/goals/news_ravenrock.dds"
 	}
 	#### Major Choices
 	spriteType = {
 		name = "GFX_Are_we_Alone"
-		textureFile = "gfx/interface/goals/Are_we_Alone.dds"
+		texturefile = "gfx/interface/goals/Are_we_Alone.dds"
 	}
 	spriteType = {
 		name = "GFX_Orders_from_Command"
-		textureFile = "gfx/interface/goals/orders_from_command.dss"
+		texturefile = "gfx/interface/goals/orders_from_command.dss"
 	}
 	spriteType = {
 		name = "GFX_Stay_Hidden"
-		textureFile = "gfx/interface/goals/stay_hidden.dss"
+		texturefile = "gfx/interface/goals/stay_hidden.dss"
 	}
 	spriteType = {
 		name = "GFX_Prepare_to_go_Public"
-		textureFile = "gfx/interface/goals/prepare_public.dss"
+		texturefile = "gfx/interface/goals/prepare_public.dss"
 	}
 	spriteType = {
 		name = "GFX_Resuming_Operations"
-		textureFile = "gfx/interface/goals/resuming_operations.dds"
+		texturefile = "gfx/interface/goals/resuming_operations.dds"
 	}
 	#### Military Tree [Inital]
 	spriteType = {
 		name = "GFX_Military_Command"
-		textureFile = "gfx/interface/goals/military_command.dds"
+		texturefile = "gfx/interface/goals/military_command.dds"
 	}
 	spriteType = {
 		name = "GFX_Officer_Core"
-		textureFile = "gfx/interface/goals/officer_core.dds"
+		texturefile = "gfx/interface/goals/officer_core.dds"
 	}
 	#### Military Treee [Tradational]
 	spriteType = {
 		name = "GFX_Tradition"
-		textureFile = "gfx/interface/goals/tradition.dds"
+		texturefile = "gfx/interface/goals/tradition.dds"
 	}
 	spriteType = {
 		name = "GFX_Signup_Bonus"
-		textureFile = "gfx/interface/goals/signup_bonus.dds"
+		texturefile = "gfx/interface/goals/signup_bonus.dds"
 	}
 	spriteType = {
 		name = "GFX_Retired_Officers"
-		textureFile = "gfx/interface/goals/retired_officers.dds"
+		texturefile = "gfx/interface/goals/retired_officers.dds"
 	}
 	spriteType = {
 		name = "GFX_Promote_NCOs"
-		textureFile = "gfx/interface/goals/promote_ncos.dds"
+		texturefile = "gfx/interface/goals/promote_ncos.dds"
 	}
 	#### Military Tree [Desperate]
 	spriteType = {
 		name = "GFX_Desperate_Measures"
-		textureFile = "gfx/interface/goals/desperate_measures.dds"
+		texturefile = "gfx/interface/goals/desperate_measures.dds"
 	}
 	spriteType = {
 		name = "GFX_Lower_Recruiting_Age"
-		textureFile = "gfx/interface/goals/lower_recruiting_age.dds"
+		texturefile = "gfx/interface/goals/lower_recruiting_age.dds"
 	}
 	spriteType = {
 		name = "GFX_Conscript_Retired_Officers"
-		textureFile = "gfx/interface/goals/Conscript_Retired_Officers.dds"
+		texturefile = "gfx/interface/goals/Conscript_Retired_Officers.dds"
 	}
 	spriteType = {
 		name = "GFX_Renable_Tactical_Computers"
-		textureFile = "gfx/interface/goals/tactical_computer.dds"
+		texturefile = "gfx/interface/goals/tactical_computer.dds"
 	}
 	#### Officer Core Formed
 	spriteType = {
 		name = "GFX_Officer_Core_Formed"
-		textureFile = "gfx/interface/goals/office_core_formed.dds"
+		texturefile = "gfx/interface/goals/office_core_formed.dds"
 	}
 	#### Bunker Expansion
 	spriteType = {
 		name = "GFX_Bunker_Expansion"
-		textureFile = "gfx/interface/goals/bunker_expansion.dds"
+		texturefile = "gfx/interface/goals/bunker_expansion.dds"
 	}
 	#### Civilian Functions
 	spriteType = {
 		name = "GFX_Civilian_Functions"
-		textureFile = "gfx/interface/goals/civilian_functions.dds"
+		texturefile = "gfx/interface/goals/civilian_functions.dds"
 	}
 	spriteType = {
 		name = "GFX_Water_Purification"
-		textureFile = "gfx/interface/goals/water_purification.dds"
+		texturefile = "gfx/interface/goals/water_purification.dds"
 	}
 	spriteType = {
 		name = "GFX_Electrical_Substation"
-		textureFile = "gfx/interface/goals/electrical_substation.dds"
+		texturefile = "gfx/interface/goals/electrical_substation.dds"
 	}
 	#### Military Functions
 	spriteType = {
 		name = "GFX_Armory_Expansion"
-		textureFile = "gfx/interface/goals/armory_expansion.dds"
+		texturefile = "gfx/interface/goals/armory_expansion.dds"
 	}
 	spriteType = {
 		name = "GFX_Clearing_the_Hangar"
-		textureFile = "gfx/interface/goals/clearing_the_hangar.dds"
+		texturefile = "gfx/interface/goals/clearing_the_hangar.dds"
 	}
 	#### Expansion Plans [Inital]
 	spriteType = {
 		name = "GFX_Eapansion_Plans"
-		textureFile = "gfx/interface/goals/expansion_plans.dds"
+		texturefile = "gfx/interface/goals/expansion_plans.dds"
 	}
 	spriteType = {
 		name = "GFX_Prepairing_for_War"
-		textureFile = "gfx/interface/goals/prepairing_for_war.dds"
+		texturefile = "gfx/interface/goals/prepairing_for_war.dds"
 	}
 	spriteType = {
 		name = "GFX_Expansion_One"
-		textureFile = "gfx/interface/goals/expansion_one.dds"
+		texturefile = "gfx/interface/goals/expansion_one.dds"
 	}
 	#### Back to Business
 	spriteType = {
@@ -178,26 +178,26 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_repairing_eyebots"
-		textureFile = "gfx/interface/goals/repairing_eyebots.dds"
+		texturefile = "gfx/interface/goals/repairing_eyebots.dds"
 	}
 	spriteType = {
 		name = "GFX_enclave_radio"
-		textureFile = "gfx/interface/goals/enclave_radio.dds"
+		texturefile = "gfx/interface/goals/enclave_radio.dds"
 	}
 	spriteType = {
 		name = "GFX_new_world_old_tunes"
-		textureFile = "gfx/interface/goals/new_world_old_tunes.dds"
+		texturefile = "gfx/interface/goals/new_world_old_tunes.dds"
 	}
 	spriteType = {
 		name = "GFX_new_world_new_tunes"
-		textureFile = "gfx/interface/goals/new_world_new_tunes.dds"
+		texturefile = "gfx/interface/goals/new_world_new_tunes.dds"
 	}
 	spriteType = {
 		name = "GFX_contacting_other_regions"
-		texturFile = "gfx/interface/goals/contacting_other_regions.dds"
+		texturefile = "gfx/interface/goals/contacting_other_regions.dds"
 	}
 	spriteType = {
 		name = "GFX_good_to_be_back"
-		textureFile = "gfx/interface/goals/good_to_be_back.dds"
+		texturefile = "gfx/interface/goals/good_to_be_back.dds"
 	}
 }

@@ -1,114 +1,118 @@
 ideas = {
-	mobilization_laws = {
-		law = yes
-		# Enclave Custom
-		# Enclave Only
-		aof_military_law_1 = {
-			picture = enclave_only
-			cost = 100
-			removal_cost = 0
-			level = 4
-			allowed = {
-				OR = {
+	###########################
+	### Mobilization Laws #####
+	###########################
+		mobilization_laws = {
+			law = yes
+			# Enclave Custom
+			# Enclave Only
+			aof_military_law_1 = {
+				picture = enclave_only
+				cost = 100
+				removal_cost = 0
+				level = 4
+				allowed = {
+					OR = {
+						tag = AOF
+					}
+				}
+				visible = {
 					tag = AOF
 				}
+				ai_will_do = {
+					factor = 0
+				}
+				modifier = {
+					conscription = 0.1
+					army_attack_factor = 0.05
+					army_defence_factor = 0.05
+					training_time_army_factor = 0.1
+					non_core_manpower = -0.15
+					special_forces_min = 20 #special_forces_cap = 0.2
+				}
+				default = yes
 			}
-			visible = {
-				tag = AOF
-			}
-			ai_will_do = {
-				factor = 0
-			}
-			modifier = {
-				conscription = 0.1
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				training_time_army_factor = 0.1
-				non_core_manpower = -0.15
-				special_forces_min = 20 #special_forces_cap = 0.2
-			}
-			default = yes
-		}
-		# Select Citizens
-		aof_military_law_2 = {
-			picture = select_citizens_only
-			cost = 100
-			removal_cost = 0
-			level = 5
-			allowed = {
-				OR = {
+			# Select Citizens
+			aof_military_law_2 = {
+				picture = select_citizens_only
+				cost = 100
+				removal_cost = 0
+				level = 5
+				allowed = {
+					OR = {
+						tag = AOF
+					}
+				}
+				visible = {
 					tag = AOF
 				}
+				ai_will_do = {
+					factor = 0
+				}
+				modifier = {
+					conscription = 0.15
+					army_attack_factor = 0.10
+					army_defence_factor = 0.10
+					training_time_army_factor = 0.2
+					non_core_manpower = -0.05
+					special_forces_min = 40 #special_forces_cap = 0.2
+				}
+				default = yes
 			}
-			visible = {
-				tag = AOF
-			}
-			ai_will_do = {
-				factor = 0
-			}
-			modifier = {
-				conscription = 0.15
-				army_attack_factor = 0.10
-				army_defence_factor = 0.10
-				training_time_army_factor = 0.2
-				non_core_manpower = -0.05
-				special_forces_min = 40 #special_forces_cap = 0.2
-			}
-			default = yes
-		}
-		## Special Forces Only
-		aof_military_law_3 = {
-			picture = spec_ops
-			cost = 100
-			removal_cost = 0
-			level = 9
-			allowed = {
-				OR = {
+			## Special Forces Only
+			aof_military_law_3 = {
+				picture = spec_ops
+				cost = 100
+				removal_cost = 0
+				level = 9
+				allowed = {
+					OR = {
+						tag = AOF
+					}
+				}
+				visible = {
 					tag = AOF
 				}
+				ai_will_do = {
+					factor = 0
+				}
+				modifier = {
+					conscription = 0.05
+					army_attack_factor = 0.25
+					army_defence_factor = 0.25
+					training_time_army_factor = 0.4
+					non_core_manpower = -0.40
+					special_forces_min = 120 #special_forces_cap = 0.2
+				}
+				default = yes
 			}
-			visible = {
-				tag = AOF
-			}
-			ai_will_do = {
-				factor = 0
-			}
-			modifier = {
-				conscription = 0.05
-				army_attack_factor = 0.25
-				army_defence_factor = 0.25
-				training_time_army_factor = 0.4
-				non_core_manpower = -0.40
-				special_forces_min = 120 #special_forces_cap = 0.2
-			}
-			default = yes
-		}
-		# Young Americans
-		aof_military_law_6 = {
-			picture = young_americans
-			cost = 300
-			removal_cost = 0
-			level = 7
-			allowed = {
-				OR = {
+			# Young Americans
+			aof_military_law_6 = {
+				picture = young_americans
+				cost = 300
+				removal_cost = 0
+				level = 7
+				allowed = {
+					OR = {
+						tag = AOF
+					}
+				}
+				visible = {
 					tag = AOF
 				}
+				ai_will_do = {
+					factor = 0
+				}
+				modifier = {
+					conscription = 0.50
+					army_attack_factor = 0.05
+					army_defence_factor = 0.05
+					training_time_army_factor = 0.1
+					non_core_manpower = -0.15
+					special_forces_min = 30 #special_forces_cap = 0.2
+				}
+				default = yes
 			}
-			visible = {
-				tag = AOF
-			}
-			ai_will_do = {
-				factor = 0
-			}
-			modifier = {
-				conscription = 0.50
-				army_attack_factor = 0.05
-				army_defence_factor = 0.05
-				training_time_army_factor = 0.1
-				non_core_manpower = -0.15
-				special_forces_min = 30 #special_forces_cap = 0.2
-			}
-			default = yes
 		}
-	}
+
 }

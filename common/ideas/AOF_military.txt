@@ -1,0 +1,33 @@
+ideas = {
+	###########################
+	##### Army Training #######
+	###########################
+	officer_training_laws = {
+		law = yes
+	# Enclave Officer School
+		aof_officer_school = {
+			picture = aof_officers_school
+			cost = 100
+			removal_cost = -1
+			level = 1
+			allowed = {
+				original_tag = AOF
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			modifier = {
+				army_org_Factor = 0.08
+				justify_war_goal_time = -0.15
+				training_time_factor = 0.2
+				special_forces_cap = 0.25
+				political_power_gain = -0.1
+				army_leader_start_level = 2
+				army_leader_start_attack_level = 1
+				army_leader_start_defense_level = 1
+				army_leader_start_planning_level = 1
+				army_leader_start_logistics_level = 1
+			}
+		}
+	}
+}

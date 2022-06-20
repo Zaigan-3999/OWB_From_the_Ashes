@@ -40,10 +40,10 @@
 
  ## First Major Choice
 
- Prepare_to_go_Public:0 "Prepare to go Public"
+ Prepare_to_go_Public:0 "§5 Prepare to go Public §"
  Prepare_to_go_Public_desc:0 "With how the area around is currently is and our location towards the location of the Chicago branch we should be able to easily expand and act as the public face of the Enclave in the region."
 
- Stay_Hidden:0 "Stay Hidden"
+ Stay_Hidden:0 "§3 Stay Hidden §"
  Stay_Hidden_desc:0 "While the region has little resistance rumor from our scouting of Naravo and Raven Rock there seems to be a group called 'Brotherhood of Steel'. While not as technological advanced as the Enclave they deffintly outnumber us."
 
  ## Majority of Focus Tree
@@ -61,31 +61,31 @@
  Establish_Officer_Core:0 "Establish Officer Core"
  Establish_Officer_Core_desc:0 "With the Officers ready to expand it's time we setup a proper core for it."
 
- Tradition:0 "Tradition"
+ Tradition:0 "§2 Tradition §"
  Tradition_desc:0 "When recruiting more officers we should stick to what we know is right and has worked in the past."
 
- Desperate_Measures:0 "Desperate Measures"
+ Desperate_Measures:0 "§t Desperate Measures §"
  Desperate_Measures_desc:0 "With us having a small force and surrounded on all sides by enemies it's times like these that call for emergency measures."
  ## Tradition Tree
 
- Signup_Bonus:0 "Signup Bonus"
+ Signup_Bonus:0 "§2 Signup Bonus §"
  Signup_Bonus_desc:0 "It worked in the past before the war and it'll work again. As long as we increase how much we provide to new recruits we can replace those we promote to officers."
 
- Retired_Officers:0 "Invite Retired Officers"
+ Retired_Officers:0 "§2 Invite Retired Officers §"
  Retired_Officers_desc:0 "With there being a bunch of retired officers within the Enclaves ranks it's time to invite them back to teach the younger generation."
 
- Promote_NCO:0 "Promote NCO"
+ Promote_NCO:0 "§2 Promote NCO §"
  Promote_NCO_desc:0 "With them now trainined and reaplaced we can bring up the promising NCOs into our fold."
 
  ## Desperate Measures
 
- Lower_Recruiting_Age:0 "Lower Recruiting Age"
+ Lower_Recruiting_Age:0 "§t Lower Recruiting Age §"
  Lower_Recruiting_Age_desc:0 "During WW1 people would sign up at the age of 16 and would be sent off to war. While they arn't the strongest or the fastest they will do the job just as well as anyone else."
 
- Conscript_Retired_Officers:0 "Conscript Retired Officers"
+ Conscript_Retired_Officers:0 "§t Conscript Retired Officers §"
  Conscript_Retired_Officers_desc:0 "Time to bring back those who retired. They signed on to server their time or until needed. Sadly we need them once more and regardless if they like it or not their comming."
 
- Reenable_Tactical_Computers:0 "Reenable Tactical Computers"
+ Reenable_Tactical_Computers:0 "§t Reenable Tactical Computers §"
  Reenable_Tactical_Computers_desc:0 "We have a handful of tactical computers at base that we haven't activated because of one reason or another. Turning them on would help increase troops in the fields."
  
  ## Officer Core Reformed
@@ -150,10 +150,10 @@
  repairing_eyebots:0 "Repairing Eyebots"
  repairing_eyebots_desc:0 "Within a back storage room contains what seems to be at least 200 eyebots. With a little time and work we could get them back up and running!"
 
- new_world_old_tunes:0 "New World, Old Tunes"
+ new_world_old_tunes:0 "§3 New World, Old Tunes §"
  new_world_old_tunes_desc:0 "Why bother using newer music when we are trying to spread the culture of America! The old tunes are just as good as the new ones."
 
- new_world_new_tunes:0 "New World, New Tunes"
+ new_world_new_tunes:0 "§5 New World, New Tunes §"
  new_world_new_tunes_desc:0 "With the world being new it's time to bring in new music to inspire those Americans around the country still out there!"
 
  enclave_radio:0 "Enclave Radio"

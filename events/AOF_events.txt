@@ -89,6 +89,9 @@ country_event = {
 		CEK = {
 			news_event = AOF_events.4
 			}
+		EEF = {
+			news_event = AOF_events.4
+		}
 		hidden_effect = {
 			
 		}

@@ -16,1082 +16,828 @@ focus_tree = {
 		x = 15
 		y = 1
 	}
-	## 7 Day Start
-	default = no
-	focus = {
-		id = Radio_Silence_Lifted
-		icon = GFX_radio_silence
-		cost = 7
-		completion_reward = {
-			#set_province_name = {
-			#	id = 13644
-			#	name = Enclave_Bunker
-			#}
-			country_event = AOF_events.1
-		}
-		x = 11
-		y = 0
-
-	}
-	focus = {
-		id = Checking_Equipment
-		icon = GFX_restarting_operations
-		cost = 7
-		prerequisite = {
-			focus = Radio_Silence_Lifted
-		}
-		completion_reward = {
-			country_event = AOF_events.2
-		}
-		x = 11
-		y = 1
-
-	}
-	focus = {
-		id = What_Now
-		icon = GFX_what_now
-		cost = 7
-		prerequisite = {
-			focus = Checking_Equipment
-		}
-		completion_reward = {
-			add_stability = -0.2
-		}
-		x = 11
-		y = 2
-
-	}
-	## End of Story Focuses
-	## Inital Contact Procedures
-	focus = {
-		id = Contact_Naravo
-		icon = GFX_Naravo
-		cost = 30
-		prerequisite = {
-			focus = What_Now
-		}
-		completion_reward = {
-
-		}
-		x = 9
-		y = 3
-
-	}
-	focus = {
-		id = News_of_the_Rig
-		icon = GFX_news_of_the_rig
-		cost = 10
-		prerequisite = {
-			focus = Contact_Naravo
-		}
-		completion_reward = {
-			add_stability = -0.3
-		}
-		x = 9
-		y = 4
-
-	}
-	focus = {
-		id = Return_of_Sergeant_Dornan
-		icon = GFX_dorn
-		cost = 45
-		prerequisite = {
-			focus = Contact_Naravo
-		}
-		completion_reward = {
-			add_ideas = sgt_dornan
-		}
-		x = 7
-		y = 4
-
-	}
-	## Dealing with Sergeant Dornan
-	focus = {
-		id = Dealing_with_Sergeant_Dornan
-		icon = GFX_dorn
-		cost = 45
-		x = 7
-		y = 5
-		prerequisite = {
-			focus = Return_of_Sergeant_Dornan
-		}
-		completion_reward = { 
-			country_event = AOF_events.5
-		}
-	}
-	## Raven Rock
-	focus = {
-		id = Contact_RavenRock
-		icon = GFX_RavenRock
-		cost = 30
-		prerequisite = {
-			focus = What_Now
-		}
-		completion_reward = {
-			
-		}
-		x = 13
-		y = 3
-
-	}
-	focus = {
-		id = News_of_RavenRock
-		icon = GFX_News_RavenRock
-		cost = 30
-		prerequisite = {
-			focus = Contact_RavenRock
-		}
-		completion_reward = {
-			add_stability = 0.05
-			add_political_power = 100
-		}
-		x = 13
-		y = 4
-
-	}
-	focus = {
-		id = Orders_From_Command
-		icon = GFX_Orders_from_Command
-		cost = 50
-		prerequisite = {
-			focus = News_of_RavenRock
-		}
-		prerequisite = {
-			focus = News_of_the_Rig
-		}
-		mutually_exclusive = {
-			focus = Are_we_Alone
-		}
-		available = {
-			date < 2281.1.1
-		}
-		completion_reward = {
-			add_ideas = contact_with_command
-		}
-		x = 10
-		y = 5
-
-	}
-	focus = {
-		id = Are_we_Alone
-		icon = GFX_Are_we_Alone
-		cost = 50
-		prerequisite = {
-			focus = News_of_RavenRock
-		}
-		prerequisite = {
-			focus = News_of_the_Rig
-		}
-		available = {
-			date > 2281.1.1
-		}
-		mutually_exclusive = {
-			focus = Orders_From_Command
-		}
-		completion_reward = {
-			
-		}
-		x = 12
-		y = 5
-
-	}
-	## End of Inital Contact
-	focus = {
-		id = Stay_Hidden
-		icon = GFX_Stay_Hidden
-		cost = 45
-		prerequisite = {
-			focus = Are_we_Alone
-			focus = Orders_From_Command
-		}
-		mutually_exclusive = {
-			focus = Prepare_to_go_Public
-		}
-		completion_reward = {
-			add_stability = 0.20
-			add_ideas = hidden
-		}
-		x = 9
-		y = 6
-
-	}
-	focus = {
-		id = Prepare_to_go_Public
-		icon = GFX_Prepare_to_go_Public
-		cost = 45
-		prerequisite = {
-			focus = Are_we_Alone
-			focus = Orders_From_Command
-		}
-		mutually_exclusive = {
-			focus = Stay_Hidden
-		}
-		completion_reward = {
-			
-		}
-		x = 13
-		y = 6
-
-	}
-	## End of First Major Choice
-	focus = {
-		id = Resuming_Operations
-		icon = GFX_Resuming_Operations
-		cost = 10
-		prerequisite = {
-			focus = Stay_Hidden
-			focus = Prepare_to_go_Public
-		}
-		completion_reward = {
-			
-		}
-		x = 11
-		y = 7
-
-	}
-	## Military Command
-	focus = {
-		id = Military_Command
-		icon = GFX_Military_Command
-		cost = 30
-		prerequisite = {
-			focus = Resuming_Operations
-		}
-		completion_reward = {
-			add_war_support = 0.25
-			remove_ideas = local_operations
-		}
-		x = 2
-		y = 8.5
-
-	} 
-	## Mil Officer Core Tradition
-	focus = {
-		id = Establish_Officer_Core
-		icon = GFX_Officer_Core
-		cost = 60
-		x = 2
-		y = 9.5
-		prerequisite = {
-			focus = Military_Command
-		}
-		completion_reward = { 
-			
-		}
-	}
-	focus = {
-		id = Tradition
-		icon = GFX_Tradition
-		cost = 45
-		x = 0
-		y = 10.5
-		prerequisite = {
-			focus = Establish_Officer_Core
-		}
-		mutually_exclusive = {
-			focus = Desperate_Measures
-		}
-		completion_reward = { 
-			add_stability = 0.1
-		}
-	}
-	focus = {
-		id = Signup_Bonus
-		icon = GFX_Signup_Bonus
-		cost = 30
-		x = -1
-		y = 11.5
-		prerequisite = {
-			focus = Tradition
-		}
-		completion_reward = { 
-			add_ideas = family_stipend
-		}
-	}
-	focus = {
-		id = Retired_Officers
-		icon = GFX_Retired_Officers
-		cost = 30
-		x = 1
-		y = 11.5
-		prerequisite = {
-			focus = Tradition
-		}
-		completion_reward = {
-			army_experience = 20
-			add_command_power = 4
-			add_manpower = 25
-		 }
-	}
-	focus = {
-		id = Promote_NCO
-		icon = GFX_Promote_NCOs
-		cost = 30
-		x = 0
-		y = 12.5
-		prerequisite = {
-			focus = Signup_Bonus
-		}
-		prerequisite = {
-			focus = Retired_Officers
-		}
-		completion_reward = { 
-			add_ideas = competent_ncos
-		}
-	}
-	### MC EOC Desperate Measures
-	focus = {
-		id = Desperate_Measures
-		icon = GFX_Desperate_Measures
-		cost = 30
-		x = 4
-		y = 10.5
-		prerequisite = {
-			focus = Establish_Officer_Core
-		}
-		mutually_exclusive = {
-			focus = Tradition
-		}
-		completion_reward = {
-			add_war_support = 0.1
-		 }
-	}
-	focus = {
-		id = Lower_Recruiting_Age
-		icon = GFX_Lower_Recruiting_Age
-		cost = 30
-		x = 3
-		y = 11.5
-		prerequisite = {
-			focus = Desperate_Measures
-		}
-		completion_reward = {
-			add_ideas = aof_military_law_6
-		 }
-	}
-	focus = {
-		id = Conscript_Retired_Officers
-		icon = GFX_Conscript_Retired_Officers
-		cost = 30
-		x = 5
-		y = 11.5
-		prerequisite = {
-			focus = Desperate_Measures
-		}
-		completion_reward = { 
-			add_manpower = 500
-			add_stability = -0.05
-		}
-	}
-	focus = {
-		id = Reenable_Tactical_Computers
-		icon = GFX_Renable_Tactical_Computers
-		cost = 30
-		x = 4
-		y = 12.5
-		prerequisite = {
-			focus = Lower_Recruiting_Age
-		}
-		prerequisite = {
-			focus = Conscript_Retired_Officers
-		}
-		completion_reward = { 
-			add_stability = -0.15
-			add_war_support = 0.1
-			add_ideas = Tactical_Computer
-		}
-	}
-	## Miliary Commadn Finishing Tech
-	focus = {
-		id = Officer_Core_Formed
-		icon = GFX_Officer_Core_Fromed
-		cost = 100
-		x = 2
-		y = 13
-		prerequisite = {
-			focus = Promote_NCO
-			focus = Reenable_Tactical_Computers
-		}
-		completion_reward = { 
-			add_ideas = Officer_Core
-		}
-	}
-	## Bunker Expansion
-	focus = {
-		id = Bunker_Expansion
-		icon = GFX_Bunker_Expansion
-		cost = 10
-		prerequisite = {
-			focus = Resuming_Operations
-		}
-		completion_reward = {
-			
-		}
-		x = 18
-		y = 8.5
-
-	}
-	## Bunker Military Capibilites
-	focus = {
-		id = Armory_Expansion
-		icon = GFX_Armory_Expansion
-		cost = 45
-		x = 17
-		y = 9.5
-		prerequisite = {
-			focus = Bunker_Expansion
-		}
-		completion_reward = { 
-			add_offsite_building = {
-				type = arms_factory
-				level = 1
+	#################################
+	######## 7 Day Start ###########
+	#################################
+		default = no
+		focus = {
+			id = Radio_Silence_Lifted
+			icon = GFX_radio_silence
+			cost = 7
+			completion_reward = {
+				#set_province_name = {
+				#	id = 13644
+				#	name = Enclave_Bunker
+				#}
+				country_event = AOF_events.1
 			}
-			
+			x = 11
+			y = 0
+
 		}
-	}
-	focus = {
-		id = Clearing_the_hangar
-		icon = GFX_Clearing_the_Hangar
-		cost = 45
-		x = 17
-		y = 10.5
-		prerequisite = {
-			focus = Armory_Expansion
+		focus = {
+			id = Checking_Equipment
+			icon = GFX_restarting_operations
+			cost = 7
+			prerequisite = {
+				focus = Radio_Silence_Lifted
+			}
+			completion_reward = {
+				country_event = AOF_events.2
+			}
+			x = 11
+			y = 1
+
 		}
-		completion_reward = { 
-			1271 = {
-				add_building_construction = {
-					type = air_base
+		focus = {
+			id = What_Now
+			icon = GFX_what_now
+			cost = 7
+			prerequisite = {
+				focus = Checking_Equipment
+			}
+			completion_reward = {
+				add_stability = -0.2
+			}
+			x = 11
+			y = 2
+
+		}
+	#################################
+	#### End of Story Focuses #######
+	#### Inital Contact Procedures ##
+	#################################
+		focus = {
+			id = Contact_Naravo
+			icon = GFX_Naravo
+			cost = 30
+			prerequisite = {
+				focus = What_Now
+			}
+			completion_reward = {
+
+			}
+			x = 9
+			y = 3
+
+		}
+		focus = {
+			id = News_of_the_Rig
+			icon = GFX_news_of_the_rig
+			cost = 10
+			prerequisite = {
+				focus = Contact_Naravo
+			}
+			completion_reward = {
+				add_stability = -0.3
+			}
+			x = 9
+			y = 4
+
+		}
+		focus = {
+			id = Return_of_Sergeant_Dornan
+			icon = GFX_dorn
+			cost = 45
+			prerequisite = {
+				focus = Contact_Naravo
+			}
+			completion_reward = {
+				add_ideas = sgt_dornan
+			}
+			x = 7
+			y = 4
+
+		}
+		## Dealing with Sergeant Dornan
+		focus = {
+			id = Dealing_with_Sergeant_Dornan
+			icon = GFX_dorn
+			cost = 45
+			x = 7
+			y = 5
+			prerequisite = {
+				focus = Return_of_Sergeant_Dornan
+			}
+			completion_reward = { 
+				country_event = AOF_events.5
+			}
+		}
+		## Raven Rock
+		focus = {
+			id = Contact_RavenRock
+			icon = GFX_RavenRock
+			cost = 30
+			prerequisite = {
+				focus = What_Now
+			}
+			completion_reward = {
+				
+			}
+			x = 13
+			y = 3
+
+		}
+		focus = {
+			id = News_of_RavenRock
+			icon = GFX_News_RavenRock
+			cost = 30
+			prerequisite = {
+				focus = Contact_RavenRock
+			}
+			completion_reward = {
+				add_stability = 0.05
+				add_political_power = 100
+			}
+			x = 13
+			y = 4
+
+		}
+		focus = {
+			id = Orders_From_Command
+			icon = GFX_Orders_from_Command
+			cost = 50
+			prerequisite = {
+				focus = News_of_RavenRock
+			}
+			prerequisite = {
+				focus = News_of_the_Rig
+			}
+			mutually_exclusive = {
+				focus = Are_we_Alone
+			}
+			available = {
+				date < 2281.1.1
+			}
+			completion_reward = {
+				add_ideas = contact_with_command
+			}
+			x = 10
+			y = 5
+
+		}
+		focus = {
+			id = Are_we_Alone
+			icon = GFX_Are_we_Alone
+			cost = 50
+			prerequisite = {
+				focus = News_of_RavenRock
+			}
+			prerequisite = {
+				focus = News_of_the_Rig
+			}
+			available = {
+				date > 2281.1.1
+			}
+			mutually_exclusive = {
+				focus = Orders_From_Command
+			}
+			completion_reward = {
+				
+			}
+			x = 12
+			y = 5
+
+		}
+		## End of Inital Contact
+		focus = {
+			id = Stay_Hidden
+			icon = GFX_Stay_Hidden
+			cost = 45
+			prerequisite = {
+				focus = Are_we_Alone
+				focus = Orders_From_Command
+			}
+			mutually_exclusive = {
+				focus = Prepare_to_go_Public
+			}
+			completion_reward = {
+				add_stability = 0.20
+				add_ideas = hidden
+			}
+			x = 9
+			y = 6
+
+		}
+		focus = {
+			id = Prepare_to_go_Public
+			icon = GFX_Prepare_to_go_Public
+			cost = 45
+			prerequisite = {
+				focus = Are_we_Alone
+				focus = Orders_From_Command
+			}
+			mutually_exclusive = {
+				focus = Stay_Hidden
+			}
+			completion_reward = {
+				add_ideas = going_public
+			}
+			x = 13
+			y = 6
+
+		}
+		## End of First Major Choice
+		focus = {
+			id = Resuming_Operations
+			icon = GFX_Resuming_Operations
+			cost = 10
+			prerequisite = {
+				focus = Stay_Hidden
+				focus = Prepare_to_go_Public
+			}
+			completion_reward = {
+				
+			}
+			x = 11
+			y = 7
+
+		}
+	#################################
+	######## Military Command #######
+	#################################
+		focus = {
+			id = Military_Command
+			icon = GFX_Military_Command
+			cost = 30
+			prerequisite = {
+				focus = Resuming_Operations
+			}
+			completion_reward = {
+				add_war_support = 0.25
+				remove_ideas = local_operations
+			}
+			x = 2
+			y = 8.5
+
+		} 
+		## Mil Officer Core Tradition
+		focus = {
+			id = Establish_Officer_Core
+			icon = GFX_Officer_Core
+			cost = 60
+			x = 2
+			y = 9.5
+			prerequisite = {
+				focus = Military_Command
+			}
+			completion_reward = { 
+				
+			}
+		}
+		focus = {
+			id = Tradition
+			icon = GFX_Tradition
+			cost = 45
+			x = 0
+			y = 10.5
+			prerequisite = {
+				focus = Establish_Officer_Core
+			}
+			mutually_exclusive = {
+				focus = Desperate_Measures
+			}
+			completion_reward = { 
+				add_stability = 0.1
+			}
+		}
+		focus = {
+			id = Signup_Bonus
+			icon = GFX_Signup_Bonus
+			cost = 30
+			x = -1
+			y = 11.5
+			prerequisite = {
+				focus = Tradition
+			}
+			completion_reward = { 
+				add_ideas = family_stipend
+			}
+		}
+		focus = {
+			id = Retired_Officers
+			icon = GFX_Retired_Officers
+			cost = 30
+			x = 1
+			y = 11.5
+			prerequisite = {
+				focus = Tradition
+			}
+			completion_reward = {
+				army_experience = 20
+				add_command_power = 4
+				add_manpower = 25
+			}
+		}
+		focus = {
+			id = Promote_NCO
+			icon = GFX_Promote_NCOs
+			cost = 30
+			x = 0
+			y = 12.5
+			prerequisite = {
+				focus = Signup_Bonus
+			}
+			prerequisite = {
+				focus = Retired_Officers
+			}
+			completion_reward = { 
+				add_ideas = competent_ncos
+			}
+		}
+		### MC EOC Desperate Measures
+		focus = {
+			id = Desperate_Measures
+			icon = GFX_Desperate_Measures
+			cost = 30
+			x = 4
+			y = 10.5
+			prerequisite = {
+				focus = Establish_Officer_Core
+			}
+			mutually_exclusive = {
+				focus = Tradition
+			}
+			completion_reward = {
+				add_war_support = 0.1
+			}
+		}
+		focus = {
+			id = Lower_Recruiting_Age
+			icon = GFX_Lower_Recruiting_Age
+			cost = 30
+			x = 3
+			y = 11.5
+			prerequisite = {
+				focus = Desperate_Measures
+			}
+			completion_reward = {
+				add_ideas = aof_military_law_6
+			}
+		}
+		focus = {
+			id = Conscript_Retired_Officers
+			icon = GFX_Conscript_Retired_Officers
+			cost = 30
+			x = 5
+			y = 11.5
+			prerequisite = {
+				focus = Desperate_Measures
+			}
+			completion_reward = { 
+				add_manpower = 500
+				add_stability = -0.05
+			}
+		}
+		focus = {
+			id = Reenable_Tactical_Computers
+			icon = GFX_Renable_Tactical_Computers
+			cost = 30
+			x = 4
+			y = 12.5
+			prerequisite = {
+				focus = Lower_Recruiting_Age
+			}
+			prerequisite = {
+				focus = Conscript_Retired_Officers
+			}
+			completion_reward = { 
+				add_stability = -0.15
+				add_war_support = 0.1
+				add_ideas = Tactical_Computer
+			}
+		}
+		## Miliary Commadn Finishing Tech
+		focus = {
+			id = Officer_Core_Formed
+			icon = GFX_Officer_Core_Fromed
+			cost = 100
+			x = 2
+			y = 13
+			prerequisite = {
+				focus = Promote_NCO
+				focus = Reenable_Tactical_Computers
+			}
+			completion_reward = { 
+				add_ideas = Officer_Core
+			}
+		}
+	#################################
+	######### Bunker Expansion ######
+	#################################
+		focus = {
+			id = Bunker_Expansion
+			icon = GFX_Bunker_Expansion
+			cost = 10
+			prerequisite = {
+				focus = Resuming_Operations
+			}
+			completion_reward = {
+				
+			}
+			x = 18
+			y = 8.5
+
+		}
+		## Bunker Military Capibilites
+		focus = {
+			id = Armory_Expansion
+			icon = GFX_Armory_Expansion
+			cost = 45
+			x = 17
+			y = 9.5
+			prerequisite = {
+				focus = Bunker_Expansion
+			}
+			completion_reward = { 
+				add_offsite_building = {
+					type = arms_factory
 					level = 1
 				}
-			}
-			add_equipment_to_stockpile = {
-				type = vb_gunship_equipment
-				amount = 50
-			}
-			add_equipment_to_stockpile = {
-				type = vb_transport_plane_equipment
-				amount = 25
+				
 			}
 		}
-	}
-	## Bunker Civilian Capibilites
-	focus = {
-		id = Civilian_Functions
-		icon = GFX_Civilian_Functions
-		cost = 45
-		x = 19
-		y = 9.5
-		prerequisite = {
-			focus = Bunker_Expansion
-		}
-		completion_reward = { 
-			add_offsite_building = {
-				type = industrial_complex
-				level = 1
+		focus = {
+			id = Clearing_the_hangar
+			icon = GFX_Clearing_the_Hangar
+			cost = 45
+			x = 17
+			y = 10.5
+			prerequisite = {
+				focus = Armory_Expansion
+			}
+			completion_reward = { 
+				1271 = {
+					add_building_construction = {
+						type = air_base
+						level = 1
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = vb_gunship_equipment
+					amount = 50
+				}
+				add_equipment_to_stockpile = {
+					type = vb_transport_plane_equipment
+					amount = 25
+				}
 			}
 		}
-	}
-	## Water
-	focus = {
-		id = Restoring_Local_Purification_Station
-		icon = GFX_Water_Purification
-		cost = 45
-		x = 21.5
-		y = 10.5
-		prerequisite = {
-			focus = Civilian_Functions
-		}
-		available = {
-			has_tech = resource_generator_water_tech_1
-		}
-		completion_reward = { 
-			1271 = {
-				add_building_construction = {
-					type = water_generator
+		## Bunker Civilian Capibilites
+		focus = {
+			id = Civilian_Functions
+			icon = GFX_Civilian_Functions
+			cost = 45
+			x = 19
+			y = 9.5
+			prerequisite = {
+				focus = Bunker_Expansion
+			}
+			completion_reward = { 
+				add_offsite_building = {
+					type = industrial_complex
 					level = 1
 				}
 			}
 		}
-	}
-	## Circurity
-	focus = {
-		id = Building_Electrical_Factories
-		icon = GFX_Electrical_Substation
-		cost = 45
-		x = 19
-		y = 10.5
-		prerequisite = {
-			focus = Civilian_Functions
-		}
-		available = {
-			has_tech = resource_generator_circuitry_tech_1
-		}
-		completion_reward = { 
-			1271 = {
-				add_building_construction = {
-					type = circuitry_generator
-					level = 1
+		## Water
+		focus = {
+			id = Restoring_Local_Purification_Station
+			icon = GFX_Water_Purification
+			cost = 45
+			x = 21.5
+			y = 10.5
+			prerequisite = {
+				focus = Civilian_Functions
+			}
+			available = {
+				has_tech = resource_generator_water_tech_1
+			}
+			completion_reward = { 
+				1271 = {
+					add_building_construction = {
+						type = water_generator
+						level = 1
+					}
 				}
 			}
 		}
-	}
-	#Expeditions
-	focus = {
-		id = Expeditions
-		icon = GFX_goal_unknown
-		cost = 10
-		available = {
-			date > 2281.1.1
-		}
-		completion_reward = {
-			
-		}
-		x = 21
-		y = 1
-
-	}
-	## Narvo
-	focus = {
-		id = Trip_to_Naravo
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Expeditions
-		}
-		completion_reward = {
-			
-		}
-		x = 17
-		y = 2
-
-	}
-	focus = {
-		id = Recover_Equipment?
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Trip_to_Naravo
-		}
-		completion_reward = {
-			
-		}
-		x = 17
-		y = 3
-
-	}
-	focus = {
-		id = Abandon_Naravo
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Recover_Equipment?
-		}
-		mutually_exclusive = {
-			focus = Recover_Naravo
-		}
-		completion_reward = {
-			
-		}
-		x = 16
-		y = 4
-
-	}
-	focus = {
-		id = Recover_Naravo
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Recover_Equipment?
-		}
-		mutually_exclusive = {
-			focus = Abandon_Naravo
-		}
-		completion_reward = {
-			
-		}
-		x = 18
-		y = 4
-
-	}
-	## Washington
-	focus = {
-		id = Trip_to_Washington
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Expeditions
-		}
-		completion_reward = {
-			
-		}
-		x = 21
-		y = 2
-
-	}
-	focus = {
-		id = The_Capital
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Trip_to_Washington
-		}
-		completion_reward = {
-			
-		}
-		x = 21
-		y = 3
-
-	}
-	focus = {
-		id = News_of_the_Crawler
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = The_Capital
-		}
-		completion_reward = {
-			add_stability = -0.1
-		}
-		x = 20
-		y = 4
-
-	}
-	focus = {
-		id = Story_of_the_Captial
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = News_of_the_Crawler
-		}
-		completion_reward = {
-			
-		}
-		x = 20
-		y = 5
-
-	}
-	focus = {
-		id = The_President?
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = The_Capital
-		}
-		completion_reward = {
-			
-		}
-		x = 22
-		y = 4
-
-	}
-	focus = {
-		id = Retrieval_of_Research
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = The_President?
-		}
-		completion_reward = {
-			add_research_slot =  1
-		}
-		x = 22
-		y = 5
-
-	}
-	focus = {
-		id = Retrieval_of_the_Declaration_of_Independence
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Retrieval_of_Research
-		}
-		prerequisite = {
-			focus = Story_of_the_Captial
-		}
-		completion_reward = {
-			add_stability = 0.25
-		}
-		x = 21
-		y = 6
-
-	}
-	## Appalachia
-	focus = {
-		id = Trip_to_Appalachia
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Expeditions
-		}
-		completion_reward = {
-			
-		}
-		x = 25
-		y = 2
-
-	}
-	focus = {
-		id = Entering_Whitespring_Bunker
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Trip_to_Appalachia
-		}
-		mutually_exclusive = {
-			focus = Shutdown_Whitespring
-		}
-		completion_reward = {
-			
-		}
-		x = 24
-		y = 3
-
-	}
-	focus = {
-		id = Restoring_MODUS
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Entering_Whitespring_Bunker
-		}
-		completion_reward = {
-			
-		}
-		x = 24
-		y = 4
-
-	}
-	focus = {
-		id = Sat_Com_Online
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Restoring_MODUS
-		}
-		completion_reward = {
-			
-		}
-		x = 24
-		y = 5
-
-	}
-	focus = {
-		id = Shutdown_Whitespring
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Trip_to_Appalachia
-		}
-		mutually_exclusive = {
-			focus = Entering_Whitespring_Bunker
-		}
-		completion_reward = {
-			
-		}
-		x = 26
-		y = 3
-
-	}
-	focus = {
-		id = Extraction_of_Assets
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = Shutdown_Whitespring
-		}
-		completion_reward = {
-			
-		}
-		x = 26
-		y = 4
-
-	}
-	focus = {
-		id = Expansion_Plans
-		icon = GFX_Eapansion_Plans
-		cost = 60
-		x = 23
-		y = 8
-		prerequisite = {
-			focus = Resuming_Operations
-		}
-		completion_reward = { 
-			
-		}
-	}
-	focus = {
-		id = Expansion_War_One
-		icon = GFX_Expansion_One
-		cost = 60
-		x = 23
-		y = 9
-		prerequisite = {
-			focus = Expansion_Plans
-		}
-		completion_reward = {
-			create_wargoal = {
-				target = STA
-				type = annex_everything
+		## Circurity
+			focus = {
+				id = Building_Electrical_Factories
+				icon = GFX_Electrical_Substation
+				cost = 45
+				x = 19
+				y = 10.5
+				prerequisite = {
+					focus = Civilian_Functions
+				}
+				available = {
+					has_tech = resource_generator_circuitry_tech_1
+				}
+				completion_reward = { 
+					1271 = {
+						add_building_construction = {
+							type = circuitry_generator
+							level = 1
+						}
+					}
+				}
 			}
-		 }
-	}
-	focus = {
-		id = Prepairing_For_War
-		icon = GFX_Prepairing_for_War
-		cost = 45
-		x = 25
-		y = 9
-		prerequisite = {
-			focus = Expansion_Plans
-		}
-		completion_reward = { 
-			add_timed_idea = {
-				idea = Expansion
-				days = 365
+	#################################
+	######## Expansion #############
+	#################################
+		focus = {
+			id = Expansion_Plans
+			icon = GFX_Eapansion_Plans
+			cost = 60
+			x = 23
+			y = 8
+			prerequisite = {
+				focus = Resuming_Operations
+			}
+			completion_reward = { 
+				
 			}
 		}
-	}
-	## Main Tree 2
-	focus = {
-		id = back_to_business
-		icon = GFX_back_to_business
-		cost = 30
-		x = 11
-		y = 8.5
-		prerequisite = {
-			focus = Resuming_Operations
-		}
-		ai_will_do = {
-			factor = 15
-		}
-		completion_reward = {
-			add_ideas = relay_station_1
-		}
-	}
-	focus = {
-		id = new_encryption_codes
-		icon = GFX_new_encryption_codes
-		cost = 30
-		x = 11
-		y = 9.5
-		prerequisite = {
-			focus = back_to_business
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = relay_station_1
-				add_idea = relay_station_2
+		focus = {
+			id = Expansion_War_One
+			icon = GFX_Expansion_One
+			cost = 60
+			x = 23
+			y = 9
+			prerequisite = {
+				focus = Expansion_Plans
 			}
-		}
-	}
-	focus = {
-		id = repairing_broken_radio
-		icon = GFX_repairing_broken_radio
-		cost = 45
-		x = 9
-		y = 10.5
-		prerequisite = {
-			focus = new_encryption_codes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			1271 = {
-				add_building_construction = {
-					type = radar_station
-					level = 2
+			completion_reward = {
+				create_wargoal = {
+					target = STA
+					type = annex_everything
 				}
 			}
 		}
-	}
-	focus = {
-		id = establishing_connections
-		icon = GFX_contact
-		cost = 15
-		x = 9
-		y = 11.5
-		prerequisite = {
-			focus = repairing_broken_radio
+		focus = {
+			id = Prepairing_For_War
+			icon = GFX_Prepairing_for_War
+			cost = 45
+			x = 25
+			y = 9
+			prerequisite = {
+				focus = Expansion_Plans
+			}
+			completion_reward = { 
+				add_timed_idea = {
+					idea = Expansion
+					days = 365
+				}
+			}
 		}
-		ai_will_do = {
-			factor = 10
+	#################################
+	####### Back to Business ########
+	#################################
+		focus = {
+			id = back_to_business
+			icon = GFX_back_to_business
+			cost = 30
+			x = 11
+			y = 8.5
+			prerequisite = {
+				focus = Resuming_Operations
+			}
+			ai_will_do = {
+				factor = 15
+			}
+			completion_reward = {
+				add_ideas = relay_station_1
+			}
 		}
-		completion_reward = {
+		focus = {
+			id = new_encryption_codes
+			icon = GFX_new_encryption_codes
+			cost = 30
+			x = 11
+			y = 9.5
+			prerequisite = {
+				focus = back_to_business
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = relay_station_1
+					add_idea = relay_station_2
+				}
+			}
+		}
+		focus = {
+			id = repairing_broken_radio
+			icon = GFX_repairing_broken_radio
+			cost = 45
+			x = 9
+			y = 10.5
+			prerequisite = {
+				focus = new_encryption_codes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				1271 = {
+					add_building_construction = {
+						type = radar_station
+						level = 2
+					}
+				}
+			}
+		}
+		focus = {
+			id = establishing_connections
+			icon = GFX_contact
+			cost = 15
+			x = 9
+			y = 11.5
+			prerequisite = {
+				focus = repairing_broken_radio
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
 
-		}
-	}
-	focus = {
-		id = cia_local_offices
-		icon = GFX_cia
-		cost = 15
-		x = 7.5
-		y = 11.5
-		prerequisite = {
-			focus = repairing_broken_radio
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			add_ideas = cia_local_offices
-		}
-	}
-	focus = {
-		id = local_agents_once_more
-		icon = GFX_local_agents_once_more
-		cost = 20
-		x = 7.5
-		y = 12.5
-		prerequisite = {
-			focus = cia_local_offices
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = repairing_eyebots
-		icon = GFX_repairing_eyebots
-		cost = 30
-		x = 13
-		y = 10.5
-		prerequisite = {
-			focus = new_encryption_codes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = new_world_old_tunes
-		icon = GFX_new_world_old_tunes
-		cost = 15
-		x = 13
-		y = 12.5
-		prerequisite = {
-			focus = enclave_radio
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		mutually_exclusive = {
-			focus = new_world_new_tunes
-		}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = aof_enclave_radio
-				add_idea = aof_old_enclave_radio
 			}
 		}
-	}
-	focus = {
-		id = new_world_new_tunes
-		icon = GFX_new_world_new_tunes
-		cost = 15
-		x = 15
-		y = 12.5
-		prerequisite = {
-			focus = enclave_radio
-		}
-		mutually_exclusive = {
-			focus = new_world_old_tunes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = aof_enclave_radio
-				add_idea = aof_new_enclave_radio
+		focus = {
+			id = cia_local_offices
+			icon = GFX_cia
+			cost = 15
+			x = 7.5
+			y = 11.5
+			prerequisite = {
+				focus = repairing_broken_radio
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				add_ideas = cia_local_offices
 			}
 		}
-	}
-	focus = {
-		id = enclave_radio
-		icon = GFX_enclave_radio
-		cost = 30
-		x = 13
-		y = 11.5
-		prerequisite = {
-			focus = repairing_eyebots
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			add_ideas = aof_enclave_radio
-		}
-	}
-	focus = {
-		id = ciphers_local_cells
-		icon = GFX_ciphers_local_cells
-		cost = 20
-		x = 11
-		y = 11
-		prerequisite = {
-			focus = new_encryption_codes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = contacting_other_regions
-		icon = GFX_contacting_other_regions
-		cost = 45
-		x = 11
-		y = 12.5
-		prerequisite = {
-			focus = ciphers_local_cells
-		}
-		prerequisite = {
-			focus = establishing_connections
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			country_event = AOF_events.3
-		}
-	}
-	focus = {
-		id = good_to_be_back
-		icon = GFX_good_to_be_back
-		cost = 60
-		x = 11
-		y = 13.5
-		prerequisite = {
-			focus = contacting_other_regions
-		}
-		prerequisite = {
-			focus = local_agents_once_more
-		}
-		prerequisite = {
-			focus = new_world_new_tunes
-			focus = new_world_old_tunes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = relay_station_2
-				add_idea = relay_station_3
+		focus = {
+			id = local_agents_once_more
+			icon = GFX_local_agents_once_more
+			cost = 20
+			x = 7.5
+			y = 12.5
+			prerequisite = {
+				focus = cia_local_offices
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				
 			}
 		}
-	}
+		focus = {
+			id = repairing_eyebots
+			icon = GFX_repairing_eyebots
+			cost = 30
+			x = 13
+			y = 10.5
+			prerequisite = {
+				focus = new_encryption_codes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				
+			}
+		}
+		focus = {
+			id = new_world_old_tunes
+			icon = GFX_new_world_old_tunes
+			cost = 15
+			x = 13
+			y = 12.5
+			prerequisite = {
+				focus = enclave_radio
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			mutually_exclusive = {
+				focus = new_world_new_tunes
+			}
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = aof_enclave_radio
+					add_idea = aof_old_enclave_radio
+				}
+			}
+		}
+		focus = {
+			id = new_world_new_tunes
+			icon = GFX_new_world_new_tunes
+			cost = 15
+			x = 15
+			y = 12.5
+			prerequisite = {
+				focus = enclave_radio
+			}
+			mutually_exclusive = {
+				focus = new_world_old_tunes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = aof_enclave_radio
+					add_idea = aof_new_enclave_radio
+				}
+			}
+		}
+		focus = {
+			id = enclave_radio
+			icon = GFX_enclave_radio
+			cost = 30
+			x = 13
+			y = 11.5
+			prerequisite = {
+				focus = repairing_eyebots
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				add_ideas = aof_enclave_radio
+			}
+		}
+		focus = {
+			id = ciphers_local_cells
+			icon = GFX_ciphers_local_cells
+			cost = 20
+			x = 11
+			y = 11
+			prerequisite = {
+				focus = new_encryption_codes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				
+			}
+		}
+		focus = {
+			id = contacting_other_regions
+			icon = GFX_contacting_other_regions
+			cost = 45
+			x = 11
+			y = 12.5
+			prerequisite = {
+				focus = ciphers_local_cells
+			}
+			prerequisite = {
+				focus = establishing_connections
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				country_event = AOF_events.3
+			}
+		}
+		focus = {
+			id = good_to_be_back
+			icon = GFX_good_to_be_back
+			cost = 60
+			x = 11
+			y = 13.5
+			prerequisite = {
+				focus = contacting_other_regions
+			}
+			prerequisite = {
+				focus = local_agents_once_more
+			}
+			prerequisite = {
+				focus = new_world_new_tunes
+				focus = new_world_old_tunes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = relay_station_2
+					add_idea = relay_station_3
+				}
+			}
+		}
+	#################################
+	### Processing the Wastelands ###
+	#################################
+
 }
