@@ -69,6 +69,23 @@ spriteTypes = {
 		name = "GFX_idea_sgt_dornan"
 		textureFile = "gfx/interface/ideas/sgt_dornan.dds"
 	}
+	## Citizenship (Outsiders)
+	spriteType = {
+		name = "GFX_idea_aof_enc_only"
+		textureFile = "gfx/interface/ideas/aof_enc_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_sel_citizens"
+		textureFile = "gfx/interface/ideas/aof_sel_citizens.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_all_citizens"
+		textureFile = "gfx/interface/ideas/aof_all_americans.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aof_vault_dewlers"
+		textureFile = "gfx/interface/ideas/aof_vault_dewlers.dds"
+	}
 	## Conscription Laws
 	spriteType = {
 		name = "GFX_idea_enclave_only"

@@ -1,0 +1,98 @@
+ideas = {
+	outsider_recruitment_laws = {
+		law = yes
+	# Enclave Citizenship
+		# Enclave Personal Only
+		aof_enclave_only = {
+			picture = aof_enc_only
+			visible = {
+				tag = AOF
+			}
+			allowed = {
+				original_tag = AOF
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+			removal_cost = -1
+			level = 1
+			modifier = {
+				non_core_manpower = -1
+				stability_factor = 0.01
+				war_support_factor = 0.01
+				resistance_target = -0.02
+				ruler_drift = 0.01
+			}
+		}
+		#All Pure Wastelanders
+		aof_vault_dewlers = {
+			picture = aof_vault_dewlers
+			visible = {
+				tag = AOF
+			}
+			allowed = {
+				original_tag = AOF
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+			removal_cost = -1
+			level = 2
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				elites_drift = 0.05
+				research_speed_factor = 0.1
+			}
+		}
+		# Select Wastelanders Only
+		aof_select_citizens_only = {
+			picture = aof_sel_citizens
+			visible = {
+				tag = AOF
+			}
+			allowed = {
+				original_tag = AOF
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+			removal_cost = -1
+			level = 3
+			modifier = {
+				non_core_manpower = 0.5
+				stability_factor = 0.05
+				war_support_factor = -0.01
+				resistance_target = -0.05
+				people_drift = 0.01
+			}
+		}
+		#All Pure Wastelanders
+		aof_all_citizens_only = {
+			picture = aof_all_citizens
+			visible = {
+				tag = AOF
+			}
+			allowed = {
+				original_tag = AOF
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+			removal_cost = -1
+			level = 4
+			modifier = {
+				non_core_manpower = 0.75
+				stability_factor = 0.1
+				war_support_factor = -0.1
+				resistance_target = -0.1
+				people_drift = 0.05
+				monthly_population = 1
+			}
+		}
+	}
+}

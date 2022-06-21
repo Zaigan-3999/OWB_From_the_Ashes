@@ -75,7 +75,7 @@ focus_tree = {
 				focus = What_Now
 			}
 			completion_reward = {
-
+				add_political_power = 100
 			}
 			x = 9
 			y = 3
@@ -132,7 +132,7 @@ focus_tree = {
 				focus = What_Now
 			}
 			completion_reward = {
-				
+				add_political_power = 100
 			}
 			x = 13
 			y = 3
@@ -193,7 +193,9 @@ focus_tree = {
 				focus = Orders_From_Command
 			}
 			completion_reward = {
-				
+				add_stability = -0.25
+				add_war_support = -0.25
+				add_manpower = -250
 			}
 			x = 12
 			y = 5
@@ -282,7 +284,7 @@ focus_tree = {
 				focus = Military_Command
 			}
 			completion_reward = { 
-				
+				remove_ideas = under_staffed
 			}
 		}
 		focus = {
@@ -664,7 +666,7 @@ focus_tree = {
 				factor = 10
 			}
 			completion_reward = {
-
+				add_stability = 0.1
 			}
 		}
 		focus = {
@@ -696,7 +698,7 @@ focus_tree = {
 				factor = 10
 			}
 			completion_reward = {
-				
+				add_compliance = 5
 			}
 		}
 		focus = {
@@ -712,7 +714,10 @@ focus_tree = {
 				factor = 10
 			}
 			completion_reward = {
-				
+				add_equipment_to_stockpile = {
+					type = cnc_robot_equipment_2
+					amount = 300
+				}
 			}
 		}
 		focus = {

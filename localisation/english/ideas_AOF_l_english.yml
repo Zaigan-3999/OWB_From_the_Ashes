@@ -29,11 +29,27 @@
  relay_station_3:0 "Relay Station Zeta"
  relay_station_3_desc:0 "Everyone has the proper keys and the base is fully back to pre-war functions. Looks like we are back online according to Norad! Good to be back."
 
+ under_staffed:0 "Under Staffed"
+ under_staffed_desc:0 "With the previous order brining personal down to only 40% of what it once was these leave a large gap in positions that need to be filled. Hopefully as time goes we are able to fill up those slots to bring us back to full strength. "
+
  # Dealing with Sgt Dornan
 
  sgt_dornan:0 "Sergeant Dornan"
  sgt_dornan_desc:0 "With Sgt. Dornan back in our midsts he's back to trianing new recruits. Hopefully this time no one attempts to jump ship."
 
+ #Enclave Citizenship (Outsider)
+ aof_enclave_only:0 "Enclave Citizens Only"
+ aof_enclave_only_desc:0 "Only Enclave personal are American Citizens. Wastelanders cant be trusted just yet with protecting or being a part of American once more."
+
+ aof_select_citizens_only:0 "Select Wastelanders for Citizenship"
+ aof_select_citizens_only_desc:0 "It’s finally time to start getting the wastelanders back to being American citizens. We’ve setup a few stations around the wasteland within our area of control to begin the restoration of America!"
+
+ aof_all_citizens_only:0  "All Wastelanders for Citizenship"
+ aof_all_citizens_only_desc:0 "Its time we finally bring all the wastelanders not tainted by radiation back to American Citizenship. Offices setup in each region are expediting this process making quick work of all those citizens out there."
+
+ aof_vault_dewlers:0 "Vault Dewlers for Citizenship"
+ aof_vault_dewlers_desc:0 "With Vault Dwellers being descendants of American Citizens its time we finally update the census for the vaults in the region."
+ 
  #Conscription Ideas
  aof_military_law_1:0 "Enclave Personal Only"
  aof_military_law_1_desc:0 "Only §BEnclave§! personal are allowed within the armed forces. We can't trust normal citizens not orginally from the §BEnclave§! within the Forces."
