@@ -1,15 +1,43 @@
 ideas = {
 	###########################
-	##### Army Training #######
+	##### Officer Training ####
 	###########################
 	officer_training_laws = {
 		law = yes
+
+	# Enclave Powerarmor Schools
+		aof_power_schools = {
+			picture = aof_power_school
+			cost = 100
+			removal_cost = -1
+			level = 2
+			visible = {
+				tag = AOF
+			}
+			allowed = {
+				original_tag = AOF
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			modifier = {
+				special_forces_attack_factor = 0.25
+				special_forces_defence_factor = 0.25
+				special_forces_min = 50
+				special_forces_training_time_factor = -0.15
+				experience_gain_army = 0.05
+			}
+		}
+
 	# Enclave Officer School
 		aof_officer_school = {
 			picture = aof_officers_school
 			cost = 100
 			removal_cost = -1
 			level = 1
+			visible = {
+				tag = AOF
+			}
 			allowed = {
 				original_tag = AOF
 			}
@@ -30,4 +58,8 @@ ideas = {
 			}
 		}
 	}
+	###########################
+	###### Army Training ######
+	###########################
+
 }

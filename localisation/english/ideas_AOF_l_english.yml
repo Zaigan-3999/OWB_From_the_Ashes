@@ -59,10 +59,13 @@
  aof_old_enclave_radio:0 "Enclave Radio - Old Tunes!"
  aof_old_enclave_radio_desc:0 "With the sounds of freedom we spread our message through the wastelands!"
 
- # Army Trainings
+ # Officer Trainings
 
  aof_officer_school:0 "Enclave Officer School"
- aof_officer_school_desc:0 "Enclave Officers are the creem of the crop. Better than what ever else the wasteland can provide due to their tradition of trianing dating back to before the war!"
+ aof_officer_school_desc:0 "Enclave Officers are the cream of the crop. Better than whatever else the wasteland can provide due to their tradition of training dating back to before the war!"
+
+ aof_power_schools:0 "Encalve Power Armor Schools"
+ aof_power_schools_desc:0 "With specialized schools for Power Armored troops our men are some of the most qualified within the wastes! While specializing hurts our ability to deploy normal troops this leads us to better individual troops."
 
  #Major Companies
 

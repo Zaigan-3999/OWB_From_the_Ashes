@@ -141,6 +141,7 @@ add_ideas = {
 	local_operations
 	low_economic_mobilisation
 	closed_economy
+	under_staffed
 }
 
 add_equipment_to_stockpile = {
@@ -168,6 +169,16 @@ if = {
 	}
 	add_opinion_modifier = {
 		target = CEK
+		modifier = medium_increase
+	}
+}
+### OWB Auld Lang Syne
+if = {
+	limit = { 
+		NOT = { has_dlc = "OWB Nation Reborn"}
+	}
+	add_opinion_modifier = {
+		target = EEF
 		modifier = medium_increase
 	}
 }
@@ -200,6 +211,7 @@ recruit_character = AOF_ARC_2
 set_country_flag = no_generic_chief
 set_country_flag = no_generic_high_command
 set_country_flag = no_generic_advisor
+set_country_flag = has_unique_officer_laws
 #set_country_flag = has_unique_economic_laws
 #set_country_flag = has_unique_trade_laws
 #set_country_flag = has_unique_press_laws

@@ -1561,6 +1561,7 @@ bookmark = {
             ideology = ruler
             ideas = {
                 local_operations
+                under_staffed
             }
             focuses = {
                 Radio_Silence_Lifted

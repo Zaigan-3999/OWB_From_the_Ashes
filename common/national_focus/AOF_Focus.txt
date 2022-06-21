@@ -247,7 +247,7 @@ focus_tree = {
 				focus = Prepare_to_go_Public
 			}
 			completion_reward = {
-				
+				remove_ideas = under_staffed
 			}
 			x = 11
 			y = 7
