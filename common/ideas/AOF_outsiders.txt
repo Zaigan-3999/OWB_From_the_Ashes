@@ -25,7 +25,7 @@ ideas = {
 				ruler_drift = 0.01
 			}
 		}
-		#All Pure Wastelanders
+		#All Vault Dewlers
 		aof_vault_dewlers = {
 			picture = aof_vault_dewlers
 			visible = {
@@ -67,7 +67,7 @@ ideas = {
 				stability_factor = 0.05
 				war_support_factor = -0.01
 				resistance_target = -0.05
-				people_drift = 0.01
+				ruler_drift = 0.01
 			}
 		}
 		#All Pure Wastelanders

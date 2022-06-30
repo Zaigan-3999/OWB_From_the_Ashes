@@ -16,3 +16,10 @@
  AOF_events.5.d:0 "After finally having him back and getting a chance to look over his military record it seems he's been a sergeant for at least 10 years! IT might be time to change that"
  AOF_events.5.a:0 "Eternal Sergeant"
  AOF_events.5.b:0 "Promotion"
+
+ AOF_events.6.t:0 "Civilian VS Military Administration"
+
+ AOF_events.6.d:0 "With more and more lands coming under the Enclaves control its becoming time that we decide how we are to rule these settlements. After contacting High Command its been decided to be left in our hands for how we decide to do it.\n\n	We could re-start the §4Department of State§! which would start the process of welcoming them as American Citizens once more but would leave us vulnerable to civilian oversight. Our other option is to continue to rule as a §tMilitary Occupation§!, while not as clean or friendly to the locals we wont have to worry about resistance as much to our rule."
+
+ AOF_events.6.a:0 "Military Administration"
+ AOF_events.6.b:0 "Civilian Administration"

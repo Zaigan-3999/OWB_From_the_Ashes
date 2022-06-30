@@ -164,3 +164,29 @@
 
  good_to_be_back:0 "Good to be back"
  good_to_be_back_desc:0 "With everything back to working order and the main facilities being expanded we are offically back in business and working order."
+
+ ##Admin the Wastelands
+ Civil_vs_military:0 "Civilian vs Military Administration"
+ Civil_vs_military:0 "It's time we finally start thinking about land administration"
+
+ Administering_wastelands:0 "Administering the Wastelands"
+ Administering_wastelands_desc:0 "With the ammount of land we have under our control increasing it's time we finally decide how to rule it."
+
+ military_admin:0 "Military Administration"
+ military_admin_desc:0 "While this is how we normally operate it's time we finally set it as standard operating procedure while we wait for the President to make a decision."
+
+ civilian_admin:0 "Civilian Administration"
+ civilian_admin_desc:0 "It's time we go back to how the country used to be ruled. Through the states and the relevant governmental bodies!"
+ 
+ ##Citizenship
+ citizenship_issue:0 "Citizenship Issue"
+ citizenship_issue_desc:0 "With us now processing people for citizenship the problem arrises of who gets it."
+
+ elite_cit:0 "Pure Americans get Citizenship"
+ elite_cit_desc:0 "Only those Americans not tainted by radaiation get citizenship."
+
+ hc_cit:0 "All Humans get Citizenship"
+ hc_cit_desc:0 "All humans are eligable for American citizenship. We can't expect to rebuild America with only those from the vaults."
+
+ people_cit:0 "Everyone gets Citizenship"
+ people_cit_desc:0 "Everyone is truely a American, espcially most gouls! Hell some of them existed before the bombs ever dropped."

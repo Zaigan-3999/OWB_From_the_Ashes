@@ -9,6 +9,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/hidden.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_going_public"
+		texturefIle = "gfx/interface/ideas/going_public.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_local_operations"
 		textureFile = "gfx/interface/ideas/local_operations.dds"
 	}

@@ -582,7 +582,7 @@ focus_tree = {
 			id = Prepairing_For_War
 			icon = GFX_Prepairing_for_War
 			cost = 45
-			x = 25
+			x = 26
 			y = 9
 			prerequisite = {
 				focus = Expansion_Plans
@@ -592,6 +592,22 @@ focus_tree = {
 					idea = Expansion
 					days = 365
 				}
+			}
+		}
+		focus = {
+			id = Civil_vs_military
+			icon = GFX_civil_v_mil
+			cost = 45
+			x = 26
+			y = 10
+			prerequisite = {
+				focus = Prepairing_For_War
+			}
+			available = {
+				has_completed_focus = Expansion_War_One
+			}
+			completion_reward = { 
+				country_event = aof_admin_wastelands
 			}
 		}
 	#################################
@@ -844,5 +860,118 @@ focus_tree = {
 	#################################
 	### Processing the Wastelands ###
 	#################################
+	focus = {
+		id = Administering_wastelands
+		icon = GFX_admin_wastelands
+		cost = 60
+		x = 23
+		y = 1
+		completion_reward = { 
+			country_event = AOF_events.6
+		}
+		available = {
+			has_completed_focus = Civil_vs_military
+		}
+	}
+	focus = {
+		id = military_admin
+		icon = GFX_military_admin
+		cost = 15
+		x = 22
+		y = 2
+		prerequisite = {
+			focus = Administering_wastelands
+		}
+		mutually_exclusive = {
+			focus = civilian_admin
+		}
+		completion_reward = { 
 
+		}
+	}
+	focus = {
+		id = civilian_admin
+		icon = GFX_civilian_admin
+		cost = 15
+		x = 24
+		y = 2
+		prerequisite = {
+			focus = Administering_wastelands
+		}
+		mutually_exclusive = {
+			focus = military_admin
+		}
+		completion_reward = { 
+
+		}
+	}
+	## Citizenship Issues
+	focus = {
+		id = citizenship_issue
+		icon = GFX_cit_issue
+		cost = 45
+		x = 23
+		y = 3
+		prerequisite = {
+			focus = military_admin
+			focus = civilian_admin
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = elite_cit
+		icon = GFX_elite_cit
+		cost = 60
+		x = 21
+		y = 4
+		prerequisite = {
+			focus = citizenship_issue
+		}
+		mutually_exclusive = {
+			focus = hc_cit
+			focus = people_cit
+		}
+		completion_reward = {
+			elite_drift = 0.1
+			add_ideas = aof_vault_dewlers
+		}
+	}
+	focus = {
+		id = hc_cit
+		icon = GFX_hc_cit
+		cost = 60
+		x = 23
+		y = 4
+		prerequisite = {
+			focus = citizenship_issue
+		}
+		mutually_exclusive = {
+			focus = elite_cit
+			focus = people_cit
+		}
+		completion_reward = {
+			ruler_drift = 0.1
+			add_ideas = aof_select_citizens_only
+		}
+	}
+	focus = {
+		id = people_cit
+		icon = GFX_people_cit
+		cost = 60
+		x = 25
+		y = 4
+		prerequisite = {
+			focus = citizenship_issue
+		}
+		mutually_exclusive = {
+			focus = hc_cit
+			focus = elite_cit
+		}
+		completion_reward = { 
+			people_drift = 0.1
+			add_ideas = aof_all_citizens_only
+		}
+	}
 }

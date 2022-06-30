@@ -200,4 +200,37 @@ spriteTypes = {
 		name = "GFX_good_to_be_back"
 		texturefile = "gfx/interface/goals/good_to_be_back.dds"
 	}
+	## Admin Wastelands
+	spriteType = {
+		name = "GFX_admin_wastelands"
+		texturefile = "gfx/interface/goals/admin_wastelands.dds"
+	}
+	spriteType = {
+		name = "GFX_military_admin"
+		texturefile = "gfx/interface/goals/military_admin.dds"
+	}
+	spriteType = {
+		name = "GFX_civilian_admin"
+		texturefile = "gfx/interface/goals/civilian_admin.dds"
+	}
+	spriteType = {
+		name = "GFX_civil_v_mil"
+		texturefile = "gfx/interface/goals/civil_v_mil.dds"
+	}
+	spriteType = {
+		name = "GFX_elite_cit"
+		texturefile = "gfx/interface/goals/elite_cit.dds"
+	}
+	spriteType = {
+		name = "GFX_hc_cit"
+		texturefile = "gfx/interface/goals/hc_cit.dds"
+	}
+	spriteType = {
+		name = "GFX_people_cit"
+		texturefile = "gfx/interface/goals/people_cit.dds"
+	}
+	spriteType = {
+		name = "GFX_cit_issue"
+		texturefile = "gfx/interface/goals/cit_issue.dds"
+	}
 }
