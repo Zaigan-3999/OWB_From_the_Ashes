@@ -148,5 +148,14 @@ ideas = {
 				army_intel_factor = 0.2
 			}
 		}
+		region_cap = {
+			picture = rg_cap
+			modifier = {
+				monthly_population = 500
+				stability_factor = 0.05
+				war_support_factor = -0.1
+				civilian_factory_use = 1
+			}
+		}
 	}
 }

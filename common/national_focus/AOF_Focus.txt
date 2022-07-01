@@ -249,7 +249,12 @@ focus_tree = {
 				focus = Prepare_to_go_Public
 			}
 			completion_reward = {
-				remove_ideas = under_staffed
+				add_stability = 0.15
+				add_war_support = 0.1
+				set_province_name = {
+					id = 13644
+					name = RSZ
+				}
 			}
 			x = 11
 			y = 7
@@ -594,22 +599,6 @@ focus_tree = {
 				}
 			}
 		}
-		focus = {
-			id = Civil_vs_military
-			icon = GFX_civil_v_mil
-			cost = 45
-			x = 26
-			y = 10
-			prerequisite = {
-				focus = Prepairing_For_War
-			}
-			available = {
-				has_completed_focus = Expansion_War_One
-			}
-			completion_reward = { 
-				country_event = aof_admin_wastelands
-			}
-		}
 	#################################
 	####### Back to Business ########
 	#################################
@@ -870,7 +859,10 @@ focus_tree = {
 			country_event = AOF_events.6
 		}
 		available = {
-			has_completed_focus = Civil_vs_military
+			has_completed_focus = Expansion_War_One
+			NOT = {
+				country_exists = STA
+			}
 		}
 	}
 	focus = {
@@ -972,6 +964,29 @@ focus_tree = {
 		completion_reward = { 
 			people_drift = 0.1
 			add_ideas = aof_all_citizens_only
+		}
+	}
+	### Fixing the Wastes
+	focus = {
+		id = Regional_Capital
+		icon = GFX_rc
+		cost = 30
+		x = 23
+		y = 5
+		prerequisite = {
+			focus = people_cit
+			focus = hc_cit
+			focus = elite_cit
+		}
+		completion_reward = {
+			set_province_name = {
+				id = 14035
+				name = Rg
+			}
+			add_timed_idea = {
+				idea = region_cap
+				days = 360
+			}
 		}
 	}
 }

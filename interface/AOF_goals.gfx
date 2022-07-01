@@ -233,4 +233,8 @@ spriteTypes = {
 		name = "GFX_cit_issue"
 		texturefile = "gfx/interface/goals/cit_issue.dds"
 	}
+	spriteType = {
+		name = "GFX_rc"
+		texturefile = "gfx/interface/goals/rg_cap.dds"
+	}
 }

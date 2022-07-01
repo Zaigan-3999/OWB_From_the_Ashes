@@ -68,6 +68,10 @@ spriteTypes = {
 		name = "GFX_idea_under_staffed"
 		textureFile = "gfx/interface/ideas/under_staffed.dds"
 	}
+	spriteType = {
+		name = "GFX_rg_cap"
+		textureFile = "gfx/interface/ideas/regional_cap.dds"
+	}
 	## Sgt. Dornan Tree
 	spriteType = {
 		name = "GFX_idea_sgt_dornan"

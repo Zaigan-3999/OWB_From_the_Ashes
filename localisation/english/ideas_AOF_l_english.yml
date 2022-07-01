@@ -35,6 +35,9 @@
  under_staffed:0 "Under Staffed"
  under_staffed_desc:0 "With the previous order brining personal down to only 40% of what it once was these leave a large gap in positions that need to be filled. Hopefully as time goes we are able to fill up those slots to bring us back to full strength. "
 
+ region_cap:0 "Regional Capital Construction"
+ region_cap_desc:0 "With the regional capital decided it'll take us about a year to establish it. During that time more people will flock to be naturalized. During this time it'll take up some of our civilian factories."
+
  # Dealing with Sgt Dornan
 
  sgt_dornan:0 "Sergeant Dornan"
