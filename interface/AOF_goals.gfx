@@ -151,6 +151,30 @@ spriteTypes = {
 		name = "GFX_Expansion_One"
 		texturefile = "gfx/interface/goals/expansion_one.dds"
 	}
+	spriteType = {
+		name = "GFX_bat"
+		texturefile = "gfx/interface/goals/expansion_two.dds"
+	}
+	spriteType = {
+		name = "GFX_Big"
+		texturefile = "gfx/interface/goals/expansion_two.dds"
+	}
+	spriteType = {
+		name = "GFX_bad_raiders"
+		texturefile = "gfx/interface/goals/aof_deal_rairders.dds"
+	}
+	spriteType = {
+		name = "GFX_deal_with_crime"
+		texturefile = "gfx/interface/goals/deal_with_crime.dds"
+	}
+	spriteType = {
+		name = "GFX_re_police"
+		texturefile = "gfx/interface/goals/re_police.dds"
+	}
+	spriteType = {
+		name = "GFX_deploy_national_guard"
+		texturefile = "gfx/interface/goals/deploy_national_guard.dds"
+	}
 	#### Back to Business
 	spriteType = {
 		name = "GFX_back_to_business"
@@ -237,4 +261,5 @@ spriteTypes = {
 		name = "GFX_rc"
 		texturefile = "gfx/interface/goals/rg_cap.dds"
 	}
+
 }

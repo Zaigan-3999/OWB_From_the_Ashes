@@ -436,14 +436,14 @@ focus_tree = {
 			id = Bunker_Expansion
 			icon = GFX_Bunker_Expansion
 			cost = 10
-			prerequisite = {
-				focus = Resuming_Operations
+			available = {
+				has_completed_focus = Resuming_Operations
 			}
 			completion_reward = {
 				
 			}
-			x = 18
-			y = 8.5
+			x = 1.5
+			y = 3
 
 		}
 		## Bunker Military Capibilites
@@ -451,8 +451,8 @@ focus_tree = {
 			id = Armory_Expansion
 			icon = GFX_Armory_Expansion
 			cost = 45
-			x = 17
-			y = 9.5
+			x = 0
+			y = 4
 			prerequisite = {
 				focus = Bunker_Expansion
 			}
@@ -468,8 +468,8 @@ focus_tree = {
 			id = Clearing_the_hangar
 			icon = GFX_Clearing_the_Hangar
 			cost = 45
-			x = 17
-			y = 10.5
+			x = 0
+			y = 5
 			prerequisite = {
 				focus = Armory_Expansion
 			}
@@ -495,8 +495,8 @@ focus_tree = {
 			id = Civilian_Functions
 			icon = GFX_Civilian_Functions
 			cost = 45
-			x = 19
-			y = 9.5
+			x = 3
+			y = 4
 			prerequisite = {
 				focus = Bunker_Expansion
 			}
@@ -512,8 +512,8 @@ focus_tree = {
 			id = Restoring_Local_Purification_Station
 			icon = GFX_Water_Purification
 			cost = 45
-			x = 21.5
-			y = 10.5
+			x = 4
+			y = 5
 			prerequisite = {
 				focus = Civilian_Functions
 			}
@@ -534,8 +534,8 @@ focus_tree = {
 				id = Building_Electrical_Factories
 				icon = GFX_Electrical_Substation
 				cost = 45
-				x = 19
-				y = 10.5
+				x = 2
+				y = 5
 				prerequisite = {
 					focus = Civilian_Functions
 				}
@@ -558,7 +558,7 @@ focus_tree = {
 			id = Expansion_Plans
 			icon = GFX_Eapansion_Plans
 			cost = 60
-			x = 23
+			x = 20
 			y = 8
 			prerequisite = {
 				focus = Resuming_Operations
@@ -571,7 +571,7 @@ focus_tree = {
 			id = Expansion_War_One
 			icon = GFX_Expansion_One
 			cost = 60
-			x = 23
+			x = 20
 			y = 9
 			prerequisite = {
 				focus = Expansion_Plans
@@ -584,10 +584,58 @@ focus_tree = {
 			}
 		}
 		focus = {
+			id = deal_raiders
+			icon = GFX_bad_raiders
+			cost = 45
+			x = 18
+			y = 10
+			prerequisite = {
+				focus = Expansion_War_One
+			}
+			completion_reward = {
+				add_war_support = 0.25
+			}
+		}
+		focus = {
+			id = remove_big
+			icon = GFX_Big
+			cost = 45
+			x = 17
+			y = 11
+			prerequisite = {
+				focus = deal_raiders
+			}
+			completion_reward = { 
+				 create_wargoal = {
+					target = BIG
+					type = annex_everything
+				 }
+			}
+		}
+		focus = {
+			id = remove_bat
+			icon = GFX_bat
+			cost = 45
+			x = 19
+			y = 11
+			prerequisite = {
+				focus = deal_raiders
+			}
+			completion_reward = {
+				create_wargoal = {
+					target = BAT
+					type = annex_everything
+				}
+			}
+		}
+	#################################
+	######## Side Expansion #########
+	#################################
+		focus = {
 			id = Prepairing_For_War
 			icon = GFX_Prepairing_for_War
 			cost = 45
-			x = 26
+			x = 22
 			y = 9
 			prerequisite = {
 				focus = Expansion_Plans
@@ -854,7 +902,7 @@ focus_tree = {
 		icon = GFX_admin_wastelands
 		cost = 60
 		x = 23
-		y = 1
+		y = 0
 		completion_reward = { 
 			country_event = AOF_events.6
 		}
@@ -870,7 +918,7 @@ focus_tree = {
 		icon = GFX_military_admin
 		cost = 15
 		x = 22
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = Administering_wastelands
 		}
@@ -886,7 +934,7 @@ focus_tree = {
 		icon = GFX_civilian_admin
 		cost = 15
 		x = 24
-		y = 2
+		y = 1
 		prerequisite = {
 			focus = Administering_wastelands
 		}
@@ -903,7 +951,7 @@ focus_tree = {
 		icon = GFX_cit_issue
 		cost = 45
 		x = 23
-		y = 3
+		y = 2
 		prerequisite = {
 			focus = military_admin
 			focus = civilian_admin
@@ -917,7 +965,7 @@ focus_tree = {
 		icon = GFX_elite_cit
 		cost = 60
 		x = 21
-		y = 4
+		y = 3
 		prerequisite = {
 			focus = citizenship_issue
 		}
@@ -935,7 +983,7 @@ focus_tree = {
 		icon = GFX_hc_cit
 		cost = 60
 		x = 23
-		y = 4
+		y = 3
 		prerequisite = {
 			focus = citizenship_issue
 		}
@@ -953,7 +1001,7 @@ focus_tree = {
 		icon = GFX_people_cit
 		cost = 60
 		x = 25
-		y = 4
+		y = 3
 		prerequisite = {
 			focus = citizenship_issue
 		}
@@ -972,7 +1020,7 @@ focus_tree = {
 		icon = GFX_rc
 		cost = 30
 		x = 23
-		y = 5
+		y = 4
 		prerequisite = {
 			focus = people_cit
 			focus = hc_cit
@@ -980,13 +1028,58 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_province_name = {
-				id = 14035
+				id = 14305
 				name = Rg
 			}
 			add_timed_idea = {
 				idea = region_cap
 				days = 360
 			}
+		}
+	}
+	focus = {
+		id = deal_with_crime
+		icon = GFX_deal_with_crime
+		cost = 30
+		x = 19
+		y = 5
+		prerequisite = {
+			focus = Regional_Capital
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = deploy_national_guard
+		icon = GFX_deploy_national_guard
+		cost = 30
+		x = 18
+		y = 6
+		prerequisite = {
+			focus = deal_with_crime
+		}
+		mutually_exclusive = {
+			focus = restablish_police
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = restablish_police
+		icon = GFX_re_police
+		cost = 30
+		x = 20
+		y = 6
+		prerequisite = {
+			focus = deal_with_crime
+		}
+		mutually_exclusive = {
+			focus = deploy_national_guard
+		}
+		completion_reward = {
+
 		}
 	}
 }
