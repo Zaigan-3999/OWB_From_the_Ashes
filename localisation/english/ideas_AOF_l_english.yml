@@ -38,6 +38,11 @@
  region_cap:0 "Regional Capital Construction"
  region_cap_desc:0 "With the regional capital decided it'll take us about a year to establish it. During that time more people will flock to be naturalized. During this time it'll take up some of our civilian factories."
 
+ local_police:0 "Local Police Restablished"
+ local_police_desc:0 "With local police back patrolling the streets we can move the military back to its original purpose. The Protection of the American borders and reconquering American!"
+
+ aof_national_guard:0 "National Guard Deployed"
+ aof_national_guard_desc:0 "With the wastelands only just coming under Americans fold once more we cant trust them just yet with policing themselves. Until we can know for an 100% chance they wont take the weapons and training we will provide and run off and cause problems itll stay under martial law."
  # Dealing with Sgt Dornan
 
  sgt_dornan:0 "Sergeant Dornan"

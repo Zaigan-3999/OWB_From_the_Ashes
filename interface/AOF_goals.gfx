@@ -261,5 +261,21 @@ spriteTypes = {
 		name = "GFX_rc"
 		texturefile = "gfx/interface/goals/rg_cap.dds"
 	}
-
+	spriteType = {
+		name = "GFX_gov_mil_control"
+		texturefile = "gfx/interface/goals/gov_elite_controled.dds"
+	}
+	spriteType = {
+		name = "GFX_gov_civ_control"
+		texturefile = "gfx/interface/goals/gov_civilian_controled.dds"
+	}
+	spriteType = {
+		name = "GFX_gov_enc_control"
+		texturefile = "gfx/interface/goals/gov_enclave_controled.dds"
+	}
+	## Generic Unkown Focus
+	spriteType = {
+		name = "GFX_aof_unkown"
+		textureFile = "gfx/interface/goals/aof_unkown.dds"
+	}
 }

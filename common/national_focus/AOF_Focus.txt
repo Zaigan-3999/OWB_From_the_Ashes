@@ -1063,7 +1063,7 @@ focus_tree = {
 			focus = restablish_police
 		}
 		completion_reward = {
-
+			add_ideas = aof_national_guard
 		}
 	}
 	focus = {
@@ -1077,6 +1077,70 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = deploy_national_guard
+		}
+		completion_reward = {
+			add_ideas = local_police
+		}
+	}
+	focus = {
+		id = Local_Governance
+		icon = GFK_aof_unkown
+		cost = 45
+		x = 24
+		y = 5
+		prerequisite = {
+			focus = Regional_Capital
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = Gov_Mil_Control
+		icon = GFX_gov_mil_control
+		cost = 30
+		x = 22
+		y = 6
+		prerequisite = {
+			focus = Local_Governance
+		}
+		mutually_exclusive = {
+			focus = Gov_Civilian_Control
+			focus = Gov_Enclave_Backed_Reps
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = Gov_Civilian_Control
+		icon = GFX_gov_civ_control
+		cost = 30
+		x = 26
+		y = 6
+		prerequisite = {
+			focus = Local_Governance
+		}
+		mutually_exclusive = {
+			focus = Gov_Mil_Control
+			focus = Gov_Enclave_Backed_Reps
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = Gov_Enclave_Backed_Reps
+		icon = GFX_gov_enc_control
+		cost = 30
+		x = 24
+		y = 6
+		prerequisite = {
+			focus = Local_Governance
+		}
+		mutually_exclusive = {
+			focus = Gov_Civilian_Control
+			focus = Gov_Mil_Control
 		}
 		completion_reward = {
 

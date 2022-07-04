@@ -1,18 +1,15 @@
 ideas = {
 	country = {
-
 		AOF_contact_with_zeta_station = {
 			picture = AOF_contact_with_zeta_station-1
 			cancel = {
-				country_exists = AOF
-
-
+				NOT = {
+					country_exists = AOF
+				}
 			}
 			modifier = {
 				encryption = 0.75
-decryption = 0.75
-
-
+				decryption = 0.75
 			}
 		}
 	}

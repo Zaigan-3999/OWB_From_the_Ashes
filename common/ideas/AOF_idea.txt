@@ -157,5 +157,22 @@ ideas = {
 				civilian_factory_use = 1
 			}
 		}
+		local_police = {
+			picture = local_police
+			modifier = {
+				compliance_gain  = 0.1
+				stability_factor = 0.1
+				
+			}
+		}
+		aof_national_guard = {
+			picture = aof_national_guard
+			modifier = {
+				compliance_gain  = 0.25
+				army_core_defence_factor = 0.1
+				required_garrison_factor = 0.15
+				resistance_activity = -0.15
+			}
+		}
 	}
 }
